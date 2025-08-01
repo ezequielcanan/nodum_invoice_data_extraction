@@ -1,0 +1,60 @@
+2025-07-22 01:01:49,758 - [MainThread  ] - [INFO ] -  Monitoring started
+2025-07-22 01:06:07,540 - [Thread-1    ] - [INFO ] -  2025-07-22 01:06:07.539607 FileCreatedEvent(src_path='C:/Nodum/Archivos/Prueba\\AFIP\\image5.pdf', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-07-22 01:06:10,543 - [Thread-1    ] - [INFO ] -  Archivo Nuevo: "C:\Nodum\Archivos\Prueba\AFIP\image5.pdf"
+2025-07-22 01:06:15,280 - [Thread-1    ] - [INFO ] -  Error procesando archivo: "C:\Nodum\Archivos\Prueba\AFIP\image5.pdf"
+2025-07-22 01:19:26,796 - [MainThread  ] - [INFO ] -  Interrupción recibida, cerrando conexión...
+2025-07-22 01:20:48,522 - [INFO ] -  Monitoring started
+2025-07-22 01:21:02,083 - [INFO ] -  2025-07-22 01:21:02.083467 FileCreatedEvent(src_path='C:/Nodum/Archivos/Prueba\\AFIP\\image5.pdf', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-07-22 01:21:05,085 - [INFO ] -  Archivo Nuevo: "C:\Nodum\Archivos\Prueba\AFIP\image5.pdf"
+2025-07-22 01:21:06,841 - [ERROR] -  Error procesando el archivo: "C:\Nodum\Archivos\Prueba\AFIP\image5.pdf"
+2025-07-22 01:28:48,071 - [INFO ] -  Interrupción recibida, cerrando conexión...
+2025-07-22 01:29:48,883 - [INFO ] -  Monitoring started
+2025-07-22 01:29:53,018 - [INFO ] -  2025-07-22 01:29:53.018613 FileCreatedEvent(src_path='C:/Nodum/Archivos/Prueba\\AFIP\\image5.pdf', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-07-22 01:29:56,022 - [INFO ] -  Archivo Nuevo: "C:\Nodum\Archivos\Prueba\AFIP\image5.pdf"
+2025-07-22 01:29:56,024 - [DEBUG] -  Creando PDF temporal...
+2025-07-22 01:29:56,028 - [DEBUG] -  Convirtiendo el PDF a JPG
+2025-07-22 01:29:57,606 - [ERROR] -  Error procesando el archivo: "C:\Nodum\Archivos\Prueba\AFIP\image5.pdf"
+2025-07-22 01:31:59,185 - [INFO ] -  Interrupción recibida, cerrando conexión...
+2025-07-22 01:32:29,482 - [INFO ] -  Monitoring started
+2025-07-22 01:32:33,074 - [INFO ] -  2025-07-22 01:32:33.073822 FileCreatedEvent(src_path='C:/Nodum/Archivos/Prueba\\AFIP\\image5.pdf', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-07-22 01:32:36,076 - [INFO ] -  Archivo Nuevo: "C:\Nodum\Archivos\Prueba\AFIP\image5.pdf"
+2025-07-22 01:32:36,112 - [DEBUG] -  Creando PDF temporal...
+2025-07-22 01:32:36,132 - [DEBUG] -  Convirtiendo el PDF a JPG
+2025-07-22 01:32:37,970 - [ERROR] -  Error procesando el archivo: "C:\Nodum\Archivos\Prueba\AFIP\image5.pdf"
+2025-07-22 01:35:28,817 - [INFO ] -  Interrupción recibida, cerrando conexión...
+2025-07-22 01:35:53,312 - [INFO ] -  Monitoring started
+2025-07-22 01:35:55,031 - [INFO ] -  2025-07-22 01:35:55.031314 FileCreatedEvent(src_path='C:/Nodum/Archivos/Prueba\\AFIP\\image5.pdf', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-07-22 01:35:58,036 - [INFO ] -  Archivo Nuevo: "C:\Nodum\Archivos\Prueba\AFIP\image5.pdf"
+2025-07-22 01:35:58,038 - [DEBUG] -  Creando PDF temporal...
+2025-07-22 01:35:58,040 - [DEBUG] -  Convirtiendo el PDF a JPG
+2025-07-22 01:35:59,537 - [DEBUG] -  Leyendo los Datos... 1
+2025-07-22 01:35:59,667 - [DEBUG] -  Leyendo los Datos... 2
+2025-07-22 01:35:59,767 - [ERROR] -  Error procesando el archivo: "C:\Nodum\Archivos\Prueba\AFIP\image5.pdf"
+2025-07-22 01:36:50,280 - [INFO ] -  Interrupción recibida, cerrando conexión...
+2025-07-22 01:37:33,225 - [INFO ] -  Monitoring started
+2025-07-22 01:37:48,988 - [INFO ] -  2025-07-22 01:37:48.987446 FileCreatedEvent(src_path='C:/Nodum/Archivos/Prueba\\AFIP\\image5.pdf', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-07-22 01:37:51,991 - [INFO ] -  Archivo Nuevo: "C:\Nodum\Archivos\Prueba\AFIP\image5.pdf"
+2025-07-22 01:37:51,995 - [DEBUG] -  Creando PDF temporal...
+2025-07-22 01:37:51,996 - [DEBUG] -  Convirtiendo el PDF a JPG
+2025-07-22 01:37:53,527 - [DEBUG] -  Leyendo los Datos... 1
+2025-07-22 01:37:53,659 - [DEBUG] -  Leyendo los Datos... 2
+2025-07-22 01:37:53,756 - [ERROR] -  Error procesando el archivo: "C:\Nodum\Archivos\Prueba\AFIP\image5.pdf"
+2025-07-22 01:46:21,280 - [INFO ] -  Interrupción recibida, cerrando conexión...
+2025-07-22 01:47:32,777 - [INFO ] -  Monitoring started
+2025-07-22 01:47:38,962 - [INFO ] -  2025-07-22 01:47:38.962907 FileCreatedEvent(src_path='C:/Nodum/Archivos/Prueba\\AFIP\\image5.pdf', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-07-22 01:47:41,964 - [INFO ] -  Archivo Nuevo: "C:\Nodum\Archivos\Prueba\AFIP\image5.pdf"
+2025-07-22 01:47:41,966 - [DEBUG] -  Creando PDF temporal...
+2025-07-22 01:47:41,967 - [DEBUG] -  Convirtiendo el PDF a JPG
+2025-07-22 01:47:43,345 - [DEBUG] -  Leyendo los Datos... 1
+2025-07-22 01:47:43,470 - [DEBUG] -  Leyendo los Datos... 2
+2025-07-22 01:47:43,547 - [ERROR] -  Error procesando el archivo: "C:\Nodum\Archivos\Prueba\AFIP\image5.pdf"
+2025-07-22 01:51:18,757 - [INFO ] -  Interrupción recibida, cerrando conexión...
+2025-07-22 01:52:04,412 - [INFO ] -  Monitoring started
+2025-07-22 01:52:09,181 - [INFO ] -  2025-07-22 01:52:09.181054 FileCreatedEvent(src_path='C:/Nodum/Archivos/Prueba\\AFIP\\image5.pdf', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-07-22 01:52:12,183 - [INFO ] -  Archivo Nuevo: "C:\Nodum\Archivos\Prueba\AFIP\image5.pdf"
+2025-07-22 01:52:12,184 - [DEBUG] -  Creando PDF temporal...
+2025-07-22 01:52:12,185 - [DEBUG] -  Convirtiendo el PDF a JPG
+2025-07-22 01:52:13,572 - [DEBUG] -  Leyendo los Datos... 1
+2025-07-22 01:52:13,730 - [DEBUG] -  Leyendo los Datos... 2
+2025-07-22 01:52:13,731 - [ERROR] -  Error procesando el archivo: "C:\Nodum\Archivos\Prueba\AFIP\image5.pdf"
+2025-07-22 02:09:52,116 - [INFO ] -  Interrupción recibida, cerrando conexión...

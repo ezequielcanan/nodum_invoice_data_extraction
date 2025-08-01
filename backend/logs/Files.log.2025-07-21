@@ -1,0 +1,6 @@
+2025-07-21 09:05:05,479 - [Thread-1    ] - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-21 09:05:31,902 - [Thread-1    ] - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-21 09:05:53,059 - [Thread-1    ] - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-21 09:14:43,896 - [Thread-1    ] - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-21 09:15:05,021 - [Thread-1    ] - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-21 09:15:26,331 - [Thread-1    ] - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
