@@ -1,0 +1,428 @@
+2025-08-01 01:04:17,873 - [INFO ] -  Interrupción recibida, cerrando conexión...
+2025-08-01 08:58:09,789 - [INFO ] -  Monitoring started
+2025-08-01 08:58:17,349 - [INFO ] -  2025-08-01 08:58:17.349210 FileCreatedEvent(src_path='C:/Nodum/Archivos/Prueba\\Alpek\\16-05_ALPEK_FC_41530.pdf', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-08-01 08:58:20,351 - [DEBUG] -  IF .PDF
+2025-08-01 08:58:20,352 - [INFO ] -  Archivo Nuevo: "C:\Nodum\Archivos\Prueba\Alpek\16-05_ALPEK_FC_41530.pdf"
+2025-08-01 08:58:20,388 - [DEBUG] -  Creando PDF temporal...
+2025-08-01 08:58:20,391 - [DEBUG] -  Convirtiendo el PDF a JPG
+2025-08-01 08:58:24,808 - [DEBUG] -  Leyendo los Datos... 1
+2025-08-01 08:58:24,946 - [DEBUG] -  Leyendo los Datos... 2
+2025-08-01 08:58:25,277 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 08:58:25,279 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'ALPEK'
+2025-08-01 08:58:25,297 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 08:58:25,301 - [DEBUG] -  Leyendo los Datos... 3
+2025-08-01 08:58:25,304 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 08:58:25,304 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 9 AND c.field = 'filas'
+2025-08-01 08:58:25,320 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 08:58:25,323 - [DEBUG] -  Leyendo los Datos... 4
+2025-08-01 08:58:25,342 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 08:58:25,342 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 9 AND isRow = 0
+2025-08-01 08:58:25,343 - [DEBUG] -  SELECT * FROM columns WHERE formato = 9
+2025-08-01 08:58:25,369 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 08:58:25,372 - [DEBUG] -  Leyendo los Datos... 5
+2025-08-01 08:58:25,835 - [DEBUG] -  Creating converter from 3 to 5
+2025-08-01 08:58:27,175 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-08-01 08:58:54,387 - [DEBUG] -  {'hoja': 'Original', 'tipo_doc': 'FACTURA', 'nro_docum': '00041530', 'serie_docum': '00024', 'nro_dgi': '30', 'nro_dgi_emp': '30', 'razon_social': 'ALPEK POLYESTER ARGENTINA S.A.', 'fec_doc': '16/05/2025', 'fec_vencimiento': 'lo Cliente: O', 'fec_periodo_dd': '16/05/2025', 'fec_periodo_ht': '16/05/2025', 'cond_fpago': '', 'cond_IVA': 'IVA Responsable inscripto.', 'dir_tit': 'C1035AAQ C.A.B.A. ARGENTINA', 'orden_compra': '', 'imp_prov': '43.24', 'imp_iva': '4,540.54', 'total': '26,205.38', 'porc_prov': '0.20', 'porc_iva': '21.00', 'cae': '75202315702969', 'fec_vencimiento_cae': '26/05/2025', 'formato': 'ALPEK'}
+2025-08-01 08:58:54,392 - [DEBUG] -  Leyendo los Datos... 1
+2025-08-01 08:58:54,539 - [DEBUG] -  Leyendo los Datos... 2
+2025-08-01 08:58:54,560 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 08:58:54,560 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'ALPEK'
+2025-08-01 08:58:54,563 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 08:58:54,566 - [DEBUG] -  Leyendo los Datos... 3
+2025-08-01 08:58:54,567 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 08:58:54,567 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 9 AND c.field = 'filas'
+2025-08-01 08:58:54,570 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 08:58:54,573 - [DEBUG] -  Leyendo los Datos... 4
+2025-08-01 08:58:54,598 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 08:58:54,599 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 9 AND isRow = 0
+2025-08-01 08:58:54,601 - [DEBUG] -  SELECT * FROM columns WHERE formato = 9
+2025-08-01 08:58:54,605 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 08:58:54,608 - [DEBUG] -  Leyendo los Datos... 5
+2025-08-01 08:58:54,918 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-08-01 08:59:18,494 - [DEBUG] -  {'hoja': 'Original', 'tipo_doc': 'FACTURA', 'nro_docum': '00041530', 'serie_docum': '00024', 'nro_dgi': '30', 'nro_dgi_emp': '30', 'razon_social': 'ALPEK POLYESTER ARGENTINA S.A.', 'fec_doc': '16/05/2025', 'fec_vencimiento': 'lo Cliente: O', 'fec_periodo_dd': '16/05/2025', 'fec_periodo_ht': '16/05/2025', 'cond_fpago': '', 'cond_IVA': 'IVA Responsable inscripto.', 'dir_tit': 'C1035AAQ C.A.B.A. ARGENTINA', 'orden_compra': '', 'imp_prov': '43.24', 'imp_iva': '4,540.54', 'total': '26,205.38', 'porc_prov': '0.20', 'porc_iva': '21.00', 'cae': '75202315702969', 'fec_vencimiento_cae': '26/05/2025', 'formato': 'ALPEK'}
+2025-08-01 08:59:18,497 - [DEBUG] -  Leyendo los Datos... 1
+2025-08-01 08:59:18,684 - [DEBUG] -  Leyendo los Datos... 2
+2025-08-01 08:59:18,687 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 08:59:18,692 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'ALPEK'
+2025-08-01 08:59:18,700 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 08:59:18,702 - [DEBUG] -  Leyendo los Datos... 3
+2025-08-01 08:59:18,704 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 08:59:18,708 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 9 AND c.field = 'filas'
+2025-08-01 08:59:18,713 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 08:59:18,722 - [DEBUG] -  Leyendo los Datos... 4
+2025-08-01 08:59:18,749 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 08:59:18,750 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 9 AND isRow = 0
+2025-08-01 08:59:18,756 - [DEBUG] -  SELECT * FROM columns WHERE formato = 9
+2025-08-01 08:59:18,764 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 08:59:18,769 - [DEBUG] -  Leyendo los Datos... 5
+2025-08-01 08:59:19,081 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-08-01 08:59:40,932 - [DEBUG] -  {'hoja': 'Original', 'tipo_doc': 'FACTURA', 'nro_docum': '00041530', 'serie_docum': '00024', 'nro_dgi': '30', 'nro_dgi_emp': '30', 'razon_social': 'ALPEK POLYESTER ARGENTINA S.A.', 'fec_doc': '16/05/2025', 'fec_vencimiento': 'lo Cliente: O', 'fec_periodo_dd': '16/05/2025', 'fec_periodo_ht': '16/05/2025', 'cond_fpago': '', 'cond_IVA': 'IVA Responsable inscripto.', 'dir_tit': 'C1035AAQ C.A.B.A. ARGENTINA', 'orden_compra': '', 'imp_prov': '43.24', 'imp_iva': '4,540.54', 'total': '26,205.38', 'porc_prov': '0.20', 'porc_iva': '21.00', 'cae': '75202315702969', 'fec_vencimiento_cae': '26/05/2025', 'formato': 'ALPEK'}
+2025-08-01 08:59:40,936 - [DEBUG] -  Leyendo los Datos... 1
+2025-08-01 08:59:41,084 - [DEBUG] -  Leyendo los Datos... 2
+2025-08-01 08:59:41,086 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 08:59:41,091 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'ALPEK'
+2025-08-01 08:59:41,096 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 08:59:41,097 - [DEBUG] -  Leyendo los Datos... 3
+2025-08-01 08:59:41,102 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 08:59:41,104 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 9 AND c.field = 'filas'
+2025-08-01 08:59:41,110 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 08:59:41,114 - [DEBUG] -  Leyendo los Datos... 4
+2025-08-01 08:59:41,133 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 08:59:41,135 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 9 AND isRow = 0
+2025-08-01 08:59:41,141 - [DEBUG] -  SELECT * FROM columns WHERE formato = 9
+2025-08-01 08:59:41,150 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 08:59:41,150 - [DEBUG] -  Leyendo los Datos... 5
+2025-08-01 08:59:41,480 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-08-01 09:00:06,335 - [DEBUG] -  {'hoja': 'Original', 'tipo_doc': 'FACTURA', 'nro_docum': '00041530', 'serie_docum': '00024', 'nro_dgi': '30', 'nro_dgi_emp': '30', 'razon_social': 'ALPEK POLYESTER ARGENTINA S.A.', 'fec_doc': '16/05/2025', 'fec_vencimiento': 'lo Cliente: O', 'fec_periodo_dd': '16/05/2025', 'fec_periodo_ht': '16/05/2025', 'cond_fpago': '', 'cond_IVA': 'IVA Responsable inscripto.', 'dir_tit': 'C1035AAQ C.A.B.A. ARGENTINA', 'orden_compra': '', 'imp_prov': '43.24', 'imp_iva': '4,540.54', 'total': '26,205.38', 'porc_prov': '0.20', 'porc_iva': '21.00', 'cae': '75202315702969', 'fec_vencimiento_cae': '26/05/2025', 'formato': 'ALPEK'}
+2025-08-01 09:00:06,336 - [DEBUG] -  Grabando Datos de la Factura...
+2025-08-01 09:00:06,369 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 09:00:06,371 - [INFO ] -  INSERT INTO facturas (hoja, tipo_doc, nro_docum, serie_docum, nro_dgi, nro_dgi_emp, razon_social, fec_doc, fec_vencimiento, fec_periodo_dd, fec_periodo_ht, cond_fpago, cond_IVA, dir_tit, orden_compra, imp_prov, imp_iva, total, porc_prov, porc_iva, cae, fec_vencimiento_cae, formato, datetime) OUTPUT INSERTED.id VALUES ('Original', 'FACTURA', '00041530', '00024', '30', '30', 'ALPEK POLYESTER ARGENTINA S.A.', '16/05/2025', 'lo Cliente: O', '16/05/2025', '16/05/2025', '', 'IVA Responsable inscripto.', 'C1035AAQ C.A.B.A. ARGENTINA', '', '43.24', '4,540.54', '26,205.38', '0.20', '21.00', '75202315702969', '26/05/2025', 'ALPEK', '2025-08-01 09:00:06:371')
+2025-08-01 09:00:06,393 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 09:00:06,416 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 09:00:06,416 - [DEBUG] -  UPDATE facturas SET thumbnail = 'C:/Nodum/Archivos/ModeloExpress/emails\67.pdf' WHERE id = 67
+2025-08-01 09:00:06,429 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 09:00:06,474 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 09:00:06,479 - [INFO ] -  INSERT INTO detalles (cod_articulo, cantidad, cod_unidad, nom_articulo, precio, lote, imp_stot_mo, factura) VALUES ('30000001', '28,080', 'KG', 'EG, ETILENGLICOL, GRADO FIBRA', '0.7700', 'USDIKG', '21,621.60', 67)
+2025-08-01 09:00:06,497 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 09:00:06,505 - [INFO ] -  Fin Inserts: C:\Nodum\Archivos\Prueba\Alpek\16-05_ALPEK_FC_41530.pdf
+2025-08-01 09:31:14,942 - [INFO ] -  Interrupción recibida, cerrando conexión...
+2025-08-01 09:31:43,210 - [INFO ] -  Monitoring started
+2025-08-01 09:31:46,113 - [INFO ] -  2025-08-01 09:31:46.113490 FileCreatedEvent(src_path='C:/Nodum/Archivos/Prueba\\Alpek\\16-05_ALPEK_FC_41530.pdf', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-08-01 09:31:49,117 - [DEBUG] -  IF .PDF
+2025-08-01 09:31:49,118 - [INFO ] -  Archivo Nuevo: "C:\Nodum\Archivos\Prueba\Alpek\16-05_ALPEK_FC_41530.pdf"
+2025-08-01 09:31:49,185 - [DEBUG] -  Creando PDF temporal...
+2025-08-01 09:31:49,187 - [DEBUG] -  Convirtiendo el PDF a JPG
+2025-08-01 09:31:52,183 - [DEBUG] -  Leyendo los Datos... 1
+2025-08-01 09:31:52,311 - [DEBUG] -  Leyendo los Datos... 2
+2025-08-01 09:31:52,413 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 09:31:52,415 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'ALPEK'
+2025-08-01 09:31:52,416 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 09:31:52,419 - [DEBUG] -  Leyendo los Datos... 3
+2025-08-01 09:31:52,419 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 09:31:52,420 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 9 AND c.field = 'filas'
+2025-08-01 09:31:52,423 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 09:31:52,427 - [DEBUG] -  Leyendo los Datos... 4
+2025-08-01 09:31:52,452 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 09:31:52,452 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 9 AND isRow = 0
+2025-08-01 09:31:52,453 - [DEBUG] -  SELECT * FROM columns WHERE formato = 9
+2025-08-01 09:31:52,457 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 09:31:52,459 - [DEBUG] -  Leyendo los Datos... 5
+2025-08-01 09:31:52,517 - [DEBUG] -  Creating converter from 3 to 5
+2025-08-01 09:31:53,062 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-08-01 09:32:15,347 - [DEBUG] -  {'hoja': 'Original', 'tipo_doc': 'FACTURA', 'nro_docum': '00041530', 'serie_docum': '00024', 'nro_dgi': '30710265212', 'nro_dgi_emp': '30666049450', 'razon_social': 'ALPEK POLYESTER ARGENTINA S.A.', 'fec_doc': '16/05/2025', 'fec_vencimiento': 'lo Cliente: O', 'fec_periodo_dd': '16/05/2025', 'fec_periodo_ht': '16/05/2025', 'cond_fpago': '', 'cond_IVA': 'IVA Responsable inscripto.', 'dir_tit': 'C1035AAQ C.A.B.A. ARGENTINA', 'orden_compra': '', 'imp_prov': '43.24', 'imp_iva': '4,540.54', 'total': '26,205.38', 'porc_prov': '0.20', 'porc_iva': '21.00', 'cae': '75202315702969', 'fec_vencimiento_cae': '26/05/2025', 'formato': 'ALPEK'}
+2025-08-01 09:32:15,349 - [DEBUG] -  Leyendo los Datos... 1
+2025-08-01 09:32:15,497 - [DEBUG] -  Leyendo los Datos... 2
+2025-08-01 09:32:15,515 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 09:32:15,515 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'ALPEK'
+2025-08-01 09:32:15,518 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 09:32:15,520 - [DEBUG] -  Leyendo los Datos... 3
+2025-08-01 09:32:15,520 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 09:32:15,521 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 9 AND c.field = 'filas'
+2025-08-01 09:32:15,524 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 09:32:15,527 - [DEBUG] -  Leyendo los Datos... 4
+2025-08-01 09:32:15,559 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 09:32:15,559 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 9 AND isRow = 0
+2025-08-01 09:32:15,559 - [DEBUG] -  SELECT * FROM columns WHERE formato = 9
+2025-08-01 09:32:15,563 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 09:32:15,566 - [DEBUG] -  Leyendo los Datos... 5
+2025-08-01 09:32:15,891 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-08-01 09:32:38,820 - [DEBUG] -  {'hoja': 'Original', 'tipo_doc': 'FACTURA', 'nro_docum': '00041530', 'serie_docum': '00024', 'nro_dgi': '30710265212', 'nro_dgi_emp': '30666049450', 'razon_social': 'ALPEK POLYESTER ARGENTINA S.A.', 'fec_doc': '16/05/2025', 'fec_vencimiento': 'lo Cliente: O', 'fec_periodo_dd': '16/05/2025', 'fec_periodo_ht': '16/05/2025', 'cond_fpago': '', 'cond_IVA': 'IVA Responsable inscripto.', 'dir_tit': 'C1035AAQ C.A.B.A. ARGENTINA', 'orden_compra': '', 'imp_prov': '43.24', 'imp_iva': '4,540.54', 'total': '26,205.38', 'porc_prov': '0.20', 'porc_iva': '21.00', 'cae': '75202315702969', 'fec_vencimiento_cae': '26/05/2025', 'formato': 'ALPEK'}
+2025-08-01 09:32:38,822 - [DEBUG] -  Leyendo los Datos... 1
+2025-08-01 09:32:39,052 - [DEBUG] -  Leyendo los Datos... 2
+2025-08-01 09:32:39,052 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 09:32:39,061 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'ALPEK'
+2025-08-01 09:32:39,066 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 09:32:39,068 - [DEBUG] -  Leyendo los Datos... 3
+2025-08-01 09:32:39,071 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 09:32:39,076 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 9 AND c.field = 'filas'
+2025-08-01 09:32:39,081 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 09:32:39,086 - [DEBUG] -  Leyendo los Datos... 4
+2025-08-01 09:32:39,115 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 09:32:39,115 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 9 AND isRow = 0
+2025-08-01 09:32:39,122 - [DEBUG] -  SELECT * FROM columns WHERE formato = 9
+2025-08-01 09:32:39,130 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 09:32:39,132 - [DEBUG] -  Leyendo los Datos... 5
+2025-08-01 09:32:39,431 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-08-01 09:33:03,046 - [DEBUG] -  {'hoja': 'Original', 'tipo_doc': 'FACTURA', 'nro_docum': '00041530', 'serie_docum': '00024', 'nro_dgi': '30710265212', 'nro_dgi_emp': '30666049450', 'razon_social': 'ALPEK POLYESTER ARGENTINA S.A.', 'fec_doc': '16/05/2025', 'fec_vencimiento': 'lo Cliente: O', 'fec_periodo_dd': '16/05/2025', 'fec_periodo_ht': '16/05/2025', 'cond_fpago': '', 'cond_IVA': 'IVA Responsable inscripto.', 'dir_tit': 'C1035AAQ C.A.B.A. ARGENTINA', 'orden_compra': '', 'imp_prov': '43.24', 'imp_iva': '4,540.54', 'total': '26,205.38', 'porc_prov': '0.20', 'porc_iva': '21.00', 'cae': '75202315702969', 'fec_vencimiento_cae': '26/05/2025', 'formato': 'ALPEK'}
+2025-08-01 09:33:03,049 - [DEBUG] -  Leyendo los Datos... 1
+2025-08-01 09:33:03,206 - [DEBUG] -  Leyendo los Datos... 2
+2025-08-01 09:33:03,215 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 09:33:03,218 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'ALPEK'
+2025-08-01 09:33:03,223 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 09:33:03,227 - [DEBUG] -  Leyendo los Datos... 3
+2025-08-01 09:33:03,228 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 09:33:03,230 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 9 AND c.field = 'filas'
+2025-08-01 09:33:03,235 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 09:33:03,243 - [DEBUG] -  Leyendo los Datos... 4
+2025-08-01 09:33:03,273 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 09:33:03,274 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 9 AND isRow = 0
+2025-08-01 09:33:03,283 - [DEBUG] -  SELECT * FROM columns WHERE formato = 9
+2025-08-01 09:33:03,290 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 09:33:03,297 - [DEBUG] -  Leyendo los Datos... 5
+2025-08-01 09:33:03,581 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-08-01 09:33:27,943 - [DEBUG] -  {'hoja': 'Original', 'tipo_doc': 'FACTURA', 'nro_docum': '00041530', 'serie_docum': '00024', 'nro_dgi': '30710265212', 'nro_dgi_emp': '30666049450', 'razon_social': 'ALPEK POLYESTER ARGENTINA S.A.', 'fec_doc': '16/05/2025', 'fec_vencimiento': 'lo Cliente: O', 'fec_periodo_dd': '16/05/2025', 'fec_periodo_ht': '16/05/2025', 'cond_fpago': '', 'cond_IVA': 'IVA Responsable inscripto.', 'dir_tit': 'C1035AAQ C.A.B.A. ARGENTINA', 'orden_compra': '', 'imp_prov': '43.24', 'imp_iva': '4,540.54', 'total': '26,205.38', 'porc_prov': '0.20', 'porc_iva': '21.00', 'cae': '75202315702969', 'fec_vencimiento_cae': '26/05/2025', 'formato': 'ALPEK'}
+2025-08-01 09:33:27,947 - [DEBUG] -  Grabando Datos de la Factura...
+2025-08-01 09:33:27,950 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 09:33:27,951 - [INFO ] -  INSERT INTO facturas (hoja, tipo_doc, nro_docum, serie_docum, nro_dgi, nro_dgi_emp, razon_social, fec_doc, fec_vencimiento, fec_periodo_dd, fec_periodo_ht, cond_fpago, cond_IVA, dir_tit, orden_compra, imp_prov, imp_iva, total, porc_prov, porc_iva, cae, fec_vencimiento_cae, formato, datetime) OUTPUT INSERTED.id VALUES ('Original', 'FACTURA', '00041530', '00024', '30710265212', '30666049450', 'ALPEK POLYESTER ARGENTINA S.A.', '16/05/2025', 'lo Cliente: O', '16/05/2025', '16/05/2025', '', 'IVA Responsable inscripto.', 'C1035AAQ C.A.B.A. ARGENTINA', '', '43.24', '4,540.54', '26,205.38', '0.20', '21.00', '75202315702969', '26/05/2025', 'ALPEK', '2025-08-01 09:33:27:951')
+2025-08-01 09:33:27,969 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 09:33:27,991 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 09:33:27,991 - [DEBUG] -  UPDATE facturas SET thumbnail = 'C:/Nodum/Archivos/ModeloExpress/emails\68.pdf' WHERE id = 68
+2025-08-01 09:33:28,001 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 09:33:28,012 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 09:33:28,013 - [INFO ] -  INSERT INTO detalles (cod_articulo, cantidad, cod_unidad, nom_articulo, precio, lote, imp_stot_mo, factura) VALUES ('30000001', '28,080', 'KG', 'EG, ETILENGLICOL, GRADO FIBRA', '0.7700', 'USDIKG', '21,621.60', 68)
+2025-08-01 09:33:28,018 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 09:33:28,028 - [INFO ] -  Fin Inserts: C:\Nodum\Archivos\Prueba\Alpek\16-05_ALPEK_FC_41530.pdf
+2025-08-01 09:47:26,667 - [INFO ] -  2025-08-01 09:47:26.667167 FileCreatedEvent(src_path='C:/Nodum/Archivos/Prueba\\Alpek\\30-10_ALPEK_FC_40286.pdf', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-08-01 09:47:29,674 - [DEBUG] -  IF .PDF
+2025-08-01 09:47:29,677 - [INFO ] -  Archivo Nuevo: "C:\Nodum\Archivos\Prueba\Alpek\30-10_ALPEK_FC_40286.pdf"
+2025-08-01 09:47:29,709 - [DEBUG] -  Creando PDF temporal...
+2025-08-01 09:47:29,711 - [DEBUG] -  Convirtiendo el PDF a JPG
+2025-08-01 09:47:32,477 - [DEBUG] -  Leyendo los Datos... 1
+2025-08-01 09:47:32,613 - [DEBUG] -  Leyendo los Datos... 2
+2025-08-01 09:47:32,662 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 09:47:32,663 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'ALPEK'
+2025-08-01 09:47:32,687 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 09:47:32,689 - [DEBUG] -  Leyendo los Datos... 3
+2025-08-01 09:47:32,690 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 09:47:32,693 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 9 AND c.field = 'filas'
+2025-08-01 09:47:32,701 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 09:47:32,703 - [DEBUG] -  Leyendo los Datos... 4
+2025-08-01 09:47:32,728 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 09:47:32,729 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 9 AND isRow = 0
+2025-08-01 09:47:32,734 - [DEBUG] -  SELECT * FROM columns WHERE formato = 9
+2025-08-01 09:47:32,744 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 09:47:32,749 - [DEBUG] -  Leyendo los Datos... 5
+2025-08-01 09:47:33,081 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-08-01 09:47:33,525 - [WARNI] -  5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000001FAB6B037E0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-08-01 09:47:57,007 - [DEBUG] -  {'hoja': 'Original', 'tipo_doc': 'FACTURA', 'nro_docum': '0040286', 'serie_docum': '0024-', 'nro_dgi': '30710265212', 'nro_dgi_emp': '30666049450', 'razon_social': 'ALPEK POLYESTER ARGENTINA S.A.', 'fec_doc': '30/10/2024', 'fec_vencimiento': '29/11/2024', 'fec_periodo_dd': '30/10/2024', 'fec_periodo_ht': '30/10/2024', 'cond_fpago': '30 Dias Fecha Factura', 'cond_IVA': 'IVA Responsable inscripto.', 'dir_tit': 'CAMINO GRAL. BELGRANO KM 10.5 B1879JSA QUILMES ARGENTINA', 'orden_compra': '6419', 'imp_prov': '107.62', 'imp_iva': '11,299.68', 'total': '65,215.30', 'porc_prov': '0.20', 'porc_iva': '21.00', 'cae': '74442277780590', 'fec_vencimiento_cae': '09/11/2024', 'formato': 'ALPEK'}
+2025-08-01 09:47:57,010 - [DEBUG] -  Leyendo los Datos... 1
+2025-08-01 09:47:57,165 - [DEBUG] -  Leyendo los Datos... 2
+2025-08-01 09:47:57,168 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 09:47:57,170 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'ALPEK'
+2025-08-01 09:47:57,174 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 09:47:57,177 - [DEBUG] -  Leyendo los Datos... 3
+2025-08-01 09:47:57,178 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 09:47:57,180 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 9 AND c.field = 'filas'
+2025-08-01 09:47:57,183 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 09:47:57,186 - [DEBUG] -  Leyendo los Datos... 4
+2025-08-01 09:47:57,210 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 09:47:57,212 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 9 AND isRow = 0
+2025-08-01 09:47:57,215 - [DEBUG] -  SELECT * FROM columns WHERE formato = 9
+2025-08-01 09:47:57,221 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 09:47:57,223 - [DEBUG] -  Leyendo los Datos... 5
+2025-08-01 09:47:57,515 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-08-01 09:47:57,928 - [WARNI] -  6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000001FAB6BC5580> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-08-01 09:48:21,862 - [DEBUG] -  {'hoja': 'Original', 'tipo_doc': 'FACTURA', 'nro_docum': '0040286', 'serie_docum': '0024-', 'nro_dgi': '30710265212', 'nro_dgi_emp': '30666049450', 'razon_social': 'ALPEK POLYESTER ARGENTINA S.A.', 'fec_doc': '30/10/2024', 'fec_vencimiento': '29/11/2024', 'fec_periodo_dd': '30/10/2024', 'fec_periodo_ht': '30/10/2024', 'cond_fpago': '30 Dias Fecha Factura', 'cond_IVA': 'IVA Responsable inscripto.', 'dir_tit': 'CAMINO GRAL. BELGRANO KM 10.5 B1879JSA QUILMES ARGENTINA', 'orden_compra': '6419', 'imp_prov': '107.62', 'imp_iva': '11,299.68', 'total': '65,215.30', 'porc_prov': '0.20', 'porc_iva': '21.00', 'cae': '74442277780590', 'fec_vencimiento_cae': '09/11/2024', 'formato': 'ALPEK'}
+2025-08-01 09:48:21,865 - [DEBUG] -  Leyendo los Datos... 1
+2025-08-01 09:48:22,012 - [DEBUG] -  Leyendo los Datos... 2
+2025-08-01 09:48:22,016 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 09:48:22,018 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'ALPEK'
+2025-08-01 09:48:22,022 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 09:48:22,025 - [DEBUG] -  Leyendo los Datos... 3
+2025-08-01 09:48:22,026 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 09:48:22,028 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 9 AND c.field = 'filas'
+2025-08-01 09:48:22,032 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 09:48:22,035 - [DEBUG] -  Leyendo los Datos... 4
+2025-08-01 09:48:22,059 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 09:48:22,061 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 9 AND isRow = 0
+2025-08-01 09:48:22,064 - [DEBUG] -  SELECT * FROM columns WHERE formato = 9
+2025-08-01 09:48:22,069 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 09:48:22,070 - [DEBUG] -  Leyendo los Datos... 5
+2025-08-01 09:48:22,384 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-08-01 09:48:45,821 - [DEBUG] -  {'hoja': 'Original', 'tipo_doc': 'FACTURA', 'nro_docum': '0040286', 'serie_docum': '0024-', 'nro_dgi': '30710265212', 'nro_dgi_emp': '30666049450', 'razon_social': 'ALPEK POLYESTER ARGENTINA S.A.', 'fec_doc': '30/10/2024', 'fec_vencimiento': '29/11/2024', 'fec_periodo_dd': '30/10/2024', 'fec_periodo_ht': '30/10/2024', 'cond_fpago': '30 Dias Fecha Factura', 'cond_IVA': 'IVA Responsable inscripto.', 'dir_tit': 'CAMINO GRAL. BELGRANO KM 10.5 B1879JSA QUILMES ARGENTINA', 'orden_compra': '6419', 'imp_prov': '107.62', 'imp_iva': '11,299.68', 'total': '65,215.30', 'porc_prov': '0.20', 'porc_iva': '21.00', 'cae': '74442277780590', 'fec_vencimiento_cae': '09/11/2024', 'formato': 'ALPEK'}
+2025-08-01 09:48:45,825 - [DEBUG] -  Leyendo los Datos... 1
+2025-08-01 09:48:46,003 - [DEBUG] -  Leyendo los Datos... 2
+2025-08-01 09:48:46,005 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 09:48:46,006 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'ALPEK'
+2025-08-01 09:48:46,012 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 09:48:46,015 - [DEBUG] -  Leyendo los Datos... 3
+2025-08-01 09:48:46,016 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 09:48:46,018 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 9 AND c.field = 'filas'
+2025-08-01 09:48:46,023 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 09:48:46,024 - [DEBUG] -  Leyendo los Datos... 4
+2025-08-01 09:48:46,045 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 09:48:46,046 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 9 AND isRow = 0
+2025-08-01 09:48:46,048 - [DEBUG] -  SELECT * FROM columns WHERE formato = 9
+2025-08-01 09:48:46,055 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 09:48:46,058 - [DEBUG] -  Leyendo los Datos... 5
+2025-08-01 09:48:46,395 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-08-01 09:49:10,090 - [DEBUG] -  {'hoja': 'Original', 'tipo_doc': 'FACTURA', 'nro_docum': '0040286', 'serie_docum': '0024-', 'nro_dgi': '30710265212', 'nro_dgi_emp': '30666049450', 'razon_social': 'ALPEK POLYESTER ARGENTINA S.A.', 'fec_doc': '30/10/2024', 'fec_vencimiento': '29/11/2024', 'fec_periodo_dd': '30/10/2024', 'fec_periodo_ht': '30/10/2024', 'cond_fpago': '30 Dias Fecha Factura', 'cond_IVA': 'IVA Responsable inscripto.', 'dir_tit': 'CAMINO GRAL. BELGRANO KM 10.5 B1879JSA QUILMES ARGENTINA', 'orden_compra': '6419', 'imp_prov': '107.62', 'imp_iva': '11,299.68', 'total': '65,215.30', 'porc_prov': '0.20', 'porc_iva': '21.00', 'cae': '74442277780590', 'fec_vencimiento_cae': '09/11/2024', 'formato': 'ALPEK'}
+2025-08-01 09:49:10,092 - [DEBUG] -  Grabando Datos de la Factura...
+2025-08-01 09:49:10,098 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 09:49:10,100 - [INFO ] -  INSERT INTO facturas (hoja, tipo_doc, nro_docum, serie_docum, nro_dgi, nro_dgi_emp, razon_social, fec_doc, fec_vencimiento, fec_periodo_dd, fec_periodo_ht, cond_fpago, cond_IVA, dir_tit, orden_compra, imp_prov, imp_iva, total, porc_prov, porc_iva, cae, fec_vencimiento_cae, formato, datetime) OUTPUT INSERTED.id VALUES ('Original', 'FACTURA', '0040286', '0024-', '30710265212', '30666049450', 'ALPEK POLYESTER ARGENTINA S.A.', '30/10/2024', '29/11/2024', '30/10/2024', '30/10/2024', '30 Dias Fecha Factura', 'IVA Responsable inscripto.', 'CAMINO GRAL. BELGRANO KM 10.5 B1879JSA QUILMES ARGENTINA', '6419', '107.62', '11,299.68', '65,215.30', '0.20', '21.00', '74442277780590', '09/11/2024', 'ALPEK', '2025-08-01 09:49:10:100')
+2025-08-01 09:49:10,119 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 09:49:10,137 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 09:49:10,138 - [DEBUG] -  UPDATE facturas SET thumbnail = 'C:/Nodum/Archivos/ModeloExpress/emails\69.pdf' WHERE id = 69
+2025-08-01 09:49:10,141 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 09:49:10,146 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 09:49:10,148 - [INFO ] -  INSERT INTO detalles (cod_articulo, cantidad, cod_unidad, nom_articulo, precio, lote, imp_stot_mo, factura) VALUES ('30000079', '22,420', 'KG', 'TRIETILEN GLICOL', '2.4000', 'USDIKG', '53,808.00', 69)
+2025-08-01 09:49:10,155 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 09:49:10,164 - [INFO ] -  Fin Inserts: C:\Nodum\Archivos\Prueba\Alpek\30-10_ALPEK_FC_40286.pdf
+2025-08-01 10:56:15,048 - [INFO ] -  2025-08-01 10:56:15.046975 FileCreatedEvent(src_path='C:/Nodum/Archivos/Prueba\\Alpek\\16-05_ALPEK_FC_41530.pdf', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-08-01 10:56:18,059 - [DEBUG] -  IF .PDF
+2025-08-01 10:56:18,060 - [INFO ] -  Archivo Nuevo: "C:\Nodum\Archivos\Prueba\Alpek\16-05_ALPEK_FC_41530.pdf"
+2025-08-01 10:56:18,117 - [DEBUG] -  Creando PDF temporal...
+2025-08-01 10:56:18,119 - [DEBUG] -  Convirtiendo el PDF a JPG
+2025-08-01 10:56:21,132 - [DEBUG] -  Leyendo los Datos... 1
+2025-08-01 10:56:21,273 - [DEBUG] -  Leyendo los Datos... 2
+2025-08-01 10:56:21,384 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 10:56:21,386 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'ALPEK'
+2025-08-01 10:56:21,558 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 10:56:21,561 - [DEBUG] -  Leyendo los Datos... 3
+2025-08-01 10:56:21,563 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 10:56:21,564 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 9 AND c.field = 'filas'
+2025-08-01 10:56:21,580 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 10:56:21,582 - [DEBUG] -  Leyendo los Datos... 4
+2025-08-01 10:56:21,605 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 10:56:21,606 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 9 AND isRow = 0
+2025-08-01 10:56:21,608 - [DEBUG] -  SELECT * FROM columns WHERE formato = 9
+2025-08-01 10:56:21,661 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 10:56:21,664 - [DEBUG] -  Leyendo los Datos... 5
+2025-08-01 10:56:22,043 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-08-01 10:56:45,180 - [DEBUG] -  {'hoja': 'Original', 'tipo_doc': 'FACTURA', 'nro_docum': '00041530', 'serie_docum': '00024', 'nro_dgi': '30710265212', 'nro_dgi_emp': '30666049450', 'razon_social': 'ALPEK POLYESTER ARGENTINA S.A.', 'fec_doc': '16/05/2025', 'fec_vencimiento': 'lo Cliente: O', 'fec_periodo_dd': '16/05/2025', 'fec_periodo_ht': '16/05/2025', 'cond_fpago': '', 'cond_IVA': 'IVA Responsable inscripto.', 'dir_tit': 'C1035AAQ C.A.B.A. ARGENTINA', 'orden_compra': '', 'imp_prov': '43.24', 'imp_iva': '4,540.54', 'total': '26,205.38', 'porc_prov': '0.20', 'porc_iva': '21.00', 'cae': '75202315702969', 'fec_vencimiento_cae': '26/05/2025', 'formato': 'ALPEK'}
+2025-08-01 10:56:45,182 - [DEBUG] -  Leyendo los Datos... 1
+2025-08-01 10:56:45,349 - [DEBUG] -  Leyendo los Datos... 2
+2025-08-01 10:56:45,351 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 10:56:45,351 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'ALPEK'
+2025-08-01 10:56:45,358 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 10:56:45,361 - [DEBUG] -  Leyendo los Datos... 3
+2025-08-01 10:56:45,362 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 10:56:45,363 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 9 AND c.field = 'filas'
+2025-08-01 10:56:45,375 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 10:56:45,377 - [DEBUG] -  Leyendo los Datos... 4
+2025-08-01 10:56:45,397 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 10:56:45,399 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 9 AND isRow = 0
+2025-08-01 10:56:45,401 - [DEBUG] -  SELECT * FROM columns WHERE formato = 9
+2025-08-01 10:56:45,409 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 10:56:45,414 - [DEBUG] -  Leyendo los Datos... 5
+2025-08-01 10:56:45,758 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-08-01 10:57:09,684 - [DEBUG] -  {'hoja': 'Original', 'tipo_doc': 'FACTURA', 'nro_docum': '00041530', 'serie_docum': '00024', 'nro_dgi': '30710265212', 'nro_dgi_emp': '30666049450', 'razon_social': 'ALPEK POLYESTER ARGENTINA S.A.', 'fec_doc': '16/05/2025', 'fec_vencimiento': 'lo Cliente: O', 'fec_periodo_dd': '16/05/2025', 'fec_periodo_ht': '16/05/2025', 'cond_fpago': '', 'cond_IVA': 'IVA Responsable inscripto.', 'dir_tit': 'C1035AAQ C.A.B.A. ARGENTINA', 'orden_compra': '', 'imp_prov': '43.24', 'imp_iva': '4,540.54', 'total': '26,205.38', 'porc_prov': '0.20', 'porc_iva': '21.00', 'cae': '75202315702969', 'fec_vencimiento_cae': '26/05/2025', 'formato': 'ALPEK'}
+2025-08-01 10:57:09,687 - [DEBUG] -  Leyendo los Datos... 1
+2025-08-01 10:57:09,833 - [DEBUG] -  Leyendo los Datos... 2
+2025-08-01 10:57:09,835 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 10:57:09,835 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'ALPEK'
+2025-08-01 10:57:09,843 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 10:57:09,846 - [DEBUG] -  Leyendo los Datos... 3
+2025-08-01 10:57:09,848 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 10:57:09,849 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 9 AND c.field = 'filas'
+2025-08-01 10:57:09,858 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 10:57:09,862 - [DEBUG] -  Leyendo los Datos... 4
+2025-08-01 10:57:09,887 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 10:57:09,888 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 9 AND isRow = 0
+2025-08-01 10:57:09,889 - [DEBUG] -  SELECT * FROM columns WHERE formato = 9
+2025-08-01 10:57:09,900 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 10:57:09,902 - [DEBUG] -  Leyendo los Datos... 5
+2025-08-01 10:57:10,204 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-08-01 10:57:32,102 - [DEBUG] -  {'hoja': 'Original', 'tipo_doc': 'FACTURA', 'nro_docum': '00041530', 'serie_docum': '00024', 'nro_dgi': '30710265212', 'nro_dgi_emp': '30666049450', 'razon_social': 'ALPEK POLYESTER ARGENTINA S.A.', 'fec_doc': '16/05/2025', 'fec_vencimiento': 'lo Cliente: O', 'fec_periodo_dd': '16/05/2025', 'fec_periodo_ht': '16/05/2025', 'cond_fpago': '', 'cond_IVA': 'IVA Responsable inscripto.', 'dir_tit': 'C1035AAQ C.A.B.A. ARGENTINA', 'orden_compra': '', 'imp_prov': '43.24', 'imp_iva': '4,540.54', 'total': '26,205.38', 'porc_prov': '0.20', 'porc_iva': '21.00', 'cae': '75202315702969', 'fec_vencimiento_cae': '26/05/2025', 'formato': 'ALPEK'}
+2025-08-01 10:57:32,104 - [DEBUG] -  Leyendo los Datos... 1
+2025-08-01 10:57:32,247 - [DEBUG] -  Leyendo los Datos... 2
+2025-08-01 10:57:32,248 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 10:57:32,249 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'ALPEK'
+2025-08-01 10:57:32,257 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 10:57:32,260 - [DEBUG] -  Leyendo los Datos... 3
+2025-08-01 10:57:32,260 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 10:57:32,262 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 9 AND c.field = 'filas'
+2025-08-01 10:57:32,274 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 10:57:32,276 - [DEBUG] -  Leyendo los Datos... 4
+2025-08-01 10:57:32,299 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 10:57:32,300 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 9 AND isRow = 0
+2025-08-01 10:57:32,302 - [DEBUG] -  SELECT * FROM columns WHERE formato = 9
+2025-08-01 10:57:32,314 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 10:57:32,317 - [DEBUG] -  Leyendo los Datos... 5
+2025-08-01 10:57:32,605 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-08-01 10:57:56,076 - [DEBUG] -  {'hoja': 'Original', 'tipo_doc': 'FACTURA', 'nro_docum': '00041530', 'serie_docum': '00024', 'nro_dgi': '30710265212', 'nro_dgi_emp': '30666049450', 'razon_social': 'ALPEK POLYESTER ARGENTINA S.A.', 'fec_doc': '16/05/2025', 'fec_vencimiento': 'lo Cliente: O', 'fec_periodo_dd': '16/05/2025', 'fec_periodo_ht': '16/05/2025', 'cond_fpago': '', 'cond_IVA': 'IVA Responsable inscripto.', 'dir_tit': 'C1035AAQ C.A.B.A. ARGENTINA', 'orden_compra': '', 'imp_prov': '43.24', 'imp_iva': '4,540.54', 'total': '26,205.38', 'porc_prov': '0.20', 'porc_iva': '21.00', 'cae': '75202315702969', 'fec_vencimiento_cae': '26/05/2025', 'formato': 'ALPEK'}
+2025-08-01 10:57:56,083 - [DEBUG] -  Grabando Datos de la Factura...
+2025-08-01 10:57:56,085 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 10:57:56,089 - [INFO ] -  INSERT INTO facturas (hoja, tipo_doc, nro_docum, serie_docum, nro_dgi, nro_dgi_emp, razon_social, fec_doc, fec_vencimiento, fec_periodo_dd, fec_periodo_ht, cond_fpago, cond_IVA, dir_tit, orden_compra, imp_prov, imp_iva, total, porc_prov, porc_iva, cae, fec_vencimiento_cae, formato, datetime) OUTPUT INSERTED.id VALUES ('Original', 'FACTURA', '00041530', '00024', '30710265212', '30666049450', 'ALPEK POLYESTER ARGENTINA S.A.', '16/05/2025', 'lo Cliente: O', '16/05/2025', '16/05/2025', '', 'IVA Responsable inscripto.', 'C1035AAQ C.A.B.A. ARGENTINA', '', '43.24', '4,540.54', '26,205.38', '0.20', '21.00', '75202315702969', '26/05/2025', 'ALPEK', '2025-08-01 10:57:56:089')
+2025-08-01 10:57:56,112 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 10:57:56,125 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 10:57:56,127 - [DEBUG] -  UPDATE facturas SET thumbnail = 'C:/Nodum/Archivos/ModeloExpress/emails\70.pdf' WHERE id = 70
+2025-08-01 10:57:56,134 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 10:57:56,141 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 10:57:56,143 - [INFO ] -  INSERT INTO detalles (cod_articulo, cantidad, cod_unidad, nom_articulo, precio, lote, imp_stot_mo, factura) VALUES ('30000001', '28,080', 'KG', 'EG, ETILENGLICOL, GRADO FIBRA', '0.7700', 'USDIKG', '21,621.60', 70)
+2025-08-01 10:57:56,175 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 10:57:56,181 - [INFO ] -  Fin Inserts: C:\Nodum\Archivos\Prueba\Alpek\16-05_ALPEK_FC_41530.pdf
+2025-08-01 11:14:29,889 - [INFO ] -  2025-08-01 11:14:29.889038 FileCreatedEvent(src_path='C:/Nodum/Archivos/Prueba\\Alpek\\16-05_ALPEK_FC_41530.pdf', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-08-01 11:14:32,898 - [DEBUG] -  IF .PDF
+2025-08-01 11:14:32,898 - [INFO ] -  Archivo Nuevo: "C:\Nodum\Archivos\Prueba\Alpek\16-05_ALPEK_FC_41530.pdf"
+2025-08-01 11:14:32,898 - [DEBUG] -  Creando PDF temporal...
+2025-08-01 11:14:32,898 - [DEBUG] -  Convirtiendo el PDF a JPG
+2025-08-01 11:14:36,561 - [DEBUG] -  Leyendo los Datos... 1
+2025-08-01 11:14:36,712 - [DEBUG] -  Leyendo los Datos... 2
+2025-08-01 11:14:36,762 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 11:14:36,762 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'ALPEK'
+2025-08-01 11:14:36,819 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 11:14:36,822 - [DEBUG] -  Leyendo los Datos... 3
+2025-08-01 11:14:36,824 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 11:14:36,831 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 9 AND c.field = 'filas'
+2025-08-01 11:14:36,866 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 11:14:36,870 - [DEBUG] -  Leyendo los Datos... 4
+2025-08-01 11:14:36,894 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 11:14:36,895 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 9 AND isRow = 0
+2025-08-01 11:14:36,898 - [DEBUG] -  SELECT * FROM columns WHERE formato = 9
+2025-08-01 11:14:36,930 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 11:14:36,934 - [DEBUG] -  Leyendo los Datos... 5
+2025-08-01 11:14:37,298 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-08-01 11:15:02,299 - [DEBUG] -  {'hoja': 'Original', 'tipo_doc': 'FACTURA', 'nro_docum': '00041530', 'serie_docum': '00024', 'nro_dgi': '30710265212', 'nro_dgi_emp': '30666049450', 'razon_social': 'ALPEK POLYESTER ARGENTINA S.A.', 'fec_doc': '16/05/2025', 'fec_vencimiento': 'lo Cliente: O', 'fec_periodo_dd': '16/05/2025', 'fec_periodo_ht': '16/05/2025', 'cond_fpago': '', 'cond_IVA': 'IVA Responsable inscripto.', 'dir_tit': 'C1035AAQ C.A.B.A. ARGENTINA', 'orden_compra': '', 'imp_prov': '43.24', 'imp_iva': '4,540.54', 'total': '26,205.38', 'porc_prov': '0.20', 'porc_iva': '21.00', 'cae': '75202315702969', 'fec_vencimiento_cae': '26/05/2025', 'formato': 'ALPEK'}
+2025-08-01 11:15:02,299 - [DEBUG] -  Leyendo los Datos... 1
+2025-08-01 11:15:02,471 - [DEBUG] -  Leyendo los Datos... 2
+2025-08-01 11:15:02,473 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 11:15:02,475 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'ALPEK'
+2025-08-01 11:15:02,510 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 11:15:02,515 - [DEBUG] -  Leyendo los Datos... 3
+2025-08-01 11:15:02,515 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 11:15:02,517 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 9 AND c.field = 'filas'
+2025-08-01 11:15:02,534 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 11:15:02,537 - [DEBUG] -  Leyendo los Datos... 4
+2025-08-01 11:15:02,561 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 11:15:02,562 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 9 AND isRow = 0
+2025-08-01 11:15:02,563 - [DEBUG] -  SELECT * FROM columns WHERE formato = 9
+2025-08-01 11:15:02,588 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 11:15:02,595 - [DEBUG] -  Leyendo los Datos... 5
+2025-08-01 11:15:02,986 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-08-01 11:15:29,628 - [DEBUG] -  {'hoja': 'Original', 'tipo_doc': 'FACTURA', 'nro_docum': '00041530', 'serie_docum': '00024', 'nro_dgi': '30710265212', 'nro_dgi_emp': '30666049450', 'razon_social': 'ALPEK POLYESTER ARGENTINA S.A.', 'fec_doc': '16/05/2025', 'fec_vencimiento': 'lo Cliente: O', 'fec_periodo_dd': '16/05/2025', 'fec_periodo_ht': '16/05/2025', 'cond_fpago': '', 'cond_IVA': 'IVA Responsable inscripto.', 'dir_tit': 'C1035AAQ C.A.B.A. ARGENTINA', 'orden_compra': '', 'imp_prov': '43.24', 'imp_iva': '4,540.54', 'total': '26,205.38', 'porc_prov': '0.20', 'porc_iva': '21.00', 'cae': '75202315702969', 'fec_vencimiento_cae': '26/05/2025', 'formato': 'ALPEK'}
+2025-08-01 11:15:29,631 - [DEBUG] -  Leyendo los Datos... 1
+2025-08-01 11:15:29,777 - [DEBUG] -  Leyendo los Datos... 2
+2025-08-01 11:15:29,779 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 11:15:29,782 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'ALPEK'
+2025-08-01 11:15:30,121 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 11:15:30,124 - [DEBUG] -  Leyendo los Datos... 3
+2025-08-01 11:15:30,126 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 11:15:30,127 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 9 AND c.field = 'filas'
+2025-08-01 11:15:30,204 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 11:15:30,209 - [DEBUG] -  Leyendo los Datos... 4
+2025-08-01 11:15:30,236 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 11:15:30,237 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 9 AND isRow = 0
+2025-08-01 11:15:30,241 - [DEBUG] -  SELECT * FROM columns WHERE formato = 9
+2025-08-01 11:15:30,358 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 11:15:30,361 - [DEBUG] -  Leyendo los Datos... 5
+2025-08-01 11:15:30,691 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-08-01 11:15:55,010 - [DEBUG] -  {'hoja': 'Original', 'tipo_doc': 'FACTURA', 'nro_docum': '00041530', 'serie_docum': '00024', 'nro_dgi': '30710265212', 'nro_dgi_emp': '30666049450', 'razon_social': 'ALPEK POLYESTER ARGENTINA S.A.', 'fec_doc': '16/05/2025', 'fec_vencimiento': 'lo Cliente: O', 'fec_periodo_dd': '16/05/2025', 'fec_periodo_ht': '16/05/2025', 'cond_fpago': '', 'cond_IVA': 'IVA Responsable inscripto.', 'dir_tit': 'C1035AAQ C.A.B.A. ARGENTINA', 'orden_compra': '', 'imp_prov': '43.24', 'imp_iva': '4,540.54', 'total': '26,205.38', 'porc_prov': '0.20', 'porc_iva': '21.00', 'cae': '75202315702969', 'fec_vencimiento_cae': '26/05/2025', 'formato': 'ALPEK'}
+2025-08-01 11:15:55,012 - [DEBUG] -  Leyendo los Datos... 1
+2025-08-01 11:15:55,180 - [DEBUG] -  Leyendo los Datos... 2
+2025-08-01 11:15:55,180 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 11:15:55,180 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'ALPEK'
+2025-08-01 11:15:55,244 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 11:15:55,249 - [DEBUG] -  Leyendo los Datos... 3
+2025-08-01 11:15:55,250 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 11:15:55,252 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 9 AND c.field = 'filas'
+2025-08-01 11:15:55,268 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 11:15:55,282 - [DEBUG] -  Leyendo los Datos... 4
+2025-08-01 11:15:55,309 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 11:15:55,309 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 9 AND isRow = 0
+2025-08-01 11:15:55,311 - [DEBUG] -  SELECT * FROM columns WHERE formato = 9
+2025-08-01 11:15:55,354 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 11:15:55,357 - [DEBUG] -  Leyendo los Datos... 5
+2025-08-01 11:15:55,802 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-08-01 11:16:21,583 - [DEBUG] -  {'hoja': 'Original', 'tipo_doc': 'FACTURA', 'nro_docum': '00041530', 'serie_docum': '00024', 'nro_dgi': '30710265212', 'nro_dgi_emp': '30666049450', 'razon_social': 'ALPEK POLYESTER ARGENTINA S.A.', 'fec_doc': '16/05/2025', 'fec_vencimiento': 'lo Cliente: O', 'fec_periodo_dd': '16/05/2025', 'fec_periodo_ht': '16/05/2025', 'cond_fpago': '', 'cond_IVA': 'IVA Responsable inscripto.', 'dir_tit': 'C1035AAQ C.A.B.A. ARGENTINA', 'orden_compra': '', 'imp_prov': '43.24', 'imp_iva': '4,540.54', 'total': '26,205.38', 'porc_prov': '0.20', 'porc_iva': '21.00', 'cae': '75202315702969', 'fec_vencimiento_cae': '26/05/2025', 'formato': 'ALPEK'}
+2025-08-01 11:16:21,587 - [DEBUG] -  Grabando Datos de la Factura...
+2025-08-01 11:16:21,588 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 11:16:21,591 - [INFO ] -  INSERT INTO facturas (hoja, tipo_doc, nro_docum, serie_docum, nro_dgi, nro_dgi_emp, razon_social, fec_doc, fec_vencimiento, fec_periodo_dd, fec_periodo_ht, cond_fpago, cond_IVA, dir_tit, orden_compra, imp_prov, imp_iva, total, porc_prov, porc_iva, cae, fec_vencimiento_cae, formato, datetime) OUTPUT INSERTED.id VALUES ('Original', 'FACTURA', '00041530', '00024', '30710265212', '30666049450', 'ALPEK POLYESTER ARGENTINA S.A.', '16/05/2025', 'lo Cliente: O', '16/05/2025', '16/05/2025', '', 'IVA Responsable inscripto.', 'C1035AAQ C.A.B.A. ARGENTINA', '', '43.24', '4,540.54', '26,205.38', '0.20', '21.00', '75202315702969', '26/05/2025', 'ALPEK', '2025-08-01 11:16:21:591')
+2025-08-01 11:16:21,622 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 11:16:21,639 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 11:16:21,640 - [DEBUG] -  UPDATE facturas SET thumbnail = 'C:/Nodum/Archivos/ModeloExpress/emails\71.pdf' WHERE id = 71
+2025-08-01 11:16:21,657 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 11:16:21,662 - [DEBUG] -  DB, Conectado a DB
+2025-08-01 11:16:21,663 - [INFO ] -  INSERT INTO detalles (cod_articulo, cantidad, cod_unidad, nom_articulo, precio, lote, imp_stot_mo, factura) VALUES ('30000001', '28,080', 'KG', 'EG, ETILENGLICOL, GRADO FIBRA', '0.7700', 'USDIKG', '21,621.60', 71)
+2025-08-01 11:16:21,674 - [DEBUG] -  DB, Funcion Ejecutada
+2025-08-01 11:16:21,680 - [INFO ] -  Fin Inserts: C:\Nodum\Archivos\Prueba\Alpek\16-05_ALPEK_FC_41530.pdf

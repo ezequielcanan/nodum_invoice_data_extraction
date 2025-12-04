@@ -1,0 +1,3 @@
+2025-09-01 14:21:24,964 - [INFO ] -  Monitoring started
+2025-09-01 14:32:17,331 - [INFO ] -  2025-09-01 14:32:17.329353 FileCreatedEvent(src_path='C:/Nodum/Archivos/ModeloExpress/Captura/Pendientes\\Raizen\\28-08 FC 50069 RAIZEN.pdf', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-09-01 15:08:08,118 - [INFO ] -  Interrupción recibida, cerrando conexión...

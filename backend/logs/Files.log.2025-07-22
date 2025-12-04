@@ -1,0 +1,638 @@
+2025-07-22 01:01:49,758 - [MainThread  ] - [INFO ] -  Monitoring started
+2025-07-22 01:06:07,540 - [Thread-1    ] - [INFO ] -  2025-07-22 01:06:07.539607 FileCreatedEvent(src_path='C:/Nodum/Archivos/Prueba\\AFIP\\image5.pdf', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-07-22 01:06:10,543 - [Thread-1    ] - [INFO ] -  Archivo Nuevo: "C:\Nodum\Archivos\Prueba\AFIP\image5.pdf"
+2025-07-22 01:06:15,280 - [Thread-1    ] - [INFO ] -  Error procesando archivo: "C:\Nodum\Archivos\Prueba\AFIP\image5.pdf"
+2025-07-22 01:19:26,796 - [MainThread  ] - [INFO ] -  Interrupción recibida, cerrando conexión...
+2025-07-22 01:20:48,522 - [INFO ] -  Monitoring started
+2025-07-22 01:21:02,083 - [INFO ] -  2025-07-22 01:21:02.083467 FileCreatedEvent(src_path='C:/Nodum/Archivos/Prueba\\AFIP\\image5.pdf', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-07-22 01:21:05,085 - [INFO ] -  Archivo Nuevo: "C:\Nodum\Archivos\Prueba\AFIP\image5.pdf"
+2025-07-22 01:21:06,841 - [ERROR] -  Error procesando el archivo: "C:\Nodum\Archivos\Prueba\AFIP\image5.pdf"
+2025-07-22 01:28:48,071 - [INFO ] -  Interrupción recibida, cerrando conexión...
+2025-07-22 01:29:48,883 - [INFO ] -  Monitoring started
+2025-07-22 01:29:53,018 - [INFO ] -  2025-07-22 01:29:53.018613 FileCreatedEvent(src_path='C:/Nodum/Archivos/Prueba\\AFIP\\image5.pdf', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-07-22 01:29:56,022 - [INFO ] -  Archivo Nuevo: "C:\Nodum\Archivos\Prueba\AFIP\image5.pdf"
+2025-07-22 01:29:56,024 - [DEBUG] -  Creando PDF temporal...
+2025-07-22 01:29:56,028 - [DEBUG] -  Convirtiendo el PDF a JPG
+2025-07-22 01:29:57,606 - [ERROR] -  Error procesando el archivo: "C:\Nodum\Archivos\Prueba\AFIP\image5.pdf"
+2025-07-22 01:31:59,185 - [INFO ] -  Interrupción recibida, cerrando conexión...
+2025-07-22 01:32:29,482 - [INFO ] -  Monitoring started
+2025-07-22 01:32:33,074 - [INFO ] -  2025-07-22 01:32:33.073822 FileCreatedEvent(src_path='C:/Nodum/Archivos/Prueba\\AFIP\\image5.pdf', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-07-22 01:32:36,076 - [INFO ] -  Archivo Nuevo: "C:\Nodum\Archivos\Prueba\AFIP\image5.pdf"
+2025-07-22 01:32:36,112 - [DEBUG] -  Creando PDF temporal...
+2025-07-22 01:32:36,132 - [DEBUG] -  Convirtiendo el PDF a JPG
+2025-07-22 01:32:37,970 - [ERROR] -  Error procesando el archivo: "C:\Nodum\Archivos\Prueba\AFIP\image5.pdf"
+2025-07-22 01:35:28,817 - [INFO ] -  Interrupción recibida, cerrando conexión...
+2025-07-22 01:35:53,312 - [INFO ] -  Monitoring started
+2025-07-22 01:35:55,031 - [INFO ] -  2025-07-22 01:35:55.031314 FileCreatedEvent(src_path='C:/Nodum/Archivos/Prueba\\AFIP\\image5.pdf', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-07-22 01:35:58,036 - [INFO ] -  Archivo Nuevo: "C:\Nodum\Archivos\Prueba\AFIP\image5.pdf"
+2025-07-22 01:35:58,038 - [DEBUG] -  Creando PDF temporal...
+2025-07-22 01:35:58,040 - [DEBUG] -  Convirtiendo el PDF a JPG
+2025-07-22 01:35:59,537 - [DEBUG] -  Leyendo los Datos... 1
+2025-07-22 01:35:59,667 - [DEBUG] -  Leyendo los Datos... 2
+2025-07-22 01:35:59,767 - [ERROR] -  Error procesando el archivo: "C:\Nodum\Archivos\Prueba\AFIP\image5.pdf"
+2025-07-22 01:36:50,280 - [INFO ] -  Interrupción recibida, cerrando conexión...
+2025-07-22 01:37:33,225 - [INFO ] -  Monitoring started
+2025-07-22 01:37:48,988 - [INFO ] -  2025-07-22 01:37:48.987446 FileCreatedEvent(src_path='C:/Nodum/Archivos/Prueba\\AFIP\\image5.pdf', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-07-22 01:37:51,991 - [INFO ] -  Archivo Nuevo: "C:\Nodum\Archivos\Prueba\AFIP\image5.pdf"
+2025-07-22 01:37:51,995 - [DEBUG] -  Creando PDF temporal...
+2025-07-22 01:37:51,996 - [DEBUG] -  Convirtiendo el PDF a JPG
+2025-07-22 01:37:53,527 - [DEBUG] -  Leyendo los Datos... 1
+2025-07-22 01:37:53,659 - [DEBUG] -  Leyendo los Datos... 2
+2025-07-22 01:37:53,756 - [ERROR] -  Error procesando el archivo: "C:\Nodum\Archivos\Prueba\AFIP\image5.pdf"
+2025-07-22 01:46:21,280 - [INFO ] -  Interrupción recibida, cerrando conexión...
+2025-07-22 01:47:32,777 - [INFO ] -  Monitoring started
+2025-07-22 01:47:38,962 - [INFO ] -  2025-07-22 01:47:38.962907 FileCreatedEvent(src_path='C:/Nodum/Archivos/Prueba\\AFIP\\image5.pdf', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-07-22 01:47:41,964 - [INFO ] -  Archivo Nuevo: "C:\Nodum\Archivos\Prueba\AFIP\image5.pdf"
+2025-07-22 01:47:41,966 - [DEBUG] -  Creando PDF temporal...
+2025-07-22 01:47:41,967 - [DEBUG] -  Convirtiendo el PDF a JPG
+2025-07-22 01:47:43,345 - [DEBUG] -  Leyendo los Datos... 1
+2025-07-22 01:47:43,470 - [DEBUG] -  Leyendo los Datos... 2
+2025-07-22 01:47:43,547 - [ERROR] -  Error procesando el archivo: "C:\Nodum\Archivos\Prueba\AFIP\image5.pdf"
+2025-07-22 01:51:18,757 - [INFO ] -  Interrupción recibida, cerrando conexión...
+2025-07-22 01:52:04,412 - [INFO ] -  Monitoring started
+2025-07-22 01:52:09,181 - [INFO ] -  2025-07-22 01:52:09.181054 FileCreatedEvent(src_path='C:/Nodum/Archivos/Prueba\\AFIP\\image5.pdf', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-07-22 01:52:12,183 - [INFO ] -  Archivo Nuevo: "C:\Nodum\Archivos\Prueba\AFIP\image5.pdf"
+2025-07-22 01:52:12,184 - [DEBUG] -  Creando PDF temporal...
+2025-07-22 01:52:12,185 - [DEBUG] -  Convirtiendo el PDF a JPG
+2025-07-22 01:52:13,572 - [DEBUG] -  Leyendo los Datos... 1
+2025-07-22 01:52:13,730 - [DEBUG] -  Leyendo los Datos... 2
+2025-07-22 01:52:13,731 - [ERROR] -  Error procesando el archivo: "C:\Nodum\Archivos\Prueba\AFIP\image5.pdf"
+2025-07-22 02:09:52,116 - [INFO ] -  Interrupción recibida, cerrando conexión...
+2025-07-22 09:22:26,498 - [INFO ] -  Monitoring started
+2025-07-22 09:23:29,136 - [INFO ] -  2025-07-22 09:23:29.136600 FileCreatedEvent(src_path='C:/Nodum/Archivos/Prueba\\AFIP\\image5.pdf', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-07-22 09:23:32,141 - [INFO ] -  Archivo Nuevo: "C:\Nodum\Archivos\Prueba\AFIP\image5.pdf"
+2025-07-22 09:23:32,143 - [DEBUG] -  Creando PDF temporal...
+2025-07-22 09:23:32,154 - [DEBUG] -  Convirtiendo el PDF a JPG
+2025-07-22 09:23:34,437 - [DEBUG] -  Leyendo los Datos... 1
+2025-07-22 09:23:34,634 - [DEBUG] -  Leyendo los Datos... 2
+2025-07-22 09:23:34,636 - [ERROR] -  Error procesando el archivo: "C:\Nodum\Archivos\Prueba\AFIP\image5.pdf"
+2025-07-22 09:26:08,776 - [INFO ] -  Interrupción recibida, cerrando conexión...
+2025-07-22 09:26:41,965 - [INFO ] -  Monitoring started
+2025-07-22 09:26:56,764 - [INFO ] -  2025-07-22 09:26:56.764263 FileCreatedEvent(src_path='C:/Nodum/Archivos/Prueba\\AFIP\\image5.pdf', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-07-22 09:26:59,770 - [INFO ] -  Archivo Nuevo: "C:\Nodum\Archivos\Prueba\AFIP\image5.pdf"
+2025-07-22 09:26:59,773 - [DEBUG] -  Creando PDF temporal...
+2025-07-22 09:26:59,775 - [DEBUG] -  Convirtiendo el PDF a JPG
+2025-07-22 09:27:01,447 - [DEBUG] -  Leyendo los Datos... 1
+2025-07-22 09:27:01,576 - [DEBUG] -  Leyendo los Datos... 2
+2025-07-22 09:27:01,577 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:27:01,892 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:27:01,894 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'AFIP'
+2025-07-22 09:27:01,908 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 09:27:01,913 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 09:27:01,914 - [DEBUG] -  Leyendo los Datos... 3
+2025-07-22 09:27:01,914 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:27:01,918 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:27:01,918 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 5 AND c.field = 'filas'
+2025-07-22 09:27:01,928 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 09:27:01,931 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 09:27:01,932 - [DEBUG] -  Leyendo los Datos... 4
+2025-07-22 09:27:01,966 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:27:01,967 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:27:01,968 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 5 AND isRow = 0
+2025-07-22 09:27:01,968 - [DEBUG] -  SELECT * FROM columns WHERE formato = 5
+2025-07-22 09:27:01,975 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 09:27:01,976 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 09:27:01,980 - [DEBUG] -  Leyendo los Datos... 5
+2025-07-22 09:27:02,554 - [DEBUG] -  Creating converter from 3 to 5
+2025-07-22 09:27:04,228 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-22 09:27:31,121 - [DEBUG] -  Leyendo los Datos... 1
+2025-07-22 09:27:31,268 - [DEBUG] -  Leyendo los Datos... 2
+2025-07-22 09:27:31,272 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:27:31,294 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:27:31,308 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'AFIP'
+2025-07-22 09:27:31,312 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 09:27:31,319 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 09:27:31,323 - [DEBUG] -  Leyendo los Datos... 3
+2025-07-22 09:27:31,326 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:27:31,334 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:27:31,335 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 5 AND c.field = 'filas'
+2025-07-22 09:27:31,340 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 09:27:31,344 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 09:27:31,346 - [DEBUG] -  Leyendo los Datos... 4
+2025-07-22 09:27:31,375 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:27:31,377 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:27:31,382 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 5 AND isRow = 0
+2025-07-22 09:27:31,386 - [DEBUG] -  SELECT * FROM columns WHERE formato = 5
+2025-07-22 09:27:31,396 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 09:27:31,401 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 09:27:31,403 - [DEBUG] -  Leyendo los Datos... 5
+2025-07-22 09:27:31,777 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-22 09:27:53,329 - [DEBUG] -  Leyendo los Datos... 1
+2025-07-22 09:27:53,486 - [DEBUG] -  Leyendo los Datos... 2
+2025-07-22 09:27:53,488 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:27:53,492 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:27:53,493 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'AFIP'
+2025-07-22 09:27:53,502 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 09:27:53,512 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 09:27:53,512 - [DEBUG] -  Leyendo los Datos... 3
+2025-07-22 09:27:53,517 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:27:53,519 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:27:53,527 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 5 AND c.field = 'filas'
+2025-07-22 09:27:53,533 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 09:27:53,549 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 09:27:53,553 - [DEBUG] -  Leyendo los Datos... 4
+2025-07-22 09:27:53,590 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:27:53,592 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:27:53,592 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 5 AND isRow = 0
+2025-07-22 09:27:53,598 - [DEBUG] -  SELECT * FROM columns WHERE formato = 5
+2025-07-22 09:27:53,607 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 09:27:53,610 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 09:27:53,612 - [DEBUG] -  Leyendo los Datos... 5
+2025-07-22 09:27:53,916 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-22 09:28:17,542 - [DEBUG] -  Grabando Datos de la Factura...
+2025-07-22 09:28:17,544 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:28:17,554 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:28:17,554 - [ERROR] -  Error procesando el archivo: "C:\Nodum\Archivos\Prueba\AFIP\image5.pdf"
+2025-07-22 09:31:15,855 - [INFO ] -  Interrupción recibida, cerrando conexión...
+2025-07-22 09:33:11,037 - [INFO ] -  Monitoring started
+2025-07-22 09:33:16,633 - [INFO ] -  2025-07-22 09:33:16.633330 FileCreatedEvent(src_path='C:/Nodum/Archivos/Prueba\\AFIP\\image5.pdf', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-07-22 09:33:19,637 - [INFO ] -  Archivo Nuevo: "C:\Nodum\Archivos\Prueba\AFIP\image5.pdf"
+2025-07-22 09:33:19,639 - [DEBUG] -  Creando PDF temporal...
+2025-07-22 09:33:19,640 - [DEBUG] -  Convirtiendo el PDF a JPG
+2025-07-22 09:33:21,244 - [DEBUG] -  Leyendo los Datos... 1
+2025-07-22 09:33:21,383 - [DEBUG] -  Leyendo los Datos... 2
+2025-07-22 09:33:21,383 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:33:21,459 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:33:21,460 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'AFIP'
+2025-07-22 09:33:21,463 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 09:33:21,465 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 09:33:21,466 - [DEBUG] -  Leyendo los Datos... 3
+2025-07-22 09:33:21,467 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:33:21,468 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:33:21,468 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 5 AND c.field = 'filas'
+2025-07-22 09:33:21,471 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 09:33:21,473 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 09:33:21,473 - [DEBUG] -  Leyendo los Datos... 4
+2025-07-22 09:33:21,495 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:33:21,497 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:33:21,498 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 5 AND isRow = 0
+2025-07-22 09:33:21,499 - [DEBUG] -  SELECT * FROM columns WHERE formato = 5
+2025-07-22 09:33:21,503 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 09:33:21,505 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 09:33:21,506 - [DEBUG] -  Leyendo los Datos... 5
+2025-07-22 09:33:21,606 - [DEBUG] -  Creating converter from 3 to 5
+2025-07-22 09:33:22,209 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-22 09:33:43,051 - [DEBUG] -  Leyendo los Datos... 1
+2025-07-22 09:33:43,201 - [DEBUG] -  Leyendo los Datos... 2
+2025-07-22 09:33:43,203 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:33:43,232 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:33:43,233 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'AFIP'
+2025-07-22 09:33:43,244 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 09:33:43,251 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 09:33:43,251 - [DEBUG] -  Leyendo los Datos... 3
+2025-07-22 09:33:43,254 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:33:43,258 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:33:43,262 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 5 AND c.field = 'filas'
+2025-07-22 09:33:43,276 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 09:33:43,282 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 09:33:43,284 - [DEBUG] -  Leyendo los Datos... 4
+2025-07-22 09:33:43,320 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:33:43,322 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:33:43,333 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 5 AND isRow = 0
+2025-07-22 09:33:43,337 - [DEBUG] -  SELECT * FROM columns WHERE formato = 5
+2025-07-22 09:33:43,342 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 09:33:43,345 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 09:33:43,346 - [DEBUG] -  Leyendo los Datos... 5
+2025-07-22 09:33:43,734 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-22 09:34:03,633 - [DEBUG] -  Leyendo los Datos... 1
+2025-07-22 09:34:03,827 - [DEBUG] -  Leyendo los Datos... 2
+2025-07-22 09:34:03,827 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:34:03,833 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:34:03,835 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'AFIP'
+2025-07-22 09:34:03,840 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 09:34:03,844 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 09:34:03,845 - [DEBUG] -  Leyendo los Datos... 3
+2025-07-22 09:34:03,847 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:34:03,850 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:34:03,855 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 5 AND c.field = 'filas'
+2025-07-22 09:34:03,860 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 09:34:03,863 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 09:34:03,869 - [DEBUG] -  Leyendo los Datos... 4
+2025-07-22 09:34:03,902 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:34:03,903 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:34:03,906 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 5 AND isRow = 0
+2025-07-22 09:34:03,909 - [DEBUG] -  SELECT * FROM columns WHERE formato = 5
+2025-07-22 09:34:03,916 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 09:34:03,918 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 09:34:03,919 - [DEBUG] -  Leyendo los Datos... 5
+2025-07-22 09:34:04,232 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-22 09:34:24,513 - [DEBUG] -  Grabando Datos de la Factura...
+2025-07-22 09:34:24,513 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:34:24,523 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:34:24,524 - [INFO ] -  insert_factura
+2025-07-22 09:34:24,527 - [ERROR] -  Error procesando el archivo: "C:\Nodum\Archivos\Prueba\AFIP\image5.pdf"
+2025-07-22 09:36:34,655 - [INFO ] -  Interrupción recibida, cerrando conexión...
+2025-07-22 09:37:20,916 - [INFO ] -  Monitoring started
+2025-07-22 09:37:27,015 - [INFO ] -  2025-07-22 09:37:27.015001 FileCreatedEvent(src_path='C:/Nodum/Archivos/Prueba\\AFIP\\image5.pdf', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-07-22 09:37:30,017 - [INFO ] -  Archivo Nuevo: "C:\Nodum\Archivos\Prueba\AFIP\image5.pdf"
+2025-07-22 09:37:30,020 - [DEBUG] -  Creando PDF temporal...
+2025-07-22 09:37:30,021 - [DEBUG] -  Convirtiendo el PDF a JPG
+2025-07-22 09:37:31,534 - [DEBUG] -  Leyendo los Datos... 1
+2025-07-22 09:37:31,664 - [DEBUG] -  Leyendo los Datos... 2
+2025-07-22 09:37:31,667 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:37:31,767 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:37:31,768 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'AFIP'
+2025-07-22 09:37:31,771 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 09:37:31,779 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 09:37:31,780 - [DEBUG] -  Leyendo los Datos... 3
+2025-07-22 09:37:31,780 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:37:31,781 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:37:31,781 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 5 AND c.field = 'filas'
+2025-07-22 09:37:31,785 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 09:37:31,786 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 09:37:31,787 - [DEBUG] -  Leyendo los Datos... 4
+2025-07-22 09:37:31,814 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:37:31,815 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:37:31,817 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 5 AND isRow = 0
+2025-07-22 09:37:31,818 - [DEBUG] -  SELECT * FROM columns WHERE formato = 5
+2025-07-22 09:37:31,825 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 09:37:31,829 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 09:37:31,830 - [DEBUG] -  Leyendo los Datos... 5
+2025-07-22 09:37:31,933 - [DEBUG] -  Creating converter from 3 to 5
+2025-07-22 09:37:32,531 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-22 09:37:53,519 - [DEBUG] -  Leyendo los Datos... 1
+2025-07-22 09:37:53,675 - [DEBUG] -  Leyendo los Datos... 2
+2025-07-22 09:37:53,676 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:37:53,705 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:37:53,705 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'AFIP'
+2025-07-22 09:37:53,709 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 09:37:53,717 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 09:37:53,724 - [DEBUG] -  Leyendo los Datos... 3
+2025-07-22 09:37:53,728 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:37:53,739 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:37:53,744 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 5 AND c.field = 'filas'
+2025-07-22 09:37:53,748 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 09:37:53,754 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 09:37:53,759 - [DEBUG] -  Leyendo los Datos... 4
+2025-07-22 09:37:53,793 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:37:53,794 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:37:53,799 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 5 AND isRow = 0
+2025-07-22 09:37:53,802 - [DEBUG] -  SELECT * FROM columns WHERE formato = 5
+2025-07-22 09:37:53,812 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 09:37:53,814 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 09:37:53,815 - [DEBUG] -  Leyendo los Datos... 5
+2025-07-22 09:37:54,118 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-22 09:38:14,505 - [DEBUG] -  Leyendo los Datos... 1
+2025-07-22 09:38:14,649 - [DEBUG] -  Leyendo los Datos... 2
+2025-07-22 09:38:14,649 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:38:14,654 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:38:14,654 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'AFIP'
+2025-07-22 09:38:14,660 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 09:38:14,665 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 09:38:14,666 - [DEBUG] -  Leyendo los Datos... 3
+2025-07-22 09:38:14,669 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:38:14,672 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:38:14,677 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 5 AND c.field = 'filas'
+2025-07-22 09:38:14,683 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 09:38:14,685 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 09:38:14,687 - [DEBUG] -  Leyendo los Datos... 4
+2025-07-22 09:38:14,724 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:38:14,726 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:38:14,728 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 5 AND isRow = 0
+2025-07-22 09:38:14,732 - [DEBUG] -  SELECT * FROM columns WHERE formato = 5
+2025-07-22 09:38:14,736 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 09:38:14,740 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 09:38:14,744 - [DEBUG] -  Leyendo los Datos... 5
+2025-07-22 09:38:15,110 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-22 09:38:34,607 - [DEBUG] -  Grabando Datos de la Factura...
+2025-07-22 09:38:34,613 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:38:34,622 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:38:34,624 - [ERROR] -  Error procesando el archivo: "C:\Nodum\Archivos\Prueba\AFIP\image5.pdf"
+2025-07-22 09:40:29,319 - [INFO ] -  Interrupción recibida, cerrando conexión...
+2025-07-22 09:42:17,858 - [INFO ] -  Monitoring started
+2025-07-22 09:42:23,872 - [INFO ] -  2025-07-22 09:42:23.872136 FileCreatedEvent(src_path='C:/Nodum/Archivos/Prueba\\AFIP\\image5.pdf', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-07-22 09:42:26,875 - [INFO ] -  Archivo Nuevo: "C:\Nodum\Archivos\Prueba\AFIP\image5.pdf"
+2025-07-22 09:42:26,880 - [DEBUG] -  Creando PDF temporal...
+2025-07-22 09:42:26,881 - [DEBUG] -  Convirtiendo el PDF a JPG
+2025-07-22 09:42:28,456 - [DEBUG] -  Leyendo los Datos... 1
+2025-07-22 09:42:28,631 - [DEBUG] -  Leyendo los Datos... 2
+2025-07-22 09:42:28,632 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:42:28,721 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:42:28,722 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'AFIP'
+2025-07-22 09:42:28,725 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 09:42:28,728 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 09:42:28,729 - [DEBUG] -  Leyendo los Datos... 3
+2025-07-22 09:42:28,731 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:42:28,731 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:42:28,732 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 5 AND c.field = 'filas'
+2025-07-22 09:42:28,735 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 09:42:28,739 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 09:42:28,739 - [DEBUG] -  Leyendo los Datos... 4
+2025-07-22 09:42:28,767 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:42:28,768 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:42:28,769 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 5 AND isRow = 0
+2025-07-22 09:42:28,769 - [DEBUG] -  SELECT * FROM columns WHERE formato = 5
+2025-07-22 09:42:28,774 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 09:42:28,774 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 09:42:28,777 - [DEBUG] -  Leyendo los Datos... 5
+2025-07-22 09:42:28,891 - [DEBUG] -  Creating converter from 3 to 5
+2025-07-22 09:42:29,526 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-22 09:42:49,693 - [DEBUG] -  Leyendo los Datos... 1
+2025-07-22 09:42:49,851 - [DEBUG] -  Leyendo los Datos... 2
+2025-07-22 09:42:49,853 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:42:49,887 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:42:49,887 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'AFIP'
+2025-07-22 09:42:49,898 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 09:42:49,902 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 09:42:49,904 - [DEBUG] -  Leyendo los Datos... 3
+2025-07-22 09:42:49,907 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:42:49,907 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:42:49,909 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 5 AND c.field = 'filas'
+2025-07-22 09:42:49,917 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 09:42:49,922 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 09:42:49,923 - [DEBUG] -  Leyendo los Datos... 4
+2025-07-22 09:42:49,958 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:42:49,960 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:42:49,966 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 5 AND isRow = 0
+2025-07-22 09:42:49,968 - [DEBUG] -  SELECT * FROM columns WHERE formato = 5
+2025-07-22 09:42:49,975 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 09:42:49,979 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 09:42:49,980 - [DEBUG] -  Leyendo los Datos... 5
+2025-07-22 09:42:50,322 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-22 09:43:10,350 - [DEBUG] -  Leyendo los Datos... 1
+2025-07-22 09:43:10,581 - [DEBUG] -  Leyendo los Datos... 2
+2025-07-22 09:43:10,582 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:43:10,584 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:43:10,588 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'AFIP'
+2025-07-22 09:43:10,595 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 09:43:10,604 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 09:43:10,604 - [DEBUG] -  Leyendo los Datos... 3
+2025-07-22 09:43:10,608 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:43:10,611 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:43:10,617 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 5 AND c.field = 'filas'
+2025-07-22 09:43:10,624 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 09:43:10,631 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 09:43:10,632 - [DEBUG] -  Leyendo los Datos... 4
+2025-07-22 09:43:10,666 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:43:10,667 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:43:10,672 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 5 AND isRow = 0
+2025-07-22 09:43:10,675 - [DEBUG] -  SELECT * FROM columns WHERE formato = 5
+2025-07-22 09:43:10,684 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 09:43:10,685 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 09:43:10,685 - [DEBUG] -  Leyendo los Datos... 5
+2025-07-22 09:43:11,076 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-22 09:43:31,859 - [DEBUG] -  Grabando Datos de la Factura...
+2025-07-22 09:43:31,860 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:43:31,870 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:43:31,871 - [INFO ] -  INSERT INTO facturas
+2025-07-22 09:43:31,877 - [ERROR] -  Error procesando el archivo nuevo
+2025-07-22 09:45:37,598 - [INFO ] -  Interrupción recibida, cerrando conexión...
+2025-07-22 09:46:23,715 - [INFO ] -  Monitoring started
+2025-07-22 09:46:37,156 - [INFO ] -  2025-07-22 09:46:37.156669 FileCreatedEvent(src_path='C:/Nodum/Archivos/Prueba\\AFIP\\image5.pdf', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-07-22 09:46:40,160 - [INFO ] -  Archivo Nuevo: "C:\Nodum\Archivos\Prueba\AFIP\image5.pdf"
+2025-07-22 09:46:40,163 - [DEBUG] -  Creando PDF temporal...
+2025-07-22 09:46:40,165 - [DEBUG] -  Convirtiendo el PDF a JPG
+2025-07-22 09:46:41,839 - [DEBUG] -  Leyendo los Datos... 1
+2025-07-22 09:46:41,987 - [DEBUG] -  Leyendo los Datos... 2
+2025-07-22 09:46:41,990 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:46:42,078 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:46:42,079 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'AFIP'
+2025-07-22 09:46:42,082 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 09:46:42,086 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 09:46:42,087 - [DEBUG] -  Leyendo los Datos... 3
+2025-07-22 09:46:42,087 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:46:42,088 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:46:42,088 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 5 AND c.field = 'filas'
+2025-07-22 09:46:42,091 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 09:46:42,093 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 09:46:42,093 - [DEBUG] -  Leyendo los Datos... 4
+2025-07-22 09:46:42,118 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:46:42,123 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:46:42,123 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 5 AND isRow = 0
+2025-07-22 09:46:42,124 - [DEBUG] -  SELECT * FROM columns WHERE formato = 5
+2025-07-22 09:46:42,129 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 09:46:42,132 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 09:46:42,139 - [DEBUG] -  Leyendo los Datos... 5
+2025-07-22 09:46:42,261 - [DEBUG] -  Creating converter from 3 to 5
+2025-07-22 09:46:42,848 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-22 09:47:03,098 - [DEBUG] -  Leyendo los Datos... 1
+2025-07-22 09:47:03,258 - [DEBUG] -  Leyendo los Datos... 2
+2025-07-22 09:47:03,258 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:47:03,285 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:47:03,287 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'AFIP'
+2025-07-22 09:47:03,294 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 09:47:03,298 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 09:47:03,305 - [DEBUG] -  Leyendo los Datos... 3
+2025-07-22 09:47:03,309 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:47:03,312 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:47:03,313 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 5 AND c.field = 'filas'
+2025-07-22 09:47:03,321 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 09:47:03,323 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 09:47:03,324 - [DEBUG] -  Leyendo los Datos... 4
+2025-07-22 09:47:03,364 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:47:03,366 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:47:03,374 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 5 AND isRow = 0
+2025-07-22 09:47:03,378 - [DEBUG] -  SELECT * FROM columns WHERE formato = 5
+2025-07-22 09:47:03,386 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 09:47:03,388 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 09:47:03,391 - [DEBUG] -  Leyendo los Datos... 5
+2025-07-22 09:47:03,774 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-22 09:47:24,528 - [DEBUG] -  Leyendo los Datos... 1
+2025-07-22 09:47:24,689 - [DEBUG] -  Leyendo los Datos... 2
+2025-07-22 09:47:24,691 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:47:24,697 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:47:24,697 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'AFIP'
+2025-07-22 09:47:24,702 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 09:47:24,706 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 09:47:24,711 - [DEBUG] -  Leyendo los Datos... 3
+2025-07-22 09:47:24,714 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:47:24,715 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:47:24,719 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 5 AND c.field = 'filas'
+2025-07-22 09:47:24,725 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 09:47:24,730 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 09:47:24,736 - [DEBUG] -  Leyendo los Datos... 4
+2025-07-22 09:47:24,768 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:47:24,770 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:47:24,775 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 5 AND isRow = 0
+2025-07-22 09:47:24,777 - [DEBUG] -  SELECT * FROM columns WHERE formato = 5
+2025-07-22 09:47:24,784 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 09:47:24,788 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 09:47:24,790 - [DEBUG] -  Leyendo los Datos... 5
+2025-07-22 09:47:25,081 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-22 09:47:45,328 - [DEBUG] -  Grabando Datos de la Factura...
+2025-07-22 09:47:45,329 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:47:45,339 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:47:45,341 - [INFO ] -  INSERT INTO facturas
+2025-07-22 09:47:45,345 - [ERROR] -  Error procesando el archivo nuevo
+2025-07-22 09:57:42,174 - [INFO ] -  Interrupción recibida, cerrando conexión...
+2025-07-22 09:58:24,103 - [INFO ] -  Monitoring started
+2025-07-22 09:58:30,406 - [INFO ] -  2025-07-22 09:58:30.406741 FileCreatedEvent(src_path='C:/Nodum/Archivos/Prueba\\AFIP\\image5.pdf', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-07-22 09:58:33,410 - [INFO ] -  Archivo Nuevo: "C:\Nodum\Archivos\Prueba\AFIP\image5.pdf"
+2025-07-22 09:58:33,413 - [DEBUG] -  Creando PDF temporal...
+2025-07-22 09:58:33,415 - [DEBUG] -  Convirtiendo el PDF a JPG
+2025-07-22 09:58:34,978 - [DEBUG] -  Leyendo los Datos... 1
+2025-07-22 09:58:35,133 - [DEBUG] -  Leyendo los Datos... 2
+2025-07-22 09:58:35,134 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:58:35,254 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:58:35,255 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'AFIP'
+2025-07-22 09:58:35,259 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 09:58:35,263 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 09:58:35,264 - [DEBUG] -  Leyendo los Datos... 3
+2025-07-22 09:58:35,264 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:58:35,266 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:58:35,267 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 5 AND c.field = 'filas'
+2025-07-22 09:58:35,278 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 09:58:35,281 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 09:58:35,282 - [DEBUG] -  Leyendo los Datos... 4
+2025-07-22 09:58:35,309 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:58:35,310 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:58:35,312 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 5 AND isRow = 0
+2025-07-22 09:58:35,314 - [DEBUG] -  SELECT * FROM columns WHERE formato = 5
+2025-07-22 09:58:35,322 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 09:58:35,330 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 09:58:35,331 - [DEBUG] -  Leyendo los Datos... 5
+2025-07-22 09:58:35,449 - [DEBUG] -  Creating converter from 3 to 5
+2025-07-22 09:58:36,079 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-22 09:58:58,185 - [DEBUG] -  Leyendo los Datos... 1
+2025-07-22 09:58:58,345 - [DEBUG] -  Leyendo los Datos... 2
+2025-07-22 09:58:58,355 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:58:58,388 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:58:58,389 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'AFIP'
+2025-07-22 09:58:58,396 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 09:58:58,401 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 09:58:58,403 - [DEBUG] -  Leyendo los Datos... 3
+2025-07-22 09:58:58,405 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:58:58,412 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:58:58,414 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 5 AND c.field = 'filas'
+2025-07-22 09:58:58,420 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 09:58:58,433 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 09:58:58,436 - [DEBUG] -  Leyendo los Datos... 4
+2025-07-22 09:58:58,468 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:58:58,469 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:58:58,475 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 5 AND isRow = 0
+2025-07-22 09:58:58,478 - [DEBUG] -  SELECT * FROM columns WHERE formato = 5
+2025-07-22 09:58:58,485 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 09:58:58,500 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 09:58:58,501 - [DEBUG] -  Leyendo los Datos... 5
+2025-07-22 09:58:58,817 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-22 09:59:19,368 - [DEBUG] -  Leyendo los Datos... 1
+2025-07-22 09:59:19,518 - [DEBUG] -  Leyendo los Datos... 2
+2025-07-22 09:59:19,518 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:59:19,526 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:59:19,527 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'AFIP'
+2025-07-22 09:59:19,538 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 09:59:19,541 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 09:59:19,543 - [DEBUG] -  Leyendo los Datos... 3
+2025-07-22 09:59:19,550 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:59:19,554 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:59:19,555 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 5 AND c.field = 'filas'
+2025-07-22 09:59:19,561 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 09:59:19,569 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 09:59:19,572 - [DEBUG] -  Leyendo los Datos... 4
+2025-07-22 09:59:19,606 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:59:19,608 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:59:19,613 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 5 AND isRow = 0
+2025-07-22 09:59:19,617 - [DEBUG] -  SELECT * FROM columns WHERE formato = 5
+2025-07-22 09:59:19,627 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 09:59:19,630 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 09:59:19,632 - [DEBUG] -  Leyendo los Datos... 5
+2025-07-22 09:59:19,988 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-22 09:59:40,921 - [DEBUG] -  Grabando Datos de la Factura...
+2025-07-22 09:59:40,922 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:59:40,931 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:59:40,933 - [INFO ] -  INSERT INTO facturas
+2025-07-22 09:59:40,942 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 09:59:40,948 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 09:59:40,964 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:59:40,967 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:59:40,971 - [DEBUG] -  UPDATE facturas SET thumbnail = 'C:/Nodum/Archivos/ModeloExpress/emails\42.pdf' WHERE id = 42
+2025-07-22 09:59:40,982 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 09:59:40,987 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 09:59:40,990 - [DEBUG] -  DB, Log no nulo
+2025-07-22 09:59:40,993 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 09:59:40,995 - [INFO ] -  INSERT INTO detalles (cod_articulo, nom_articulo, cantidad, cod_unidad, precio, porc_bonif, imp_desc, factura) VALUES ('', 'SERVICIOS PRESTADOS', '1,00', 'unidades', '1000000,00', '0,00', '0,00', 42)
+2025-07-22 09:59:41,000 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 09:59:41,016 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 09:59:41,021 - [INFO ] -  Fin Inserts: C:\Nodum\Archivos\Prueba\AFIP\image5.pdf
+2025-07-22 10:48:29,366 - [INFO ] -  Interrupción recibida, cerrando conexión...
+2025-07-22 10:49:59,204 - [INFO ] -  Monitoring started
+2025-07-22 10:50:09,096 - [INFO ] -  2025-07-22 10:50:09.096216 FileCreatedEvent(src_path='C:/Nodum/Archivos/Prueba\\AFIP\\image5.pdf', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-07-22 10:50:12,105 - [INFO ] -  Archivo Nuevo: "C:\Nodum\Archivos\Prueba\AFIP\image5.pdf"
+2025-07-22 10:50:12,109 - [DEBUG] -  Creando PDF temporal...
+2025-07-22 10:50:12,127 - [DEBUG] -  Convirtiendo el PDF a JPG
+2025-07-22 10:50:14,620 - [DEBUG] -  Leyendo los Datos... 1
+2025-07-22 10:50:14,780 - [DEBUG] -  Leyendo los Datos... 2
+2025-07-22 10:50:14,782 - [DEBUG] -  DB, Log no nulo
+2025-07-22 10:50:14,982 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 10:50:14,984 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'AFIP'
+2025-07-22 10:50:14,986 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 10:50:15,006 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 10:50:15,006 - [DEBUG] -  Leyendo los Datos... 3
+2025-07-22 10:50:15,025 - [DEBUG] -  DB, Log no nulo
+2025-07-22 10:50:15,027 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 10:50:15,055 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 5 AND c.field = 'filas'
+2025-07-22 10:50:15,068 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 10:50:15,076 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 10:50:15,076 - [DEBUG] -  Leyendo los Datos... 4
+2025-07-22 10:50:15,107 - [DEBUG] -  DB, Log no nulo
+2025-07-22 10:50:15,109 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 10:50:15,110 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 5 AND isRow = 0
+2025-07-22 10:50:15,113 - [DEBUG] -  SELECT * FROM columns WHERE formato = 5
+2025-07-22 10:50:15,124 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 10:50:15,126 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 10:50:15,127 - [DEBUG] -  Leyendo los Datos... 5
+2025-07-22 10:50:15,302 - [DEBUG] -  Creating converter from 3 to 5
+2025-07-22 10:50:16,086 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-22 10:50:40,496 - [DEBUG] -  Leyendo los Datos... 1
+2025-07-22 10:50:40,678 - [DEBUG] -  Leyendo los Datos... 2
+2025-07-22 10:50:40,679 - [DEBUG] -  DB, Log no nulo
+2025-07-22 10:50:40,704 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 10:50:40,707 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'AFIP'
+2025-07-22 10:50:40,712 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 10:50:40,719 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 10:50:40,720 - [DEBUG] -  Leyendo los Datos... 3
+2025-07-22 10:50:40,721 - [DEBUG] -  DB, Log no nulo
+2025-07-22 10:50:40,722 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 10:50:40,722 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 5 AND c.field = 'filas'
+2025-07-22 10:50:40,724 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 10:50:40,726 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 10:50:40,729 - [DEBUG] -  Leyendo los Datos... 4
+2025-07-22 10:50:40,782 - [DEBUG] -  DB, Log no nulo
+2025-07-22 10:50:40,784 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 10:50:40,785 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 5 AND isRow = 0
+2025-07-22 10:50:40,791 - [DEBUG] -  SELECT * FROM columns WHERE formato = 5
+2025-07-22 10:50:40,799 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 10:50:40,822 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 10:50:40,825 - [DEBUG] -  Leyendo los Datos... 5
+2025-07-22 10:50:41,264 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-22 10:51:05,072 - [DEBUG] -  Leyendo los Datos... 1
+2025-07-22 10:51:05,237 - [DEBUG] -  Leyendo los Datos... 2
+2025-07-22 10:51:05,248 - [DEBUG] -  DB, Log no nulo
+2025-07-22 10:51:05,249 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 10:51:05,253 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'AFIP'
+2025-07-22 10:51:05,260 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 10:51:05,269 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 10:51:05,271 - [DEBUG] -  Leyendo los Datos... 3
+2025-07-22 10:51:05,275 - [DEBUG] -  DB, Log no nulo
+2025-07-22 10:51:05,280 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 10:51:05,286 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 5 AND c.field = 'filas'
+2025-07-22 10:51:05,291 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 10:51:05,301 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 10:51:05,311 - [DEBUG] -  Leyendo los Datos... 4
+2025-07-22 10:51:05,349 - [DEBUG] -  DB, Log no nulo
+2025-07-22 10:51:05,352 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 10:51:05,355 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 5 AND isRow = 0
+2025-07-22 10:51:05,381 - [DEBUG] -  SELECT * FROM columns WHERE formato = 5
+2025-07-22 10:51:05,389 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 10:51:05,394 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 10:51:05,404 - [DEBUG] -  Leyendo los Datos... 5
+2025-07-22 10:51:05,754 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-22 10:51:29,141 - [DEBUG] -  Grabando Datos de la Factura...
+2025-07-22 10:51:29,169 - [DEBUG] -  DB, Log no nulo
+2025-07-22 10:51:29,169 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 10:51:29,198 - [INFO ] -  INSERT INTO facturas
+2025-07-22 10:51:29,207 - [INFO ] -  INSERT INTO facturas (hoja, razon_social, fec_vencimiento, fec_periodo_dd, fec_periodo_ht, cond_IVA, cond_fpago, dir_tit, total, otros_tributos, cae, fec_vencimiento_cae, nro_dgi_emp, serie_docum, fec_doc, nro_docum, tipo_doc, nro_dgi, datetime) OUTPUT INSERTED.id VALUES ('ORIGINAL', 'FONZALIDAS MIGUEL ANGEL', '15/05/2024', '15/05/2024', '15/05/2024', 'IVA Responsable Inscripto', 'Otra', 'Jose Maria Rosas 8607 - Arguello, Córdoba', '1000000,00', '0,00', '74200122593818', '25/05/2024', '30618924420', '00001', '15/05/2024', '00000020', '011', '20246533440', '2025-07-22 10:51:29:206')
+2025-07-22 10:51:29,224 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 10:51:29,235 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 10:51:29,243 - [DEBUG] -  DB, Log no nulo
+2025-07-22 10:51:29,266 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 10:51:29,277 - [DEBUG] -  UPDATE facturas SET thumbnail = 'C:/Nodum/Archivos/ModeloExpress/emails\43.pdf' WHERE id = 43
+2025-07-22 10:51:29,299 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 10:51:29,319 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 10:51:29,321 - [DEBUG] -  DB, Log no nulo
+2025-07-22 10:51:29,326 - [DEBUG] -  DB, Conectado a DB
+2025-07-22 10:51:29,351 - [INFO ] -  INSERT INTO detalles (cod_articulo, nom_articulo, cantidad, cod_unidad, precio, porc_bonif, imp_desc, factura) VALUES ('', 'SERVICIOS PRESTADOS', '1,00', 'unidades', '1000000,00', '0,00', '0,00', 43)
+2025-07-22 10:51:29,357 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-22 10:51:29,363 - [DEBUG] -  DB, Cierra Conexion
+2025-07-22 10:51:29,366 - [INFO ] -  Fin Inserts: C:\Nodum\Archivos\Prueba\AFIP\image5.pdf
+2025-07-22 10:53:06,664 - [INFO ] -  Interrupción recibida, cerrando conexión...

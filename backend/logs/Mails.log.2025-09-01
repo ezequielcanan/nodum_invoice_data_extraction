@@ -1,0 +1,486 @@
+2025-09-01 14:21:24,903 - [INFO ] -  Monitoring started
+2025-09-01 14:21:26,230 - [DEBUG] -  ['912', '913', '915', '916', '917', '918', '919', '920', '921', '923', '925', '926', '929', '930', '931', '932', '933', '934', '935', '937', '940', '941', '943', '944', '945', '946', '949', '950', '951', '952', '953', '954']
+2025-09-01 14:21:26,236 - [INFO ] -  download_and_convert_pdf id: 912
+2025-09-01 14:21:26,238 - [DEBUG] -  Empezando funcion, email 912
+2025-09-01 14:21:26,798 - [DEBUG] -  Try, email 912
+2025-09-01 14:21:26,799 - [DEBUG] -  For, email 912
+2025-09-01 14:21:26,800 - [DEBUG] -  For, email 912
+2025-09-01 14:21:26,801 - [DEBUG] -  For, email 912
+2025-09-01 14:21:27,007 - [INFO ] -  download_and_convert_pdf id: 913
+2025-09-01 14:21:27,009 - [DEBUG] -  Empezando funcion, email 913
+2025-09-01 14:21:27,480 - [DEBUG] -  Try, email 913
+2025-09-01 14:21:27,480 - [DEBUG] -  For, email 913
+2025-09-01 14:21:27,482 - [DEBUG] -  For, email 913
+2025-09-01 14:21:27,482 - [DEBUG] -  For, email 913
+2025-09-01 14:21:27,689 - [INFO ] -  download_and_convert_pdf id: 915
+2025-09-01 14:21:27,689 - [DEBUG] -  Empezando funcion, email 915
+2025-09-01 14:21:28,110 - [DEBUG] -  Try, email 915
+2025-09-01 14:21:28,112 - [DEBUG] -  For, email 915
+2025-09-01 14:21:28,320 - [INFO ] -  download_and_convert_pdf id: 916
+2025-09-01 14:21:28,321 - [DEBUG] -  Empezando funcion, email 916
+2025-09-01 14:21:28,734 - [DEBUG] -  Try, email 916
+2025-09-01 14:21:28,746 - [DEBUG] -  For, email 916
+2025-09-01 14:21:28,753 - [DEBUG] -  For, email 916
+2025-09-01 14:21:28,757 - [DEBUG] -  For, email 916
+2025-09-01 14:21:28,967 - [INFO ] -  download_and_convert_pdf id: 917
+2025-09-01 14:21:28,969 - [DEBUG] -  Empezando funcion, email 917
+2025-09-01 14:21:29,378 - [DEBUG] -  Try, email 917
+2025-09-01 14:21:29,380 - [DEBUG] -  For, email 917
+2025-09-01 14:21:29,383 - [DEBUG] -  For, email 917
+2025-09-01 14:21:29,388 - [DEBUG] -  For, email 917
+2025-09-01 14:21:29,594 - [INFO ] -  download_and_convert_pdf id: 918
+2025-09-01 14:21:29,595 - [DEBUG] -  Empezando funcion, email 918
+2025-09-01 14:21:30,008 - [DEBUG] -  Try, email 918
+2025-09-01 14:21:30,011 - [DEBUG] -  For, email 918
+2025-09-01 14:21:30,015 - [DEBUG] -  For, email 918
+2025-09-01 14:21:30,020 - [DEBUG] -  For, email 918
+2025-09-01 14:21:30,232 - [INFO ] -  download_and_convert_pdf id: 919
+2025-09-01 14:21:30,233 - [DEBUG] -  Empezando funcion, email 919
+2025-09-01 14:21:30,662 - [DEBUG] -  Try, email 919
+2025-09-01 14:21:30,663 - [DEBUG] -  For, email 919
+2025-09-01 14:21:30,670 - [DEBUG] -  For, email 919
+2025-09-01 14:21:30,674 - [DEBUG] -  For, email 919
+2025-09-01 14:21:30,886 - [INFO ] -  download_and_convert_pdf id: 920
+2025-09-01 14:21:30,887 - [DEBUG] -  Empezando funcion, email 920
+2025-09-01 14:21:31,330 - [DEBUG] -  Try, email 920
+2025-09-01 14:21:31,332 - [DEBUG] -  For, email 920
+2025-09-01 14:21:31,336 - [DEBUG] -  For, email 920
+2025-09-01 14:21:31,337 - [DEBUG] -  For, email 920
+2025-09-01 14:21:31,544 - [INFO ] -  download_and_convert_pdf id: 921
+2025-09-01 14:21:31,545 - [DEBUG] -  Empezando funcion, email 921
+2025-09-01 14:21:31,982 - [DEBUG] -  Try, email 921
+2025-09-01 14:21:31,983 - [DEBUG] -  For, email 921
+2025-09-01 14:21:31,987 - [DEBUG] -  For, email 921
+2025-09-01 14:21:31,990 - [DEBUG] -  For, email 921
+2025-09-01 14:21:32,199 - [INFO ] -  download_and_convert_pdf id: 923
+2025-09-01 14:21:32,200 - [DEBUG] -  Empezando funcion, email 923
+2025-09-01 14:21:32,629 - [DEBUG] -  Try, email 923
+2025-09-01 14:21:32,630 - [DEBUG] -  For, email 923
+2025-09-01 14:21:32,634 - [DEBUG] -  For, email 923
+2025-09-01 14:21:32,637 - [DEBUG] -  For, email 923
+2025-09-01 14:21:32,847 - [INFO ] -  download_and_convert_pdf id: 925
+2025-09-01 14:21:32,847 - [DEBUG] -  Empezando funcion, email 925
+2025-09-01 14:21:33,270 - [DEBUG] -  Try, email 925
+2025-09-01 14:21:33,270 - [DEBUG] -  For, email 925
+2025-09-01 14:21:33,275 - [DEBUG] -  For, email 925
+2025-09-01 14:21:33,277 - [DEBUG] -  For, email 925
+2025-09-01 14:21:33,493 - [INFO ] -  download_and_convert_pdf id: 926
+2025-09-01 14:21:33,495 - [DEBUG] -  Empezando funcion, email 926
+2025-09-01 14:21:33,911 - [DEBUG] -  Try, email 926
+2025-09-01 14:21:33,911 - [DEBUG] -  For, email 926
+2025-09-01 14:21:33,917 - [DEBUG] -  For, email 926
+2025-09-01 14:21:33,920 - [DEBUG] -  For, email 926
+2025-09-01 14:21:34,126 - [INFO ] -  download_and_convert_pdf id: 929
+2025-09-01 14:21:34,127 - [DEBUG] -  Empezando funcion, email 929
+2025-09-01 14:21:34,547 - [DEBUG] -  Try, email 929
+2025-09-01 14:21:34,547 - [DEBUG] -  For, email 929
+2025-09-01 14:21:34,554 - [DEBUG] -  For, email 929
+2025-09-01 14:21:34,558 - [DEBUG] -  For, email 929
+2025-09-01 14:21:34,763 - [INFO ] -  download_and_convert_pdf id: 930
+2025-09-01 14:21:34,764 - [DEBUG] -  Empezando funcion, email 930
+2025-09-01 14:21:35,184 - [DEBUG] -  Try, email 930
+2025-09-01 14:21:35,184 - [DEBUG] -  For, email 930
+2025-09-01 14:21:35,191 - [DEBUG] -  For, email 930
+2025-09-01 14:21:35,193 - [DEBUG] -  For, email 930
+2025-09-01 14:21:35,430 - [INFO ] -  download_and_convert_pdf id: 931
+2025-09-01 14:21:35,431 - [DEBUG] -  Empezando funcion, email 931
+2025-09-01 14:21:35,839 - [DEBUG] -  Try, email 931
+2025-09-01 14:21:35,840 - [DEBUG] -  For, email 931
+2025-09-01 14:21:36,056 - [INFO ] -  download_and_convert_pdf id: 932
+2025-09-01 14:21:36,058 - [DEBUG] -  Empezando funcion, email 932
+2025-09-01 14:21:36,481 - [DEBUG] -  Try, email 932
+2025-09-01 14:21:36,482 - [DEBUG] -  For, email 932
+2025-09-01 14:21:36,486 - [DEBUG] -  For, email 932
+2025-09-01 14:21:36,489 - [DEBUG] -  For, email 932
+2025-09-01 14:21:36,700 - [INFO ] -  download_and_convert_pdf id: 933
+2025-09-01 14:21:36,702 - [DEBUG] -  Empezando funcion, email 933
+2025-09-01 14:21:37,132 - [DEBUG] -  Try, email 933
+2025-09-01 14:21:37,133 - [DEBUG] -  For, email 933
+2025-09-01 14:21:37,138 - [DEBUG] -  For, email 933
+2025-09-01 14:21:37,141 - [DEBUG] -  For, email 933
+2025-09-01 14:21:37,353 - [INFO ] -  download_and_convert_pdf id: 934
+2025-09-01 14:21:37,354 - [DEBUG] -  Empezando funcion, email 934
+2025-09-01 14:21:37,796 - [DEBUG] -  Try, email 934
+2025-09-01 14:21:37,797 - [DEBUG] -  For, email 934
+2025-09-01 14:21:37,807 - [DEBUG] -  For, email 934
+2025-09-01 14:21:37,809 - [DEBUG] -  For, email 934
+2025-09-01 14:21:38,016 - [INFO ] -  download_and_convert_pdf id: 935
+2025-09-01 14:21:38,017 - [DEBUG] -  Empezando funcion, email 935
+2025-09-01 14:21:38,440 - [DEBUG] -  Try, email 935
+2025-09-01 14:21:38,442 - [DEBUG] -  For, email 935
+2025-09-01 14:21:38,446 - [DEBUG] -  For, email 935
+2025-09-01 14:21:38,448 - [DEBUG] -  For, email 935
+2025-09-01 14:21:38,655 - [INFO ] -  download_and_convert_pdf id: 937
+2025-09-01 14:21:38,656 - [DEBUG] -  Empezando funcion, email 937
+2025-09-01 14:21:39,074 - [DEBUG] -  Try, email 937
+2025-09-01 14:21:39,074 - [DEBUG] -  For, email 937
+2025-09-01 14:21:39,082 - [DEBUG] -  For, email 937
+2025-09-01 14:21:39,085 - [DEBUG] -  For, email 937
+2025-09-01 14:21:39,305 - [INFO ] -  download_and_convert_pdf id: 940
+2025-09-01 14:21:39,306 - [DEBUG] -  Empezando funcion, email 940
+2025-09-01 14:21:39,801 - [DEBUG] -  Try, email 940
+2025-09-01 14:21:39,801 - [DEBUG] -  For, email 940
+2025-09-01 14:21:39,806 - [DEBUG] -  For, email 940
+2025-09-01 14:21:39,809 - [DEBUG] -  For, email 940
+2025-09-01 14:21:40,021 - [INFO ] -  download_and_convert_pdf id: 941
+2025-09-01 14:21:40,023 - [DEBUG] -  Empezando funcion, email 941
+2025-09-01 14:21:40,553 - [DEBUG] -  Try, email 941
+2025-09-01 14:21:40,555 - [DEBUG] -  For, email 941
+2025-09-01 14:21:40,558 - [DEBUG] -  For, email 941
+2025-09-01 14:21:40,561 - [DEBUG] -  For, email 941
+2025-09-01 14:21:40,769 - [INFO ] -  download_and_convert_pdf id: 943
+2025-09-01 14:21:40,769 - [DEBUG] -  Empezando funcion, email 943
+2025-09-01 14:21:41,185 - [DEBUG] -  Try, email 943
+2025-09-01 14:21:41,186 - [DEBUG] -  For, email 943
+2025-09-01 14:21:41,189 - [DEBUG] -  For, email 943
+2025-09-01 14:21:41,192 - [DEBUG] -  For, email 943
+2025-09-01 14:21:41,408 - [INFO ] -  download_and_convert_pdf id: 944
+2025-09-01 14:21:41,409 - [DEBUG] -  Empezando funcion, email 944
+2025-09-01 14:21:41,871 - [DEBUG] -  Try, email 944
+2025-09-01 14:21:41,872 - [DEBUG] -  For, email 944
+2025-09-01 14:21:41,877 - [DEBUG] -  For, email 944
+2025-09-01 14:21:41,879 - [DEBUG] -  For, email 944
+2025-09-01 14:21:42,094 - [INFO ] -  download_and_convert_pdf id: 945
+2025-09-01 14:21:42,095 - [DEBUG] -  Empezando funcion, email 945
+2025-09-01 14:21:42,531 - [DEBUG] -  Try, email 945
+2025-09-01 14:21:42,533 - [DEBUG] -  For, email 945
+2025-09-01 14:21:42,537 - [DEBUG] -  For, email 945
+2025-09-01 14:21:42,539 - [DEBUG] -  For, email 945
+2025-09-01 14:21:42,757 - [INFO ] -  download_and_convert_pdf id: 946
+2025-09-01 14:21:42,758 - [DEBUG] -  Empezando funcion, email 946
+2025-09-01 14:21:43,181 - [DEBUG] -  Try, email 946
+2025-09-01 14:21:43,181 - [DEBUG] -  For, email 946
+2025-09-01 14:21:43,187 - [DEBUG] -  For, email 946
+2025-09-01 14:21:43,192 - [DEBUG] -  For, email 946
+2025-09-01 14:21:43,404 - [INFO ] -  download_and_convert_pdf id: 949
+2025-09-01 14:21:43,405 - [DEBUG] -  Empezando funcion, email 949
+2025-09-01 14:21:43,844 - [DEBUG] -  Try, email 949
+2025-09-01 14:21:43,844 - [DEBUG] -  For, email 949
+2025-09-01 14:21:43,844 - [DEBUG] -  For, email 949
+2025-09-01 14:21:43,844 - [DEBUG] -  For, email 949
+2025-09-01 14:21:44,101 - [INFO ] -  download_and_convert_pdf id: 950
+2025-09-01 14:21:44,102 - [DEBUG] -  Empezando funcion, email 950
+2025-09-01 14:21:44,533 - [DEBUG] -  Try, email 950
+2025-09-01 14:21:44,534 - [DEBUG] -  For, email 950
+2025-09-01 14:21:44,539 - [DEBUG] -  For, email 950
+2025-09-01 14:21:44,540 - [DEBUG] -  For, email 950
+2025-09-01 14:21:44,769 - [INFO ] -  download_and_convert_pdf id: 951
+2025-09-01 14:21:44,770 - [DEBUG] -  Empezando funcion, email 951
+2025-09-01 14:21:45,236 - [DEBUG] -  Try, email 951
+2025-09-01 14:21:45,238 - [DEBUG] -  For, email 951
+2025-09-01 14:21:45,242 - [DEBUG] -  For, email 951
+2025-09-01 14:21:45,244 - [DEBUG] -  For, email 951
+2025-09-01 14:21:45,457 - [INFO ] -  download_and_convert_pdf id: 952
+2025-09-01 14:21:45,458 - [DEBUG] -  Empezando funcion, email 952
+2025-09-01 14:21:45,899 - [DEBUG] -  Try, email 952
+2025-09-01 14:21:45,900 - [DEBUG] -  For, email 952
+2025-09-01 14:21:45,902 - [DEBUG] -  For, email 952
+2025-09-01 14:21:45,903 - [DEBUG] -  For, email 952
+2025-09-01 14:21:46,119 - [INFO ] -  download_and_convert_pdf id: 953
+2025-09-01 14:21:46,120 - [DEBUG] -  Empezando funcion, email 953
+2025-09-01 14:21:46,543 - [DEBUG] -  Try, email 953
+2025-09-01 14:21:46,544 - [DEBUG] -  For, email 953
+2025-09-01 14:21:46,548 - [DEBUG] -  For, email 953
+2025-09-01 14:21:46,551 - [DEBUG] -  For, email 953
+2025-09-01 14:21:46,772 - [INFO ] -  download_and_convert_pdf id: 954
+2025-09-01 14:21:46,776 - [DEBUG] -  Empezando funcion, email 954
+2025-09-01 14:21:47,196 - [DEBUG] -  Try, email 954
+2025-09-01 14:21:47,197 - [DEBUG] -  For, email 954
+2025-09-01 14:21:47,202 - [DEBUG] -  For, email 954
+2025-09-01 14:21:47,208 - [DEBUG] -  For, email 954
+2025-09-01 14:22:07,875 - [DEBUG] -  []
+2025-09-01 14:22:28,304 - [DEBUG] -  []
+2025-09-01 14:22:48,728 - [DEBUG] -  []
+2025-09-01 14:23:09,143 - [DEBUG] -  []
+2025-09-01 14:23:29,576 - [DEBUG] -  []
+2025-09-01 14:23:50,028 - [DEBUG] -  []
+2025-09-01 14:24:10,509 - [DEBUG] -  []
+2025-09-01 14:24:30,993 - [DEBUG] -  []
+2025-09-01 14:24:51,404 - [DEBUG] -  []
+2025-09-01 14:25:11,885 - [DEBUG] -  []
+2025-09-01 14:25:32,363 - [DEBUG] -  []
+2025-09-01 14:25:52,821 - [DEBUG] -  []
+2025-09-01 14:26:13,305 - [DEBUG] -  []
+2025-09-01 14:26:33,786 - [DEBUG] -  []
+2025-09-01 14:26:54,320 - [DEBUG] -  []
+2025-09-01 14:27:14,798 - [DEBUG] -  []
+2025-09-01 14:27:35,293 - [DEBUG] -  []
+2025-09-01 14:27:55,758 - [DEBUG] -  []
+2025-09-01 14:28:16,235 - [DEBUG] -  []
+2025-09-01 14:28:36,708 - [DEBUG] -  []
+2025-09-01 14:28:57,185 - [DEBUG] -  []
+2025-09-01 14:29:17,694 - [DEBUG] -  []
+2025-09-01 14:29:38,156 - [DEBUG] -  []
+2025-09-01 14:29:58,634 - [DEBUG] -  []
+2025-09-01 14:30:19,114 - [DEBUG] -  []
+2025-09-01 14:30:39,584 - [DEBUG] -  []
+2025-09-01 14:31:00,060 - [DEBUG] -  []
+2025-09-01 14:31:20,530 - [DEBUG] -  []
+2025-09-01 14:31:41,106 - [DEBUG] -  []
+2025-09-01 14:32:01,586 - [DEBUG] -  []
+2025-09-01 14:32:22,061 - [DEBUG] -  []
+2025-09-01 14:32:42,544 - [DEBUG] -  []
+2025-09-01 14:33:03,062 - [DEBUG] -  []
+2025-09-01 14:33:23,565 - [DEBUG] -  []
+2025-09-01 14:33:44,114 - [DEBUG] -  []
+2025-09-01 14:34:04,605 - [DEBUG] -  []
+2025-09-01 14:34:25,049 - [DEBUG] -  []
+2025-09-01 14:34:45,491 - [DEBUG] -  []
+2025-09-01 14:35:05,917 - [DEBUG] -  []
+2025-09-01 14:35:26,368 - [DEBUG] -  []
+2025-09-01 14:35:46,846 - [DEBUG] -  []
+2025-09-01 14:36:07,353 - [DEBUG] -  []
+2025-09-01 14:36:27,756 - [DEBUG] -  []
+2025-09-01 14:36:48,216 - [DEBUG] -  []
+2025-09-01 14:37:08,645 - [DEBUG] -  []
+2025-09-01 14:37:29,137 - [DEBUG] -  ['955']
+2025-09-01 14:37:29,139 - [INFO ] -  download_and_convert_pdf id: 955
+2025-09-01 14:37:29,147 - [DEBUG] -  Empezando funcion, email 955
+2025-09-01 14:37:29,764 - [DEBUG] -  Try, email 955
+2025-09-01 14:37:29,767 - [DEBUG] -  For, email 955
+2025-09-01 14:37:29,772 - [DEBUG] -  For, email 955
+2025-09-01 14:37:29,774 - [DEBUG] -  For, email 955
+2025-09-01 14:37:29,777 - [DEBUG] -  For, email 955
+2025-09-01 14:37:29,782 - [DEBUG] -  For, email 955
+2025-09-01 14:37:29,788 - [DEBUG] -  Despues de los IF, email 955
+2025-09-01 14:37:29,791 - [DEBUG] -  convert_pdf_to_images, email 955
+2025-09-01 14:37:33,975 - [DEBUG] -  DB, Conectado a DB
+2025-09-01 14:37:33,976 - [DEBUG] -  SELECT * FROM emails WHERE email = 'Fneiman@nodumsoftware.com'
+2025-09-01 14:37:33,988 - [DEBUG] -  DB, Funcion Ejecutada
+2025-09-01 14:37:33,990 - [DEBUG] -  DB, Conectado a DB
+2025-09-01 14:37:33,993 - [DEBUG] -  SELECT * FROM formatos WHERE id = 11
+2025-09-01 14:37:34,001 - [DEBUG] -  DB, Funcion Ejecutada
+2025-09-01 14:37:34,007 - [DEBUG] -  DB, Conectado a DB
+2025-09-01 14:37:34,009 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 11 AND c.field = 'filas'
+2025-09-01 14:37:34,023 - [DEBUG] -  DB, Funcion Ejecutada
+2025-09-01 14:37:34,052 - [DEBUG] -  DB, Conectado a DB
+2025-09-01 14:37:34,053 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 11 AND isRow = 0
+2025-09-01 14:37:34,057 - [DEBUG] -  SELECT * FROM columns WHERE formato = 11
+2025-09-01 14:37:34,071 - [DEBUG] -  DB, Funcion Ejecutada
+2025-09-01 14:37:34,705 - [DEBUG] -  Creating converter from 3 to 5
+2025-09-01 14:37:36,282 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-09-01 14:38:05,488 - [DEBUG] -  DB, Conectado a DB
+2025-09-01 14:38:05,489 - [DEBUG] -  SELECT * FROM emails WHERE email = 'Fneiman@nodumsoftware.com'
+2025-09-01 14:38:05,514 - [DEBUG] -  DB, Funcion Ejecutada
+2025-09-01 14:38:05,518 - [DEBUG] -  DB, Conectado a DB
+2025-09-01 14:38:05,518 - [DEBUG] -  SELECT * FROM formatos WHERE id = 11
+2025-09-01 14:38:05,529 - [DEBUG] -  DB, Funcion Ejecutada
+2025-09-01 14:38:05,531 - [DEBUG] -  DB, Conectado a DB
+2025-09-01 14:38:05,533 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 11 AND c.field = 'filas'
+2025-09-01 14:38:05,552 - [DEBUG] -  DB, Funcion Ejecutada
+2025-09-01 14:38:05,581 - [DEBUG] -  DB, Conectado a DB
+2025-09-01 14:38:05,582 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 11 AND isRow = 0
+2025-09-01 14:38:05,587 - [DEBUG] -  SELECT * FROM columns WHERE formato = 11
+2025-09-01 14:38:05,612 - [DEBUG] -  DB, Funcion Ejecutada
+2025-09-01 14:38:05,945 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-09-01 14:38:30,374 - [DEBUG] -  DB, Conectado a DB
+2025-09-01 14:38:30,375 - [INFO ] -  INSERT INTO facturas (total, cae, fec_vencimiento_cae, porc_iva, imp_iva, imp_prov, fletes, otros_tributos, tipo_doc, hoja, serie_docum, nro_docum, nro_dgi, nro_dgi_emp, razon_social, fec_doc, fec_vencimiento, cond_fpago, cond_IVA, dir_tit, orden_compra, datetime) OUTPUT INSERTED.id VALUES ('44.122,42', '35324879990877', '31/08/2025', '21,00', '5.133,07', '77,82', '13.633,08', '835,24', 'Factura', 'ORIGINAL', '05001', '00049995', '30506726804', '30666049450', 'RAIZEN ARGENTINA S.A.U.', '26.08.2025', '25.09.2025', '', 'IVA Responsable Inscripto', '1080337 MITRE S/N ESQUINA SERBIA 1731 VILLARS Buenos Aires Argentina', '944320556', '2025-09-01 14:38:30:375')
+2025-09-01 14:38:30,462 - [DEBUG] -  DB, Funcion Ejecutada
+2025-09-01 14:38:30,472 - [DEBUG] -  DB, Conectado a DB
+2025-09-01 14:38:30,480 - [DEBUG] -  UPDATE facturas SET thumbnail = 'C:/Nodum/Archivos/ModeloExpress/emails\Fneiman_nodumsoftware_com\93.pdf' WHERE id = 93
+2025-09-01 14:38:30,502 - [DEBUG] -  DB, Funcion Ejecutada
+2025-09-01 14:38:30,511 - [DEBUG] -  DB, Conectado a DB
+2025-09-01 14:38:30,512 - [INFO ] -  INSERT INTO detalles (observaciones, cod_articulo, nom_articulo, cantidad, cod_unidad, precio, imp_stot_mo, factura) VALUES ('Q10020 Solvente 6 14.10 745,70 40,002 M3 40,00 M3 611,0497 — 24.443,21 | 5.133,07 14.468,32 44.044,60 Producto 010020 // BASE IMPONIBLE ICL S/LT 450.211% IDC S/LT 27.578 // PRODUCTO SIN MARCAR-TRAZADOR HOMOLOGADO VERISYM FAAF 4 RG N2562/09', 'Q10020', 'Solvente 6 Producto 010020 // BASE IN', '40,002 CSMT27.5', 'M3 78 //', '611,0497 AARCAR-TRAZAÍ', '44.044,60 9', 93)
+2025-09-01 14:38:30,541 - [DEBUG] -  DB, Funcion Ejecutada
+2025-09-01 14:38:30,556 - [DEBUG] -  For, email 955
+2025-09-01 14:38:30,556 - [DEBUG] -  Despues de los IF, email 955
+2025-09-01 14:38:30,560 - [DEBUG] -  convert_pdf_to_images, email 955
+2025-09-01 14:38:31,629 - [DEBUG] -  DB, Conectado a DB
+2025-09-01 14:38:31,635 - [DEBUG] -  SELECT * FROM emails WHERE email = 'Fneiman@nodumsoftware.com'
+2025-09-01 14:38:31,644 - [DEBUG] -  DB, Funcion Ejecutada
+2025-09-01 14:38:31,647 - [DEBUG] -  DB, Conectado a DB
+2025-09-01 14:38:31,649 - [DEBUG] -  SELECT * FROM formatos WHERE id = 11
+2025-09-01 14:38:31,651 - [DEBUG] -  DB, Funcion Ejecutada
+2025-09-01 14:38:31,657 - [DEBUG] -  DB, Conectado a DB
+2025-09-01 14:38:31,658 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 11 AND c.field = 'filas'
+2025-09-01 14:38:31,683 - [DEBUG] -  DB, Funcion Ejecutada
+2025-09-01 14:38:31,711 - [DEBUG] -  DB, Conectado a DB
+2025-09-01 14:38:31,713 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 11 AND isRow = 0
+2025-09-01 14:38:31,715 - [DEBUG] -  SELECT * FROM columns WHERE formato = 11
+2025-09-01 14:38:31,772 - [DEBUG] -  DB, Funcion Ejecutada
+2025-09-01 14:38:32,138 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-09-01 14:38:56,643 - [DEBUG] -  DB, Conectado a DB
+2025-09-01 14:38:56,644 - [DEBUG] -  SELECT * FROM emails WHERE email = 'Fneiman@nodumsoftware.com'
+2025-09-01 14:38:56,666 - [DEBUG] -  DB, Funcion Ejecutada
+2025-09-01 14:38:56,673 - [DEBUG] -  DB, Conectado a DB
+2025-09-01 14:38:56,675 - [DEBUG] -  SELECT * FROM formatos WHERE id = 11
+2025-09-01 14:38:56,817 - [DEBUG] -  DB, Funcion Ejecutada
+2025-09-01 14:38:56,820 - [DEBUG] -  DB, Conectado a DB
+2025-09-01 14:38:56,821 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 11 AND c.field = 'filas'
+2025-09-01 14:38:56,871 - [DEBUG] -  DB, Funcion Ejecutada
+2025-09-01 14:38:56,904 - [DEBUG] -  DB, Conectado a DB
+2025-09-01 14:38:56,904 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 11 AND isRow = 0
+2025-09-01 14:38:56,906 - [DEBUG] -  SELECT * FROM columns WHERE formato = 11
+2025-09-01 14:38:57,032 - [DEBUG] -  DB, Funcion Ejecutada
+2025-09-01 14:38:57,392 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-09-01 14:39:19,817 - [DEBUG] -  DB, Conectado a DB
+2025-09-01 14:39:19,819 - [INFO ] -  INSERT INTO facturas (total, cae, fec_vencimiento_cae, porc_iva, imp_iva, imp_prov, fletes, otros_tributos, tipo_doc, hoja, serie_docum, nro_docum, nro_dgi, nro_dgi_emp, razon_social, fec_doc, fec_vencimiento, cond_fpago, cond_IVA, dir_tit, orden_compra, datetime) OUTPUT INSERTED.id VALUES ('46.275,45', '35324879990877', '31/08/2025', '21,00', '5.633,16', '81,12', '12.943,71', '792,87', 'Factura', 'ORIGINAL', '05001', '00050069', '30506726804', '30666049450', 'RAIZEN ARGENTINA S.A.U.', '28.08.2025', '29.09.2025', '30 días a partir de Fecha Doc', 'IVA Responsable Inscripto', '1080337 MITRE S/N ESQUINA SERBIA 1731 VILLARS Buenos Aires Argentina', '944340987', '2025-09-01 14:39:19:819')
+2025-09-01 14:39:19,925 - [DEBUG] -  DB, Funcion Ejecutada
+2025-09-01 14:39:19,942 - [DEBUG] -  DB, Conectado a DB
+2025-09-01 14:39:19,944 - [DEBUG] -  UPDATE facturas SET thumbnail = 'C:/Nodum/Archivos/ModeloExpress/emails\Fneiman_nodumsoftware_com\94.pdf' WHERE id = 94
+2025-09-01 14:39:19,954 - [DEBUG] -  DB, Funcion Ejecutada
+2025-09-01 14:39:19,973 - [DEBUG] -  DB, Conectado a DB
+2025-09-01 14:39:19,974 - [INFO ] -  INSERT INTO detalles (observaciones, cod_articulo, nom_articulo, cantidad, cod_unidad, precio, imp_stot_mo, factura) VALUES ('Q10040 — Aguarrás Bajo Aromático 13,82 783,60 39,000 M3 39,00 M3 687,8100 — 26.82459 - 5.633,16 13.736,58 46.194,33 Producto 010040 // BASE IMPONIBLE ICL S/LT 450 211% IDC S/LT 27 578 // PRODUCTO SIN MARCAR-TRAZADOR HOMOLOGADO VERISYM FAAF é RG N2562/09', 'Q10040', 'Aguarrás Bajo Aromático Producto 010040 // BASE IN', '39,000 CSMT27 5', 'M3 78 /', '687,8100 AARCAR-TRAZAI', '46.194,33 g', 94)
+2025-09-01 14:39:20,042 - [DEBUG] -  DB, Funcion Ejecutada
+2025-09-01 14:39:20,054 - [DEBUG] -  For, email 955
+2025-09-01 14:39:20,055 - [DEBUG] -  Despues de los IF, email 955
+2025-09-01 14:39:20,059 - [DEBUG] -  convert_pdf_to_images, email 955
+2025-09-01 14:39:21,228 - [DEBUG] -  DB, Conectado a DB
+2025-09-01 14:39:21,228 - [DEBUG] -  SELECT * FROM emails WHERE email = 'Fneiman@nodumsoftware.com'
+2025-09-01 14:39:21,330 - [DEBUG] -  DB, Funcion Ejecutada
+2025-09-01 14:39:21,335 - [DEBUG] -  DB, Conectado a DB
+2025-09-01 14:39:21,336 - [DEBUG] -  SELECT * FROM formatos WHERE id = 11
+2025-09-01 14:39:21,352 - [DEBUG] -  DB, Funcion Ejecutada
+2025-09-01 14:39:21,356 - [DEBUG] -  DB, Conectado a DB
+2025-09-01 14:39:21,357 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 11 AND c.field = 'filas'
+2025-09-01 14:39:21,431 - [DEBUG] -  DB, Funcion Ejecutada
+2025-09-01 14:39:21,468 - [DEBUG] -  DB, Conectado a DB
+2025-09-01 14:39:21,469 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 11 AND isRow = 0
+2025-09-01 14:39:21,469 - [DEBUG] -  SELECT * FROM columns WHERE formato = 11
+2025-09-01 14:39:21,614 - [DEBUG] -  DB, Funcion Ejecutada
+2025-09-01 14:39:22,062 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-09-01 14:39:22,392 - [WARNI] -  5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x0000016DC073AB60> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-09-01 14:39:46,916 - [DEBUG] -  DB, Conectado a DB
+2025-09-01 14:39:46,917 - [DEBUG] -  SELECT * FROM emails WHERE email = 'Fneiman@nodumsoftware.com'
+2025-09-01 14:39:46,927 - [DEBUG] -  DB, Funcion Ejecutada
+2025-09-01 14:39:46,931 - [DEBUG] -  DB, Conectado a DB
+2025-09-01 14:39:46,932 - [DEBUG] -  SELECT * FROM formatos WHERE id = 11
+2025-09-01 14:39:46,939 - [DEBUG] -  DB, Funcion Ejecutada
+2025-09-01 14:39:46,941 - [DEBUG] -  DB, Conectado a DB
+2025-09-01 14:39:46,943 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 11 AND c.field = 'filas'
+2025-09-01 14:39:46,959 - [DEBUG] -  DB, Funcion Ejecutada
+2025-09-01 14:39:46,986 - [DEBUG] -  DB, Conectado a DB
+2025-09-01 14:39:46,987 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 11 AND isRow = 0
+2025-09-01 14:39:46,990 - [DEBUG] -  SELECT * FROM columns WHERE formato = 11
+2025-09-01 14:39:47,003 - [DEBUG] -  DB, Funcion Ejecutada
+2025-09-01 14:39:47,327 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-09-01 14:39:47,735 - [WARNI] -  6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x0000016DC0754900> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-09-01 14:40:11,402 - [DEBUG] -  DB, Conectado a DB
+2025-09-01 14:40:11,405 - [INFO ] -  INSERT INTO facturas (total, cae, fec_vencimiento_cae, porc_iva, imp_iva, imp_prov, fletes, otros_tributos, tipo_doc, hoja, serie_docum, nro_docum, nro_dgi, nro_dgi_emp, razon_social, fec_doc, fec_vencimiento, cond_fpago, cond_IVA, dir_tit, orden_compra, datetime) OUTPUT INSERTED.id VALUES ('46.711,19', '35284026943067', '31/07/2025', '21,00', '5.633,31', '81,99', '13.352,77', '817,85', 'Factura', 'ORIGINAL', '05001', '00049148', '30506726804', '30666049450', 'RAIZEN ARGENTINA S.A.U.', '31.07.2025', '01.09.2025', '', 'IVA Responsable Inscripto', '1080337 MITRE S/N ESQUINA SERBIA 1731 VILLARS Buenos Aires Argentina', '944106690', '2025-09-01 14:40:11:405')
+2025-09-01 14:40:11,451 - [DEBUG] -  DB, Funcion Ejecutada
+2025-09-01 14:40:11,478 - [DEBUG] -  DB, Conectado a DB
+2025-09-01 14:40:11,478 - [DEBUG] -  UPDATE facturas SET thumbnail = 'C:/Nodum/Archivos/ModeloExpress/emails\Fneiman_nodumsoftware_com\95.pdf' WHERE id = 95
+2025-09-01 14:40:11,493 - [DEBUG] -  DB, Funcion Ejecutada
+2025-09-01 14:40:11,502 - [DEBUG] -  DB, Conectado a DB
+2025-09-01 14:40:11,502 - [INFO ] -  INSERT INTO detalles (observaciones, cod_articulo, nom_articulo, cantidad, cod_unidad, precio, imp_stot_mo, factura) VALUES ('Q10040 — Aguarrás Bajo Aromático 12,32 783,00 39,001 M3 39,00 M3 687,8098 — 26.825,27 + 5.633,31 14.170,62 46.629,20 Producto 010040 // BASE IMPONIBLE ICL S/LT 450 211% IDC S/LT 27 578 // PRODUCTO SIN MARCAR-TRAZADOR HOMOLOGADO VERISYM FAAF é RG N2562/09', 'Q10040', 'Aguarrás Bajo Aromático Producto 010040 // BASE IN', '39,001 CSMT27 5', 'M3 78', '687,8098 JARCAR-TRAZAI', '46.629,20 g', 95)
+2025-09-01 14:40:11,539 - [DEBUG] -  DB, Funcion Ejecutada
+2025-09-01 14:40:11,571 - [DEBUG] -  For, email 955
+2025-09-01 14:40:11,572 - [DEBUG] -  Despues de los IF, email 955
+2025-09-01 14:40:11,575 - [DEBUG] -  convert_pdf_to_images, email 955
+2025-09-01 14:40:12,668 - [DEBUG] -  DB, Conectado a DB
+2025-09-01 14:40:12,668 - [DEBUG] -  SELECT * FROM emails WHERE email = 'Fneiman@nodumsoftware.com'
+2025-09-01 14:40:12,684 - [DEBUG] -  DB, Funcion Ejecutada
+2025-09-01 14:40:12,687 - [DEBUG] -  DB, Conectado a DB
+2025-09-01 14:40:12,689 - [DEBUG] -  SELECT * FROM formatos WHERE id = 11
+2025-09-01 14:40:12,690 - [DEBUG] -  DB, Funcion Ejecutada
+2025-09-01 14:40:12,699 - [DEBUG] -  DB, Conectado a DB
+2025-09-01 14:40:12,700 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 11 AND c.field = 'filas'
+2025-09-01 14:40:12,709 - [DEBUG] -  DB, Funcion Ejecutada
+2025-09-01 14:40:12,791 - [DEBUG] -  DB, Conectado a DB
+2025-09-01 14:40:12,791 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 11 AND isRow = 0
+2025-09-01 14:40:12,791 - [DEBUG] -  SELECT * FROM columns WHERE formato = 11
+2025-09-01 14:40:12,809 - [DEBUG] -  DB, Funcion Ejecutada
+2025-09-01 14:40:13,187 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-09-01 14:40:44,408 - [DEBUG] -  DB, Conectado a DB
+2025-09-01 14:40:44,411 - [DEBUG] -  SELECT * FROM emails WHERE email = 'Fneiman@nodumsoftware.com'
+2025-09-01 14:40:44,423 - [DEBUG] -  DB, Funcion Ejecutada
+2025-09-01 14:40:44,431 - [DEBUG] -  DB, Conectado a DB
+2025-09-01 14:40:44,431 - [DEBUG] -  SELECT * FROM formatos WHERE id = 11
+2025-09-01 14:40:44,437 - [DEBUG] -  DB, Funcion Ejecutada
+2025-09-01 14:40:44,442 - [DEBUG] -  DB, Conectado a DB
+2025-09-01 14:40:44,445 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 11 AND c.field = 'filas'
+2025-09-01 14:40:44,455 - [DEBUG] -  DB, Funcion Ejecutada
+2025-09-01 14:40:44,479 - [DEBUG] -  DB, Conectado a DB
+2025-09-01 14:40:44,480 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 11 AND isRow = 0
+2025-09-01 14:40:44,483 - [DEBUG] -  SELECT * FROM columns WHERE formato = 11
+2025-09-01 14:40:44,501 - [DEBUG] -  DB, Funcion Ejecutada
+2025-09-01 14:40:44,876 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-09-01 14:41:07,066 - [DEBUG] -  DB, Conectado a DB
+2025-09-01 14:41:07,069 - [INFO ] -  INSERT INTO facturas (total, cae, fec_vencimiento_cae, porc_iva, imp_iva, imp_prov, fletes, otros_tributos, tipo_doc, hoja, serie_docum, nro_docum, nro_dgi, nro_dgi_emp, razon_social, fec_doc, fec_vencimiento, cond_fpago, cond_IVA, dir_tit, orden_compra, datetime) OUTPUT INSERTED.id VALUES ('46.408,83', '35304235213166', '15/08/2025', '21,00', '5.585,65', '81,48', '13.327,08', '816,27', 'Factura', 'ORIGINAL', '05001', '00049609', '30506726804', '30666049450', 'RAIZEN ARGENTINA S.A.U.', '14.08.2025', '15.09.2025', '30 días a partir de Fecha Doc', 'IVA Responsable Inscripto', '1080337 MITRE S/N ESQUINA SERBIA 1731 VILLARS Buenos Aires Argentina', '944216736', '2025-09-01 14:41:07:068')
+2025-09-01 14:41:07,086 - [DEBUG] -  DB, Funcion Ejecutada
+2025-09-01 14:41:07,105 - [DEBUG] -  DB, Conectado a DB
+2025-09-01 14:41:07,106 - [DEBUG] -  UPDATE facturas SET thumbnail = 'C:/Nodum/Archivos/ModeloExpress/emails\Fneiman_nodumsoftware_com\96.pdf' WHERE id = 96
+2025-09-01 14:41:07,116 - [DEBUG] -  DB, Funcion Ejecutada
+2025-09-01 14:41:07,125 - [DEBUG] -  DB, Conectado a DB
+2025-09-01 14:41:07,131 - [INFO ] -  INSERT INTO detalles (observaciones, cod_articulo, nom_articulo, cantidad, cod_unidad, precio, imp_stot_mo, factura) VALUES ('Q10020 Solvente 6 10,89 745,30 19,000 M3 19,00 M3 611,0500 — 11.609,95 - 2.438,09 6.890,35 20.938,39 Producto 010020 // BASE IMPONIBLE ICL S/LT 450 2118 IDC S/LT 27 578 // PRODUCTO SIN MARCAR-TRAZADOR HOMOLOGADO VERISYM FAAF d RG N9562/09', 'Q10020', 'Solvente 6 Producto 010020 // BASE IN', '19,000 :SNTOT7 5', 'M3 7', '611,0500 AARCAR-TRAZAI', '20.938,39 9', 96)
+2025-09-01 14:41:07,153 - [INFO ] -  INSERT INTO detalles (observaciones, cod_articulo, nom_articulo, cantidad, cod_unidad, precio, imp_stot_mo, factura) VALUES ('a10090 Solvente 90 1174 81590 20.000 M3 20.00 M3 7494200  14.98840 314756 725300 2538896', 'a10090', 'Solvente 90', '20.000', 'ma', '7494200', '25.388.96', 96)
+2025-09-01 14:41:07,159 - [DEBUG] -  DB, Funcion Ejecutada
+2025-09-01 14:41:27,894 - [DEBUG] -  []
+2025-09-01 14:41:48,367 - [DEBUG] -  []
+2025-09-01 14:42:08,841 - [DEBUG] -  []
+2025-09-01 14:42:29,314 - [DEBUG] -  []
+2025-09-01 14:42:49,849 - [DEBUG] -  []
+2025-09-01 14:43:10,374 - [DEBUG] -  []
+2025-09-01 14:43:30,801 - [DEBUG] -  []
+2025-09-01 14:43:51,267 - [DEBUG] -  []
+2025-09-01 14:44:11,761 - [DEBUG] -  []
+2025-09-01 14:44:32,342 - [DEBUG] -  []
+2025-09-01 14:44:52,781 - [DEBUG] -  []
+2025-09-01 14:45:13,205 - [DEBUG] -  []
+2025-09-01 14:45:33,615 - [DEBUG] -  []
+2025-09-01 14:45:54,046 - [DEBUG] -  []
+2025-09-01 14:46:14,474 - [DEBUG] -  []
+2025-09-01 14:46:34,905 - [DEBUG] -  []
+2025-09-01 14:46:55,351 - [DEBUG] -  []
+2025-09-01 14:47:15,791 - [DEBUG] -  []
+2025-09-01 14:47:36,223 - [DEBUG] -  []
+2025-09-01 14:47:56,661 - [DEBUG] -  []
+2025-09-01 14:48:17,106 - [DEBUG] -  []
+2025-09-01 14:48:37,587 - [DEBUG] -  []
+2025-09-01 14:48:58,060 - [DEBUG] -  []
+2025-09-01 14:49:18,550 - [DEBUG] -  []
+2025-09-01 14:49:39,028 - [DEBUG] -  []
+2025-09-01 14:49:59,506 - [DEBUG] -  []
+2025-09-01 14:50:19,983 - [DEBUG] -  []
+2025-09-01 14:50:40,451 - [DEBUG] -  []
+2025-09-01 14:51:01,260 - [DEBUG] -  []
+2025-09-01 14:51:21,723 - [DEBUG] -  []
+2025-09-01 14:51:42,210 - [DEBUG] -  []
+2025-09-01 14:52:02,677 - [DEBUG] -  []
+2025-09-01 14:52:23,147 - [DEBUG] -  []
+2025-09-01 14:52:43,641 - [DEBUG] -  []
+2025-09-01 14:53:04,109 - [DEBUG] -  []
+2025-09-01 14:53:24,678 - [DEBUG] -  []
+2025-09-01 14:53:45,167 - [DEBUG] -  []
+2025-09-01 14:54:05,645 - [DEBUG] -  []
+2025-09-01 14:54:26,274 - [DEBUG] -  []
+2025-09-01 14:54:46,734 - [DEBUG] -  []
+2025-09-01 14:55:07,358 - [DEBUG] -  []
+2025-09-01 14:55:27,843 - [DEBUG] -  []
+2025-09-01 14:55:48,308 - [DEBUG] -  []
+2025-09-01 14:56:08,772 - [DEBUG] -  []
+2025-09-01 14:56:29,248 - [DEBUG] -  []
+2025-09-01 14:56:49,716 - [DEBUG] -  []
+2025-09-01 14:57:10,211 - [DEBUG] -  []
+2025-09-01 14:57:30,707 - [DEBUG] -  []
+2025-09-01 14:57:51,278 - [DEBUG] -  []
+2025-09-01 14:58:11,769 - [DEBUG] -  []
+2025-09-01 14:58:32,240 - [DEBUG] -  []
+2025-09-01 14:58:52,713 - [DEBUG] -  []
+2025-09-01 14:59:13,128 - [DEBUG] -  []
+2025-09-01 14:59:33,630 - [DEBUG] -  []
+2025-09-01 14:59:54,119 - [DEBUG] -  []
+2025-09-01 15:00:14,618 - [DEBUG] -  []
+2025-09-01 15:00:35,036 - [DEBUG] -  []
+2025-09-01 15:00:55,520 - [DEBUG] -  []
+2025-09-01 15:01:15,949 - [DEBUG] -  []
+2025-09-01 15:01:36,384 - [DEBUG] -  []
+2025-09-01 15:01:56,812 - [DEBUG] -  []
+2025-09-01 15:02:17,233 - [DEBUG] -  []
+2025-09-01 15:02:37,666 - [DEBUG] -  []
+2025-09-01 15:02:58,098 - [DEBUG] -  []
+2025-09-01 15:03:18,526 - [DEBUG] -  []
+2025-09-01 15:03:38,964 - [DEBUG] -  []
+2025-09-01 15:03:59,394 - [DEBUG] -  []
+2025-09-01 15:04:19,825 - [DEBUG] -  []
+2025-09-01 15:04:40,256 - [DEBUG] -  []
+2025-09-01 15:05:00,716 - [DEBUG] -  []
+2025-09-01 15:05:21,153 - [DEBUG] -  []
+2025-09-01 15:05:41,564 - [DEBUG] -  []
+2025-09-01 15:06:02,001 - [DEBUG] -  []
+2025-09-01 15:06:22,432 - [DEBUG] -  []
+2025-09-01 15:06:42,853 - [DEBUG] -  []
+2025-09-01 15:07:03,295 - [DEBUG] -  []
+2025-09-01 15:07:23,917 - [DEBUG] -  []
+2025-09-01 15:07:44,402 - [DEBUG] -  []
+2025-09-01 15:08:02,998 - [ERROR] -  Interrupción recibida, cerrando conexión...

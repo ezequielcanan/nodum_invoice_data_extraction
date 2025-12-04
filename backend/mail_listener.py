@@ -13,7 +13,7 @@ import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from dotenv import load_dotenv
-from log import Log
+from log import *
 
 load_dotenv()
 
@@ -23,7 +23,6 @@ smtp_user = os.getenv("MAIL")
 smtp_password = os.getenv("APP_PASSWORD")
 
 db = Database()
-logger = Log("Mails")
 class EmailAttachmentDownloader:
   def __init__(self, email_account, password, download_folder=os.getenv("DIR_DESTINO")):
       self.imap_server = 'imap.gmail.com'
@@ -42,49 +41,65 @@ class EmailAttachmentDownloader:
       mail.login(self.email_account, self.password)
       return mail
   
-  def fetch_unseen_emails(self):
+  def fetch_unseen_emails(self) -> list[str]:
       self.mail.select('inbox')
       result, data = self.mail.search(None, '(UNSEEN)')
       if result == 'OK':
-          return data[0].split()
+          # return data[0].split()
+          log_debug(data[0].decode("utf-8").split(), "Mails")
+          return data[0].decode("utf-8").split()
       return []
   
   def download_and_convert_pdf(self, email_id):
-    result, data = self.mail.fetch(email_id, '(RFC822)')
-    if result != 'OK':
-      logger.info(f"Error fetching email {email_id}")
-      return
+    log_debug(f"Empezando funcion, email {email_id}", "Mails")
+    try:
+      result, data = self.mail.fetch(email_id, '(RFC822)')
+      # result, data = self.mail.uid('fetch', email_id, '(RFC822)')
+      if result != 'OK':
+        log_error(f"Error fetching email {email_id}", "Mails")
+        return
     
-    raw_email = data[0][1]
-    msg = email.message_from_bytes(raw_email)
-    from_ = msg.get("From")
-    email_address = re.search(r'<(.+?)>', from_).group(1) if '<' in from_ else from_
     
-    for part in msg.walk():
-      if part.get_content_maintype() == 'multipart':
-        continue
-      if part.get('Content-Disposition') is None:
-        continue
+      raw_email = data[0][1]
+      msg = email.message_from_bytes(raw_email)
+      from_ = msg.get("From")
+      email_address = re.search(r'<(.+?)>', from_).group(1) if '<' in from_ else from_
       
-      file_name = part.get_filename()
-      if file_name and file_name.endswith('.pdf'):
-        pdf_bytes = part.get_payload(decode=True)
-        body = self.convert_pdf_to_images(pdf_bytes, file_name, email_address)
-        if body:
-          msg = MIMEMultipart()
-          msg['From'] = smtp_user
-          msg['To'] = 'damiancanan@gmail.com'
-          msg['Subject'] = 'Error en el proceso de una factura'
+      try:
+        log_debug(f"Try, email {email_id}", "Mails")
+        for part in msg.walk():
+          log_debug(f"For, email {email_id}", "Mails")
+          if part.get_content_maintype() == 'multipart':
+            continue
+          if part.get('Content-Disposition') is None:
+            continue
+          
+          log_debug(f"Despues de los IF, email {email_id}", "Mails")
+          file_name = part.get_filename()
+          if file_name and file_name.endswith('.pdf'):
+            pdf_bytes = part.get_payload(decode=True)
+            log_debug(f"convert_pdf_to_images, email {email_id}", "Mails")
+            body = self.convert_pdf_to_images(pdf_bytes, file_name, email_address)
+            # if body:
+            #   msg = MIMEMultipart()
+            #   msg['From'] = smtp_user
+            #   msg['To'] = 'damiancanan@gmail.com'
+            #   msg['Subject'] = 'Error en el proceso de una factura'
 
-          msg.attach(MIMEText(body, 'plain'))
-          try:
-            server = smtplib.SMTP(smtp_server, smtp_port)
-            server.starttls()
-            server.login(smtp_user, smtp_password)
-            server.send_message(msg)
-            server.quit()
-          except Exception as e:
-              logger.info(f"Error al enviar el correo: {e}")
+            #   msg.attach(MIMEText(body, 'plain'))
+            #   try:
+            #     server = smtplib.SMTP(smtp_server, smtp_port)
+            #     server.starttls()
+            #     server.login(smtp_user, smtp_password)
+            #     server.send_message(msg)
+            #     server.quit()
+            #   except Exception as e:
+            #       log_error(f"Error al enviar el correo: {e}", "Mails")
+      except Exception as e:
+          log_error(f"Error al convertir pdf a imagentes: {e}", "Mails")
+    except Exception as e:
+      log_error(f"Error fetching email {email_id}: {e}", "Mails")
+      return
   
   def convert_pdf_to_images(self, pdf_bytes, original_file_name, from_email):
     temp_pdf_path = os.path.join(self.download_folder, 'temp.pdf')
@@ -105,16 +120,16 @@ class EmailAttachmentDownloader:
 
       image_path = os.path.join(download_f, f'{base_name}_page_{page_num+1}.jpg')
       page.save(image_path)
-      email_data =  db.make_db_action(db.get_email, from_email)
+      email_data =  db.make_db_action(db.get_email, "Mails", from_email)
       if not len(email_data):
         return f"Email no reconocido: {from_email}"
-      email_format = db.make_db_action(db.get_format, email_data[0][1])
-      filas_roi = db.make_db_action(db.get_rows_roi_id, email_format[0][0])
+      email_format = db.make_db_action(db.get_format, "Mails", email_data[0][1])
+      filas_roi = db.make_db_action(db.get_rows_roi_id, "Mails", email_format[0][0])
       image = Image.open(image_path)
       if not len(email_format):
         return f"Este email no tiene un formato asociado: {from_email}"
       else:
-        coordinates, columns = db.make_db_action(db.get_predict_data, email_format[0][0])
+        coordinates, columns = db.make_db_action(db.get_predict_data, "Mails", email_format[0][0])
         model_path = os.path.join(UPLOAD_FOLDER, email_format[0][1], f'{email_format[0][1]}_model.h5')
         result = predict_image(image_path,model_path,columns,coordinates,filas_roi,True,False)
         if not result:
@@ -131,7 +146,7 @@ class EmailAttachmentDownloader:
           data = result[0]
 
     rows = self.flatten(rows)
-    id = db.make_db_action(db.insert_factura, data)
+    id = db.make_db_action(db.insert_factura, "Mails", data)
     for i,row in enumerate(rows):
       rows[i]["factura"] = id
     
@@ -146,9 +161,9 @@ class EmailAttachmentDownloader:
       new_image_path = os.path.join(download_f, f'{id}_page_{page_num+1}.jpg')
       os.rename(image_path, new_image_path)
     
-    db.make_db_action(db.update_factura, id, "thumbnail", pdf_path)
+    db.make_db_action(db.update_factura, "Mails", id, "thumbnail", pdf_path)
     
-    db.make_db_action(db.insert_detalles, rows)
+    db.make_db_action(db.insert_detalles, "Mails", rows)
   
 
 
@@ -162,13 +177,23 @@ class EmailAttachmentDownloader:
     return flat_list
   
   def mark_as_seen(self, email_id):
-      self.mail.store(email_id, '+FLAGS', '\\Seen')
+    self.mail.store(email_id, '+FLAGS', '\\Seen')
   
   def process_emails(self):
+    try:
       unseen_emails = self.fetch_unseen_emails()
       for email_id in unseen_emails:
-          self.download_and_convert_pdf(email_id)
-          self.mark_as_seen(email_id)
+          try:
+            log_info(f"download_and_convert_pdf id: {email_id}", "Mails")
+            self.download_and_convert_pdf(email_id)
+            try:
+              self.mark_as_seen(email_id)
+            except:
+              log_error(f"Error en mark_as_seen id: {email_id}", "Mails")
+          except:
+            log_error(f"Error en download_and_convert_pdf id: {email_id}", "Mails")
+    except:
+      log_error("Error en process_emails", "Mails")
   
   def close_connection(self):
       self.mail.logout()
@@ -176,13 +201,15 @@ class EmailAttachmentDownloader:
 if __name__ == '__main__':
   email_account = smtp_user
   password = smtp_password
+  log_file("Mails")
+  log_info("Monitoring started", "Mails")
   
   downloader = EmailAttachmentDownloader(email_account, password)
   try:
       while True:
           downloader.process_emails()
           time.sleep(20)
-  except KeyboardInterrupt:
-      logger.info('Interrupción recibida, cerrando conexión...')
+  except:
+      log_error('Interrupción recibida, cerrando conexión...', "Mails")
   finally:
       downloader.close_connection()

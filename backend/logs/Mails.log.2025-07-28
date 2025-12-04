@@ -1,0 +1,561 @@
+2025-07-28 07:22:21,479 - [INFO ] -  Monitoring started
+2025-07-28 07:29:02,903 - [DEBUG] -  DB, Conectado a DB
+2025-07-28 07:29:02,907 - [ERROR] -  Interrupción recibida, cerrando conexión...
+2025-07-28 07:34:45,603 - [INFO ] -  Monitoring started
+2025-07-28 07:35:29,589 - [DEBUG] -  DB, Conectado a DB
+2025-07-28 07:35:29,592 - [ERROR] -  Error en download_and_convert_pdf
+2025-07-28 07:37:44,099 - [ERROR] -  Interrupción recibida, cerrando conexión...
+2025-07-28 07:38:10,759 - [INFO ] -  Monitoring started
+2025-07-28 07:38:53,048 - [INFO ] -  download_and_convert_pdf id: b'853'
+2025-07-28 07:38:54,346 - [DEBUG] -  DB, Conectado a DB
+2025-07-28 07:38:54,348 - [ERROR] -  Error en download_and_convert_pdf
+2025-07-28 07:43:31,910 - [ERROR] -  Interrupción recibida, cerrando conexión...
+2025-07-28 07:43:57,061 - [INFO ] -  Monitoring started
+2025-07-28 07:44:39,643 - [INFO ] -  download_and_convert_pdf id: b'854'
+2025-07-28 07:44:39,880 - [ERROR] -  Error en download_and_convert_pdf
+2025-07-28 07:45:00,374 - [INFO ] -  download_and_convert_pdf id: b'854'
+2025-07-28 07:45:00,602 - [ERROR] -  Error en download_and_convert_pdf
+2025-07-28 07:45:21,128 - [INFO ] -  download_and_convert_pdf id: b'854'
+2025-07-28 07:45:21,356 - [ERROR] -  Error en download_and_convert_pdf
+2025-07-28 07:45:41,841 - [INFO ] -  download_and_convert_pdf id: b'854'
+2025-07-28 07:45:42,070 - [ERROR] -  Error en download_and_convert_pdf
+2025-07-28 07:46:02,556 - [INFO ] -  download_and_convert_pdf id: b'852'
+2025-07-28 07:46:02,860 - [ERROR] -  Error en download_and_convert_pdf
+2025-07-28 07:46:02,861 - [INFO ] -  download_and_convert_pdf id: b'853'
+2025-07-28 07:46:03,093 - [ERROR] -  Error en download_and_convert_pdf
+2025-07-28 07:46:03,093 - [INFO ] -  download_and_convert_pdf id: b'854'
+2025-07-28 07:46:03,357 - [ERROR] -  Error en download_and_convert_pdf
+2025-07-28 07:46:23,930 - [INFO ] -  download_and_convert_pdf id: b'852'
+2025-07-28 07:46:24,187 - [ERROR] -  Error en download_and_convert_pdf
+2025-07-28 07:46:24,188 - [INFO ] -  download_and_convert_pdf id: b'853'
+2025-07-28 07:46:24,416 - [ERROR] -  Error en download_and_convert_pdf
+2025-07-28 07:46:24,417 - [INFO ] -  download_and_convert_pdf id: b'854'
+2025-07-28 07:46:24,650 - [ERROR] -  Error en download_and_convert_pdf
+2025-07-28 07:46:32,596 - [ERROR] -  Interrupción recibida, cerrando conexión...
+2025-07-28 07:52:01,554 - [INFO ] -  Monitoring started
+2025-07-28 07:52:02,849 - [ERROR] -  Error en process_emails
+2025-07-28 07:52:23,331 - [ERROR] -  Error en process_emails
+2025-07-28 07:52:43,806 - [ERROR] -  Error en process_emails
+2025-07-28 07:53:04,282 - [ERROR] -  Error en process_emails
+2025-07-28 07:53:24,755 - [ERROR] -  Error en process_emails
+2025-07-28 07:53:45,223 - [ERROR] -  Error en process_emails
+2025-07-28 07:53:49,484 - [ERROR] -  Interrupción recibida, cerrando conexión...
+2025-07-28 07:54:27,827 - [INFO ] -  Monitoring started
+2025-07-28 07:54:29,339 - [ERROR] -  [b'852 853 854 855']
+2025-07-28 07:54:29,340 - [ERROR] -  Error en process_emails
+2025-07-28 07:54:49,818 - [ERROR] -  [b'852 853 854 855']
+2025-07-28 07:54:49,819 - [ERROR] -  Error en process_emails
+2025-07-28 07:55:10,306 - [ERROR] -  [b'852 853 854 855']
+2025-07-28 07:55:10,307 - [ERROR] -  Error en process_emails
+2025-07-28 07:55:30,772 - [ERROR] -  [b'852 853 854 855']
+2025-07-28 07:55:30,773 - [ERROR] -  Error en process_emails
+2025-07-28 07:55:39,033 - [ERROR] -  Interrupción recibida, cerrando conexión...
+2025-07-28 07:56:12,070 - [INFO ] -  Monitoring started
+2025-07-28 07:56:13,738 - [ERROR] -  [b'852 853 854 855']
+2025-07-28 07:56:13,739 - [ERROR] -  Error en process_emails
+2025-07-28 07:56:34,245 - [ERROR] -  [b'852 853 854 855']
+2025-07-28 07:56:34,246 - [ERROR] -  Error en process_emails
+2025-07-28 07:56:54,751 - [ERROR] -  [b'852 853 854 855']
+2025-07-28 07:56:54,751 - [ERROR] -  Error en process_emails
+2025-07-28 07:57:12,872 - [ERROR] -  Interrupción recibida, cerrando conexión...
+2025-07-28 07:57:41,515 - [INFO ] -  Monitoring started
+2025-07-28 07:57:43,113 - [ERROR] -  b'852 853 854 855'
+2025-07-28 07:57:43,115 - [ERROR] -  Error en process_emails
+2025-07-28 07:58:03,597 - [ERROR] -  b'852 853 854 855'
+2025-07-28 07:58:03,598 - [ERROR] -  Error en process_emails
+2025-07-28 07:58:24,079 - [ERROR] -  b'852 853 854 855'
+2025-07-28 07:58:24,080 - [ERROR] -  Error en process_emails
+2025-07-28 07:58:44,565 - [ERROR] -  b'852 853 854 855'
+2025-07-28 07:58:44,568 - [ERROR] -  Error en process_emails
+2025-07-28 07:59:05,050 - [ERROR] -  b'852 853 854 855'
+2025-07-28 07:59:05,051 - [ERROR] -  Error en process_emails
+2025-07-28 07:59:25,529 - [ERROR] -  b'852 853 854 855'
+2025-07-28 07:59:25,530 - [ERROR] -  Error en process_emails
+2025-07-28 07:59:46,015 - [ERROR] -  b'852 853 854 855'
+2025-07-28 07:59:46,016 - [ERROR] -  Error en process_emails
+2025-07-28 08:00:06,502 - [ERROR] -  b'852 853 854 855'
+2025-07-28 08:00:06,504 - [ERROR] -  Error en process_emails
+2025-07-28 08:00:27,032 - [ERROR] -  b'852 853 854 855'
+2025-07-28 08:00:27,035 - [ERROR] -  Error en process_emails
+2025-07-28 08:00:47,521 - [ERROR] -  b'852 853 854 855'
+2025-07-28 08:00:47,522 - [ERROR] -  Error en process_emails
+2025-07-28 08:01:08,009 - [ERROR] -  b'852 853 854 855'
+2025-07-28 08:01:08,010 - [ERROR] -  Error en process_emails
+2025-07-28 08:01:28,504 - [ERROR] -  b'852 853 854 855'
+2025-07-28 08:01:28,505 - [ERROR] -  Error en process_emails
+2025-07-28 08:01:48,995 - [ERROR] -  b'852 853 854 855'
+2025-07-28 08:01:48,996 - [ERROR] -  Error en process_emails
+2025-07-28 08:02:09,515 - [ERROR] -  b'852 853 854 855'
+2025-07-28 08:02:09,517 - [ERROR] -  Error en process_emails
+2025-07-28 08:02:30,047 - [ERROR] -  b'852 853 854 855'
+2025-07-28 08:02:30,052 - [ERROR] -  Error en process_emails
+2025-07-28 08:02:50,553 - [ERROR] -  b'852 853 854 855'
+2025-07-28 08:02:50,558 - [ERROR] -  Error en process_emails
+2025-07-28 08:03:11,058 - [ERROR] -  b'852 853 854 855'
+2025-07-28 08:03:11,059 - [ERROR] -  Error en process_emails
+2025-07-28 08:03:31,558 - [ERROR] -  b'852 853 854 855'
+2025-07-28 08:03:31,560 - [ERROR] -  Error en process_emails
+2025-07-28 08:03:52,159 - [ERROR] -  b'852 853 854 855'
+2025-07-28 08:03:52,161 - [ERROR] -  Error en process_emails
+2025-07-28 08:04:12,664 - [ERROR] -  b'852 853 854 855'
+2025-07-28 08:04:12,666 - [ERROR] -  Error en process_emails
+2025-07-28 08:04:33,155 - [ERROR] -  b'852 853 854 855'
+2025-07-28 08:04:33,156 - [ERROR] -  Error en process_emails
+2025-07-28 08:04:53,651 - [ERROR] -  b'852 853 854 855'
+2025-07-28 08:04:53,654 - [ERROR] -  Error en process_emails
+2025-07-28 08:05:14,138 - [ERROR] -  b'852 853 854 855'
+2025-07-28 08:05:14,139 - [ERROR] -  Error en process_emails
+2025-07-28 08:05:34,681 - [ERROR] -  b'852 853 854 855'
+2025-07-28 08:05:34,682 - [ERROR] -  Error en process_emails
+2025-07-28 08:05:55,168 - [ERROR] -  b'852 853 854 855'
+2025-07-28 08:05:55,169 - [ERROR] -  Error en process_emails
+2025-07-28 08:06:15,657 - [ERROR] -  b'852 853 854 855'
+2025-07-28 08:06:15,659 - [ERROR] -  Error en process_emails
+2025-07-28 08:06:36,152 - [ERROR] -  b'852 853 854 855'
+2025-07-28 08:06:36,155 - [ERROR] -  Error en process_emails
+2025-07-28 08:06:56,638 - [ERROR] -  b'852 853 854 855'
+2025-07-28 08:06:56,640 - [ERROR] -  Error en process_emails
+2025-07-28 08:07:17,147 - [ERROR] -  b'852 853 854 855'
+2025-07-28 08:07:17,150 - [ERROR] -  Error en process_emails
+2025-07-28 08:07:37,668 - [ERROR] -  b'852 853 854 855'
+2025-07-28 08:07:37,669 - [ERROR] -  Error en process_emails
+2025-07-28 08:07:58,190 - [ERROR] -  b'852 853 854 855'
+2025-07-28 08:07:58,192 - [ERROR] -  Error en process_emails
+2025-07-28 08:08:18,705 - [ERROR] -  b'852 853 854 855'
+2025-07-28 08:08:18,707 - [ERROR] -  Error en process_emails
+2025-07-28 08:08:39,221 - [ERROR] -  b'852 853 854 855'
+2025-07-28 08:08:39,224 - [ERROR] -  Error en process_emails
+2025-07-28 08:08:59,763 - [ERROR] -  b'852 853 854 855'
+2025-07-28 08:08:59,764 - [ERROR] -  Error en process_emails
+2025-07-28 08:09:20,269 - [ERROR] -  b'852 853 854 855'
+2025-07-28 08:09:20,272 - [ERROR] -  Error en process_emails
+2025-07-28 08:09:40,917 - [ERROR] -  b'852 853 854 855'
+2025-07-28 08:09:40,918 - [ERROR] -  Error en process_emails
+2025-07-28 08:10:01,465 - [ERROR] -  b'852 853 854 855'
+2025-07-28 08:10:01,469 - [ERROR] -  Error en process_emails
+2025-07-28 08:10:19,895 - [ERROR] -  Interrupción recibida, cerrando conexión...
+2025-07-28 08:10:45,046 - [INFO ] -  Monitoring started
+2025-07-28 08:10:46,675 - [ERROR] -  b'852 853 854 855'
+2025-07-28 08:10:46,676 - [ERROR] -  Error en process_emails
+2025-07-28 08:11:07,157 - [ERROR] -  b'852 853 854 855'
+2025-07-28 08:11:07,158 - [ERROR] -  Error en process_emails
+2025-07-28 08:11:09,492 - [ERROR] -  Interrupción recibida, cerrando conexión...
+2025-07-28 08:12:29,812 - [INFO ] -  Monitoring started
+2025-07-28 08:12:31,588 - [ERROR] -  b'852 853 854 855'
+2025-07-28 08:12:31,588 - [ERROR] -  Error en process_emails
+2025-07-28 08:12:52,303 - [ERROR] -  b'852 853 854 855'
+2025-07-28 08:12:52,305 - [ERROR] -  Error en process_emails
+2025-07-28 08:13:12,875 - [ERROR] -  b'852 853 854 855'
+2025-07-28 08:13:12,876 - [ERROR] -  Error en process_emails
+2025-07-28 08:13:33,374 - [ERROR] -  b'852 853 854 855'
+2025-07-28 08:13:33,377 - [ERROR] -  Error en process_emails
+2025-07-28 08:13:53,869 - [ERROR] -  b'852 853 854 855'
+2025-07-28 08:13:53,870 - [ERROR] -  Error en process_emails
+2025-07-28 08:14:14,363 - [ERROR] -  b'852 853 854 855'
+2025-07-28 08:14:14,364 - [ERROR] -  Error en process_emails
+2025-07-28 08:14:29,304 - [ERROR] -  Interrupción recibida, cerrando conexión...
+2025-07-28 08:15:19,294 - [INFO ] -  Monitoring started
+2025-07-28 08:15:20,549 - [ERROR] -  Error en process_emails
+2025-07-28 08:15:41,014 - [ERROR] -  Error en process_emails
+2025-07-28 08:16:01,484 - [ERROR] -  Error en process_emails
+2025-07-28 08:16:21,950 - [ERROR] -  Error en process_emails
+2025-07-28 08:16:42,413 - [ERROR] -  Error en process_emails
+2025-07-28 08:17:02,878 - [ERROR] -  Error en process_emails
+2025-07-28 08:17:23,346 - [ERROR] -  Error en process_emails
+2025-07-28 08:17:43,822 - [ERROR] -  Error en process_emails
+2025-07-28 08:18:04,301 - [ERROR] -  Error en process_emails
+2025-07-28 08:18:24,774 - [ERROR] -  Error en process_emails
+2025-07-28 08:18:45,251 - [ERROR] -  Error en process_emails
+2025-07-28 08:19:05,717 - [ERROR] -  Error en process_emails
+2025-07-28 08:19:26,180 - [ERROR] -  Error en process_emails
+2025-07-28 08:19:46,643 - [ERROR] -  Error en process_emails
+2025-07-28 08:20:07,114 - [ERROR] -  Error en process_emails
+2025-07-28 08:20:27,596 - [ERROR] -  Error en process_emails
+2025-07-28 08:20:33,464 - [ERROR] -  Interrupción recibida, cerrando conexión...
+2025-07-28 08:21:41,113 - [INFO ] -  Monitoring started
+2025-07-28 08:21:42,506 - [ERROR] -  ['852', '853', '854', '855']
+2025-07-28 08:21:42,508 - [INFO ] -  ['852', '853', '854', '855']
+2025-07-28 08:21:42,508 - [INFO ] -  download_and_convert_pdf id: 852
+2025-07-28 08:21:42,736 - [ERROR] -  Error en download_and_convert_pdf
+2025-07-28 08:21:42,736 - [INFO ] -  download_and_convert_pdf id: 853
+2025-07-28 08:21:42,964 - [ERROR] -  Error en download_and_convert_pdf
+2025-07-28 08:21:42,965 - [INFO ] -  download_and_convert_pdf id: 854
+2025-07-28 08:21:43,191 - [ERROR] -  Error en download_and_convert_pdf
+2025-07-28 08:21:43,192 - [INFO ] -  download_and_convert_pdf id: 855
+2025-07-28 08:21:43,420 - [ERROR] -  Error en download_and_convert_pdf
+2025-07-28 08:22:03,907 - [ERROR] -  ['852', '853', '854', '855']
+2025-07-28 08:22:03,908 - [INFO ] -  ['852', '853', '854', '855']
+2025-07-28 08:22:03,910 - [INFO ] -  download_and_convert_pdf id: 852
+2025-07-28 08:22:04,145 - [ERROR] -  Error en download_and_convert_pdf
+2025-07-28 08:22:04,145 - [INFO ] -  download_and_convert_pdf id: 853
+2025-07-28 08:22:04,394 - [ERROR] -  Error en download_and_convert_pdf
+2025-07-28 08:22:04,395 - [INFO ] -  download_and_convert_pdf id: 854
+2025-07-28 08:22:04,630 - [ERROR] -  Error en download_and_convert_pdf
+2025-07-28 08:22:04,631 - [INFO ] -  download_and_convert_pdf id: 855
+2025-07-28 08:22:04,866 - [ERROR] -  Error en download_and_convert_pdf
+2025-07-28 08:22:10,825 - [ERROR] -  Interrupción recibida, cerrando conexión...
+2025-07-28 08:27:13,674 - [INFO ] -  Monitoring started
+2025-07-28 08:27:15,032 - [DEBUG] -  ['852', '853', '854', '855']
+2025-07-28 08:27:15,032 - [INFO ] -  download_and_convert_pdf id: 852
+2025-07-28 08:27:16,391 - [DEBUG] -  DB, Conectado a DB
+2025-07-28 08:27:16,393 - [ERROR] -  Error fetching email 852
+2025-07-28 08:27:16,624 - [INFO ] -  download_and_convert_pdf id: 853
+2025-07-28 08:27:17,688 - [DEBUG] -  DB, Conectado a DB
+2025-07-28 08:27:17,689 - [ERROR] -  Error fetching email 853
+2025-07-28 08:27:17,925 - [INFO ] -  download_and_convert_pdf id: 854
+2025-07-28 08:27:18,998 - [DEBUG] -  DB, Conectado a DB
+2025-07-28 08:27:19,000 - [ERROR] -  Error fetching email 854
+2025-07-28 08:27:19,233 - [INFO ] -  download_and_convert_pdf id: 855
+2025-07-28 08:27:20,264 - [DEBUG] -  DB, Conectado a DB
+2025-07-28 08:27:20,266 - [ERROR] -  Error fetching email 855
+2025-07-28 08:27:40,956 - [DEBUG] -  []
+2025-07-28 08:28:01,410 - [DEBUG] -  []
+2025-07-28 08:28:21,879 - [DEBUG] -  []
+2025-07-28 08:28:42,333 - [DEBUG] -  []
+2025-07-28 08:29:02,799 - [DEBUG] -  []
+2025-07-28 08:29:23,261 - [DEBUG] -  []
+2025-07-28 08:29:43,714 - [DEBUG] -  []
+2025-07-28 08:30:04,171 - [DEBUG] -  []
+2025-07-28 08:30:24,627 - [DEBUG] -  []
+2025-07-28 08:30:45,083 - [DEBUG] -  []
+2025-07-28 08:31:05,537 - [DEBUG] -  []
+2025-07-28 08:31:25,997 - [DEBUG] -  []
+2025-07-28 08:31:46,454 - [DEBUG] -  []
+2025-07-28 08:32:06,906 - [DEBUG] -  []
+2025-07-28 08:32:27,494 - [DEBUG] -  []
+2025-07-28 08:32:47,951 - [DEBUG] -  []
+2025-07-28 08:33:08,406 - [DEBUG] -  []
+2025-07-28 08:33:15,569 - [ERROR] -  Interrupción recibida, cerrando conexión...
+2025-07-28 08:33:49,096 - [INFO ] -  Monitoring started
+2025-07-28 08:33:50,763 - [DEBUG] -  ['851', '852', '853', '854', '855']
+2025-07-28 08:33:50,764 - [INFO ] -  download_and_convert_pdf id: 851
+2025-07-28 08:33:52,250 - [DEBUG] -  DB, Conectado a DB
+2025-07-28 08:33:52,253 - [ERROR] -  Error al convertir pdf a imagentes: Database.get_email() missing 1 required positional argument: 'email'
+2025-07-28 08:33:52,504 - [INFO ] -  download_and_convert_pdf id: 852
+2025-07-28 08:33:53,780 - [DEBUG] -  DB, Conectado a DB
+2025-07-28 08:33:53,783 - [ERROR] -  Error al convertir pdf a imagentes: Database.get_email() missing 1 required positional argument: 'email'
+2025-07-28 08:33:54,041 - [INFO ] -  download_and_convert_pdf id: 853
+2025-07-28 08:33:55,175 - [DEBUG] -  DB, Conectado a DB
+2025-07-28 08:33:55,177 - [ERROR] -  Error al convertir pdf a imagentes: Database.get_email() missing 1 required positional argument: 'email'
+2025-07-28 08:33:55,429 - [INFO ] -  download_and_convert_pdf id: 854
+2025-07-28 08:33:56,440 - [DEBUG] -  DB, Conectado a DB
+2025-07-28 08:33:56,442 - [ERROR] -  Error al convertir pdf a imagentes: Database.get_email() missing 1 required positional argument: 'email'
+2025-07-28 08:33:56,696 - [INFO ] -  download_and_convert_pdf id: 855
+2025-07-28 08:33:57,704 - [DEBUG] -  DB, Conectado a DB
+2025-07-28 08:33:57,706 - [ERROR] -  Error al convertir pdf a imagentes: Database.get_email() missing 1 required positional argument: 'email'
+2025-07-28 08:34:09,982 - [ERROR] -  Interrupción recibida, cerrando conexión...
+2025-07-28 08:38:43,237 - [INFO ] -  Monitoring started
+2025-07-28 08:38:44,897 - [DEBUG] -  ['851', '852', '853', '854', '855']
+2025-07-28 08:38:44,897 - [INFO ] -  download_and_convert_pdf id: 851
+2025-07-28 08:38:46,465 - [DEBUG] -  DB, Conectado a DB
+2025-07-28 08:38:46,466 - [DEBUG] -  SELECT * FROM emails WHERE email = 'ldelgado@nodumsoftware.com'
+2025-07-28 08:38:46,512 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-28 08:38:46,515 - [DEBUG] -  DB, Conectado a DB
+2025-07-28 08:38:46,516 - [DEBUG] -  SELECT * FROM formatos WHERE id = 7
+2025-07-28 08:38:46,529 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-28 08:38:46,530 - [DEBUG] -  DB, Conectado a DB
+2025-07-28 08:38:46,533 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 7 AND c.field = 'filas'
+2025-07-28 08:38:46,552 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-28 08:38:46,591 - [DEBUG] -  DB, Conectado a DB
+2025-07-28 08:38:46,592 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 7 AND isRow = 0
+2025-07-28 08:38:46,593 - [DEBUG] -  SELECT * FROM columns WHERE formato = 7
+2025-07-28 08:38:46,626 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-28 08:38:47,166 - [DEBUG] -  Creating converter from 3 to 5
+2025-07-28 08:38:48,661 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-28 08:39:11,806 - [DEBUG] -  DB, Conectado a DB
+2025-07-28 08:39:11,808 - [INFO ] -  INSERT INTO facturas (hoja, tipo_doc, serie_docum, nro_docum, nro_dgi, nro_dgi_emp, razon_social, fec_doc, fec_vencimiento, cond_IVA, dir_tit, orden_compra, otros_tributos, imp_prov, porc_iva, imp_iva, total, cae, fec_vencimiento_cae, cond_fpago, datetime) OUTPUT INSERTED.id VALUES ('ORIGINAL', 'FACTURA', '1417', '00112501', '30-54668997-9', '30-66604945-0', 'YPFS.A.', '11/04/2025', '09/05/2025', 'I1VA RESPONSABLE INSCRIPTO', 'BV. MACACHA GUEMES 515 CABA - Argentina [ 1106 )', '6896', '11.984,61', '747,03', '21.00%', '9.098,88', '65.158,52', '75159258446991', '21/04/2025', 'dentro de los 28 días sin DPP', '2025-07-28 08:39:11:807')
+2025-07-28 08:39:11,828 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-28 08:39:11,839 - [DEBUG] -  DB, Conectado a DB
+2025-07-28 08:39:11,840 - [DEBUG] -  UPDATE facturas SET thumbnail = 'C:/Nodum/Archivos/ModeloExpress/emails\ldelgado_nodumsoftware_com\51.pdf' WHERE id = 51
+2025-07-28 08:39:11,845 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-28 08:39:11,852 - [DEBUG] -  DB, Conectado a DB
+2025-07-28 08:39:11,852 - [INFO ] -  INSERT INTO detalles (cod_articulo, cantidad, cod_unidad, precio, observaciones, factura) VALUES ('553600 Remito 0941R', '27.080,000 2025', 'KG', '1,600', '553600 AROMATICO PESADO 220 27.080,000 KG 301268 1,600 43.328,00 ICL por litro 414,677243 SIL 31.126,437 L Remito 094 1R00000058  O/P 113815581 F Despacho 09/04/2025', 51)
+2025-07-28 08:39:11,859 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-28 08:39:12,110 - [INFO ] -  download_and_convert_pdf id: 852
+2025-07-28 08:39:13,218 - [DEBUG] -  DB, Conectado a DB
+2025-07-28 08:39:13,219 - [DEBUG] -  SELECT * FROM emails WHERE email = 'ldelgado@nodumsoftware.com'
+2025-07-28 08:39:13,221 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-28 08:39:13,223 - [DEBUG] -  DB, Conectado a DB
+2025-07-28 08:39:13,224 - [DEBUG] -  SELECT * FROM formatos WHERE id = 7
+2025-07-28 08:39:13,225 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-28 08:39:13,227 - [DEBUG] -  DB, Conectado a DB
+2025-07-28 08:39:13,228 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 7 AND c.field = 'filas'
+2025-07-28 08:39:13,230 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-28 08:39:13,252 - [DEBUG] -  DB, Conectado a DB
+2025-07-28 08:39:13,255 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 7 AND isRow = 0
+2025-07-28 08:39:13,256 - [DEBUG] -  SELECT * FROM columns WHERE formato = 7
+2025-07-28 08:39:13,264 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-28 08:39:13,563 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-28 08:39:32,878 - [DEBUG] -  DB, Conectado a DB
+2025-07-28 08:39:32,880 - [INFO ] -  INSERT INTO facturas (hoja, tipo_doc, serie_docum, nro_docum, nro_dgi, nro_dgi_emp, razon_social, fec_doc, fec_vencimiento, cond_IVA, dir_tit, orden_compra, otros_tributos, imp_prov, porc_iva, imp_iva, total, cae, fec_vencimiento_cae, cond_fpago, datetime) OUTPUT INSERTED.id VALUES ('ORIGINAL', 'FACTURA', '1417', '00112501', '30-54668997-9', '30-66604945-0', 'YPFS.A.', '11/04/2025', '09/05/2025', 'I1VA RESPONSABLE INSCRIPTO', 'BV. MACACHA GUEMES 515 CABA - Argentina [ 1106 )', '6896', '11.984,61', '747,03', '21.00%', '9.098,88', '65.158,52', '75159258446991', '21/04/2025', 'dentro de los 28 días sin DPP', '2025-07-28 08:39:32:878')
+2025-07-28 08:39:32,882 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-28 08:39:32,890 - [DEBUG] -  DB, Conectado a DB
+2025-07-28 08:39:32,890 - [DEBUG] -  UPDATE facturas SET thumbnail = 'C:/Nodum/Archivos/ModeloExpress/emails\ldelgado_nodumsoftware_com\52.pdf' WHERE id = 52
+2025-07-28 08:39:32,892 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-28 08:39:32,896 - [DEBUG] -  DB, Conectado a DB
+2025-07-28 08:39:32,897 - [INFO ] -  INSERT INTO detalles (cod_articulo, cantidad, cod_unidad, precio, observaciones, factura) VALUES ('553600 Remito 0941R', '27.080,000 2025', 'KG', '1,600', '553600 AROMATICO PESADO 220 27.080,000 KG 301268 1,600 43.328,00 ICL por litro 414,677243 SIL 31.126,437 L Remito 094 1R00000058  O/P 113815581 F Despacho 09/04/2025', 52)
+2025-07-28 08:39:32,906 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-28 08:39:33,156 - [INFO ] -  download_and_convert_pdf id: 853
+2025-07-28 08:39:34,210 - [DEBUG] -  DB, Conectado a DB
+2025-07-28 08:39:34,212 - [DEBUG] -  SELECT * FROM emails WHERE email = 'ldelgado@nodumsoftware.com'
+2025-07-28 08:39:34,225 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-28 08:39:34,228 - [DEBUG] -  DB, Conectado a DB
+2025-07-28 08:39:34,234 - [DEBUG] -  SELECT * FROM formatos WHERE id = 7
+2025-07-28 08:39:34,243 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-28 08:39:34,252 - [DEBUG] -  DB, Conectado a DB
+2025-07-28 08:39:34,255 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 7 AND c.field = 'filas'
+2025-07-28 08:39:34,263 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-28 08:39:34,298 - [DEBUG] -  DB, Conectado a DB
+2025-07-28 08:39:34,298 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 7 AND isRow = 0
+2025-07-28 08:39:34,307 - [DEBUG] -  SELECT * FROM columns WHERE formato = 7
+2025-07-28 08:39:34,316 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-28 08:39:34,615 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-28 08:39:53,950 - [DEBUG] -  DB, Conectado a DB
+2025-07-28 08:39:53,952 - [INFO ] -  INSERT INTO facturas (hoja, tipo_doc, serie_docum, nro_docum, nro_dgi, nro_dgi_emp, razon_social, fec_doc, fec_vencimiento, cond_IVA, dir_tit, orden_compra, otros_tributos, imp_prov, porc_iva, imp_iva, total, cae, fec_vencimiento_cae, cond_fpago, datetime) OUTPUT INSERTED.id VALUES ('ORIGINAL', 'FACTURA', '1417', '00112501', '30-54668997-9', '30-66604945-0', 'YPFS.A.', '11/04/2025', '09/05/2025', 'I1VA RESPONSABLE INSCRIPTO', 'BV. MACACHA GUEMES 515 CABA - Argentina [ 1106 )', '6896', '11.984,61', '747,03', '21.00%', '9.098,88', '65.158,52', '75159258446991', '21/04/2025', 'dentro de los 28 días sin DPP', '2025-07-28 08:39:53:951')
+2025-07-28 08:39:53,965 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-28 08:39:53,976 - [DEBUG] -  DB, Conectado a DB
+2025-07-28 08:39:53,976 - [DEBUG] -  UPDATE facturas SET thumbnail = 'C:/Nodum/Archivos/ModeloExpress/emails\ldelgado_nodumsoftware_com\53.pdf' WHERE id = 53
+2025-07-28 08:39:53,982 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-28 08:39:53,987 - [DEBUG] -  DB, Conectado a DB
+2025-07-28 08:39:53,990 - [INFO ] -  INSERT INTO detalles (cod_articulo, cantidad, cod_unidad, precio, observaciones, factura) VALUES ('553600 Remito 0941R', '27.080,000 2025', 'KG', '1,600', '553600 AROMATICO PESADO 220 27.080,000 KG 301268 1,600 43.328,00 ICL por litro 414,677243 SIL 31.126,437 L Remito 094 1R00000058  O/P 113815581 F Despacho 09/04/2025', 53)
+2025-07-28 08:39:53,995 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-28 08:39:54,241 - [INFO ] -  download_and_convert_pdf id: 854
+2025-07-28 08:39:55,326 - [DEBUG] -  DB, Conectado a DB
+2025-07-28 08:39:55,327 - [DEBUG] -  SELECT * FROM emails WHERE email = 'ldelgado@nodumsoftware.com'
+2025-07-28 08:39:55,335 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-28 08:39:55,337 - [DEBUG] -  DB, Conectado a DB
+2025-07-28 08:39:55,338 - [DEBUG] -  SELECT * FROM formatos WHERE id = 7
+2025-07-28 08:39:55,342 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-28 08:39:55,349 - [DEBUG] -  DB, Conectado a DB
+2025-07-28 08:39:55,349 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 7 AND c.field = 'filas'
+2025-07-28 08:39:55,354 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-28 08:39:55,388 - [DEBUG] -  DB, Conectado a DB
+2025-07-28 08:39:55,388 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 7 AND isRow = 0
+2025-07-28 08:39:55,396 - [DEBUG] -  SELECT * FROM columns WHERE formato = 7
+2025-07-28 08:39:55,403 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-28 08:39:55,732 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-28 08:40:14,717 - [DEBUG] -  DB, Conectado a DB
+2025-07-28 08:40:14,719 - [INFO ] -  INSERT INTO facturas (hoja, tipo_doc, serie_docum, nro_docum, nro_dgi, nro_dgi_emp, razon_social, fec_doc, fec_vencimiento, cond_IVA, dir_tit, orden_compra, otros_tributos, imp_prov, porc_iva, imp_iva, total, cae, fec_vencimiento_cae, cond_fpago, datetime) OUTPUT INSERTED.id VALUES ('ORIGINAL', 'FACTURA', '1417', '00112501', '30-54668997-9', '30-66604945-0', 'YPFS.A.', '11/04/2025', '09/05/2025', 'I1VA RESPONSABLE INSCRIPTO', 'BV. MACACHA GUEMES 515 CABA - Argentina [ 1106 )', '6896', '11.984,61', '747,03', '21.00%', '9.098,88', '65.158,52', '75159258446991', '21/04/2025', 'dentro de los 28 días sin DPP', '2025-07-28 08:40:14:719')
+2025-07-28 08:40:14,730 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-28 08:40:14,738 - [DEBUG] -  DB, Conectado a DB
+2025-07-28 08:40:14,739 - [DEBUG] -  UPDATE facturas SET thumbnail = 'C:/Nodum/Archivos/ModeloExpress/emails\ldelgado_nodumsoftware_com\54.pdf' WHERE id = 54
+2025-07-28 08:40:14,743 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-28 08:40:14,745 - [DEBUG] -  DB, Conectado a DB
+2025-07-28 08:40:14,751 - [INFO ] -  INSERT INTO detalles (cod_articulo, cantidad, cod_unidad, precio, observaciones, factura) VALUES ('553600 Remito 0941R', '27.080,000 2025', 'KG', '1,600', '553600 AROMATICO PESADO 220 27.080,000 KG 301268 1,600 43.328,00 ICL por litro 414,677243 SIL 31.126,437 L Remito 094 1R00000058  O/P 113815581 F Despacho 09/04/2025', 54)
+2025-07-28 08:40:14,756 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-28 08:40:15,014 - [INFO ] -  download_and_convert_pdf id: 855
+2025-07-28 08:40:16,073 - [DEBUG] -  DB, Conectado a DB
+2025-07-28 08:40:16,074 - [DEBUG] -  SELECT * FROM emails WHERE email = 'ldelgado@nodumsoftware.com'
+2025-07-28 08:40:16,081 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-28 08:40:16,086 - [DEBUG] -  DB, Conectado a DB
+2025-07-28 08:40:16,092 - [DEBUG] -  SELECT * FROM formatos WHERE id = 7
+2025-07-28 08:40:16,096 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-28 08:40:16,099 - [DEBUG] -  DB, Conectado a DB
+2025-07-28 08:40:16,101 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 7 AND c.field = 'filas'
+2025-07-28 08:40:16,112 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-28 08:40:16,145 - [DEBUG] -  DB, Conectado a DB
+2025-07-28 08:40:16,146 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 7 AND isRow = 0
+2025-07-28 08:40:16,153 - [DEBUG] -  SELECT * FROM columns WHERE formato = 7
+2025-07-28 08:40:16,160 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-28 08:40:16,497 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-28 08:40:16,800 - [WARNI] -  5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000002275AB919E0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-07-28 08:40:35,260 - [DEBUG] -  DB, Conectado a DB
+2025-07-28 08:40:35,261 - [INFO ] -  INSERT INTO facturas (hoja, tipo_doc, serie_docum, nro_docum, nro_dgi, nro_dgi_emp, razon_social, fec_doc, fec_vencimiento, cond_IVA, dir_tit, orden_compra, otros_tributos, imp_prov, porc_iva, imp_iva, total, cae, fec_vencimiento_cae, cond_fpago, datetime) OUTPUT INSERTED.id VALUES ('ORIGINAL', 'FACTURA', '1417', '00112501', '30-54668997-9', '30-66604945-0', 'YPFS.A.', '11/04/2025', '09/05/2025', 'I1VA RESPONSABLE INSCRIPTO', 'BV. MACACHA GUEMES 515 CABA - Argentina [ 1106 )', '6896', '11.984,61', '747,03', '21.00%', '9.098,88', '65.158,52', '75159258446991', '21/04/2025', 'dentro de los 28 días sin DPP', '2025-07-28 08:40:35:261')
+2025-07-28 08:40:35,272 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-28 08:40:35,279 - [DEBUG] -  DB, Conectado a DB
+2025-07-28 08:40:35,283 - [DEBUG] -  UPDATE facturas SET thumbnail = 'C:/Nodum/Archivos/ModeloExpress/emails\ldelgado_nodumsoftware_com\55.pdf' WHERE id = 55
+2025-07-28 08:40:35,291 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-28 08:40:35,294 - [DEBUG] -  DB, Conectado a DB
+2025-07-28 08:40:35,301 - [INFO ] -  INSERT INTO detalles (cod_articulo, cantidad, cod_unidad, precio, observaciones, factura) VALUES ('553600 Remito 0941R', '27.080,000 2025', 'KG', '1,600', '553600 AROMATICO PESADO 220 27.080,000 KG 301268 1,600 43.328,00 ICL por litro 414,677243 SIL 31.126,437 L Remito 094 1R00000058  O/P 113815581 F Despacho 09/04/2025', 55)
+2025-07-28 08:40:35,305 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-28 08:40:56,041 - [DEBUG] -  []
+2025-07-28 08:41:16,535 - [DEBUG] -  []
+2025-07-28 08:41:37,018 - [DEBUG] -  []
+2025-07-28 08:41:57,502 - [DEBUG] -  []
+2025-07-28 08:42:17,986 - [DEBUG] -  []
+2025-07-28 08:42:38,478 - [DEBUG] -  []
+2025-07-28 08:42:58,963 - [DEBUG] -  []
+2025-07-28 08:43:19,459 - [DEBUG] -  []
+2025-07-28 08:43:39,947 - [DEBUG] -  []
+2025-07-28 08:44:00,438 - [DEBUG] -  []
+2025-07-28 08:44:20,924 - [DEBUG] -  []
+2025-07-28 08:44:41,412 - [DEBUG] -  []
+2025-07-28 08:45:01,903 - [DEBUG] -  []
+2025-07-28 08:45:22,396 - [DEBUG] -  []
+2025-07-28 08:45:42,899 - [DEBUG] -  []
+2025-07-28 08:46:03,413 - [DEBUG] -  []
+2025-07-28 08:46:23,903 - [DEBUG] -  []
+2025-07-28 08:46:44,410 - [DEBUG] -  []
+2025-07-28 08:47:04,892 - [DEBUG] -  []
+2025-07-28 08:47:25,619 - [DEBUG] -  []
+2025-07-28 08:47:46,128 - [DEBUG] -  []
+2025-07-28 08:48:06,689 - [DEBUG] -  []
+2025-07-28 08:48:27,294 - [DEBUG] -  []
+2025-07-28 08:48:47,830 - [DEBUG] -  []
+2025-07-28 08:49:08,322 - [DEBUG] -  []
+2025-07-28 08:49:28,808 - [DEBUG] -  []
+2025-07-28 08:49:49,298 - [DEBUG] -  []
+2025-07-28 08:50:09,795 - [DEBUG] -  []
+2025-07-28 08:50:30,280 - [DEBUG] -  []
+2025-07-28 08:50:50,772 - [DEBUG] -  []
+2025-07-28 08:51:11,366 - [DEBUG] -  []
+2025-07-28 08:51:31,852 - [DEBUG] -  []
+2025-07-28 08:51:52,338 - [DEBUG] -  []
+2025-07-28 08:52:12,822 - [DEBUG] -  []
+2025-07-28 08:52:33,323 - [DEBUG] -  []
+2025-07-28 08:52:53,809 - [DEBUG] -  []
+2025-07-28 08:53:14,293 - [DEBUG] -  []
+2025-07-28 08:53:34,866 - [DEBUG] -  []
+2025-07-28 08:53:55,355 - [DEBUG] -  []
+2025-07-28 08:54:15,842 - [DEBUG] -  []
+2025-07-28 08:54:36,327 - [DEBUG] -  []
+2025-07-28 08:54:56,934 - [DEBUG] -  []
+2025-07-28 08:55:17,424 - [DEBUG] -  []
+2025-07-28 08:55:37,893 - [DEBUG] -  []
+2025-07-28 08:55:58,384 - [DEBUG] -  []
+2025-07-28 08:56:18,868 - [DEBUG] -  []
+2025-07-28 08:56:39,349 - [DEBUG] -  []
+2025-07-28 08:56:59,853 - [DEBUG] -  []
+2025-07-28 08:57:20,339 - [DEBUG] -  []
+2025-07-28 08:57:40,819 - [DEBUG] -  []
+2025-07-28 08:58:01,305 - [DEBUG] -  []
+2025-07-28 08:58:21,783 - [DEBUG] -  []
+2025-07-28 08:58:42,275 - [DEBUG] -  []
+2025-07-28 08:59:02,770 - [DEBUG] -  []
+2025-07-28 08:59:23,255 - [DEBUG] -  []
+2025-07-28 08:59:43,729 - [DEBUG] -  []
+2025-07-28 09:00:04,194 - [DEBUG] -  []
+2025-07-28 09:00:24,678 - [DEBUG] -  []
+2025-07-28 09:00:45,173 - [DEBUG] -  []
+2025-07-28 09:01:05,649 - [DEBUG] -  []
+2025-07-28 09:01:26,168 - [DEBUG] -  []
+2025-07-28 09:01:46,651 - [DEBUG] -  []
+2025-07-28 09:02:07,144 - [DEBUG] -  []
+2025-07-28 09:02:27,633 - [DEBUG] -  []
+2025-07-28 09:02:48,119 - [DEBUG] -  []
+2025-07-28 09:03:08,603 - [DEBUG] -  []
+2025-07-28 09:03:29,311 - [DEBUG] -  []
+2025-07-28 09:03:49,790 - [DEBUG] -  []
+2025-07-28 09:04:10,274 - [DEBUG] -  []
+2025-07-28 09:04:30,761 - [DEBUG] -  []
+2025-07-28 09:04:51,242 - [DEBUG] -  []
+2025-07-28 09:05:11,728 - [DEBUG] -  []
+2025-07-28 09:05:32,211 - [DEBUG] -  []
+2025-07-28 09:05:52,681 - [DEBUG] -  []
+2025-07-28 09:06:13,149 - [DEBUG] -  []
+2025-07-28 09:06:33,618 - [DEBUG] -  []
+2025-07-28 09:06:54,102 - [DEBUG] -  []
+2025-07-28 09:07:14,587 - [DEBUG] -  []
+2025-07-28 09:07:35,080 - [DEBUG] -  []
+2025-07-28 09:07:55,567 - [DEBUG] -  []
+2025-07-28 09:08:16,066 - [DEBUG] -  []
+2025-07-28 09:08:36,560 - [DEBUG] -  []
+2025-07-28 09:08:57,046 - [DEBUG] -  []
+2025-07-28 09:09:17,544 - [DEBUG] -  []
+2025-07-28 09:09:38,033 - [DEBUG] -  []
+2025-07-28 09:09:58,521 - [DEBUG] -  []
+2025-07-28 09:10:19,013 - [DEBUG] -  []
+2025-07-28 09:10:39,499 - [DEBUG] -  []
+2025-07-28 09:10:59,988 - [DEBUG] -  []
+2025-07-28 09:11:20,474 - [DEBUG] -  []
+2025-07-28 09:11:40,970 - [DEBUG] -  []
+2025-07-28 09:12:01,454 - [DEBUG] -  []
+2025-07-28 09:12:21,940 - [DEBUG] -  []
+2025-07-28 09:12:42,426 - [DEBUG] -  []
+2025-07-28 09:13:02,918 - [DEBUG] -  []
+2025-07-28 09:13:23,412 - [DEBUG] -  []
+2025-07-28 09:13:43,940 - [DEBUG] -  []
+2025-07-28 09:14:04,428 - [DEBUG] -  []
+2025-07-28 09:14:24,912 - [DEBUG] -  []
+2025-07-28 09:14:45,400 - [DEBUG] -  []
+2025-07-28 09:15:05,888 - [DEBUG] -  []
+2025-07-28 09:15:26,378 - [DEBUG] -  []
+2025-07-28 09:15:46,887 - [DEBUG] -  []
+2025-07-28 09:16:07,382 - [DEBUG] -  []
+2025-07-28 09:16:27,864 - [DEBUG] -  []
+2025-07-28 09:16:48,357 - [DEBUG] -  []
+2025-07-28 09:17:08,848 - [DEBUG] -  []
+2025-07-28 09:17:29,362 - [DEBUG] -  []
+2025-07-28 09:17:49,848 - [DEBUG] -  []
+2025-07-28 09:18:10,337 - [DEBUG] -  []
+2025-07-28 09:18:30,826 - [DEBUG] -  []
+2025-07-28 09:18:51,331 - [DEBUG] -  []
+2025-07-28 09:19:11,832 - [DEBUG] -  []
+2025-07-28 09:19:32,369 - [DEBUG] -  []
+2025-07-28 09:19:52,869 - [DEBUG] -  []
+2025-07-28 09:20:13,372 - [DEBUG] -  []
+2025-07-28 09:20:33,860 - [DEBUG] -  []
+2025-07-28 09:20:54,339 - [DEBUG] -  []
+2025-07-28 09:21:14,821 - [DEBUG] -  []
+2025-07-28 09:21:35,306 - [DEBUG] -  []
+2025-07-28 09:21:55,794 - [DEBUG] -  []
+2025-07-28 09:22:16,272 - [DEBUG] -  []
+2025-07-28 09:22:36,753 - [DEBUG] -  []
+2025-07-28 09:22:57,227 - [DEBUG] -  []
+2025-07-28 09:23:17,697 - [DEBUG] -  []
+2025-07-28 09:23:38,169 - [DEBUG] -  []
+2025-07-28 09:23:58,644 - [DEBUG] -  []
+2025-07-28 09:24:19,115 - [DEBUG] -  []
+2025-07-28 09:24:39,591 - [DEBUG] -  []
+2025-07-28 09:25:00,102 - [DEBUG] -  []
+2025-07-28 09:25:20,598 - [DEBUG] -  []
+2025-07-28 09:25:41,069 - [DEBUG] -  []
+2025-07-28 09:26:01,554 - [DEBUG] -  []
+2025-07-28 09:26:22,055 - [DEBUG] -  []
+2025-07-28 09:26:42,533 - [DEBUG] -  []
+2025-07-28 09:27:03,421 - [DEBUG] -  []
+2025-07-28 09:27:24,094 - [DEBUG] -  []
+2025-07-28 09:27:44,695 - [DEBUG] -  []
+2025-07-28 09:28:05,286 - [DEBUG] -  []
+2025-07-28 09:28:26,058 - [DEBUG] -  []
+2025-07-28 09:28:49,577 - [DEBUG] -  []
+2025-07-28 09:29:10,447 - [DEBUG] -  []
+2025-07-28 09:29:31,148 - [DEBUG] -  []
+2025-07-28 09:29:52,021 - [DEBUG] -  []
+2025-07-28 09:30:12,495 - [DEBUG] -  []
+2025-07-28 09:30:33,264 - [DEBUG] -  []
+2025-07-28 09:30:53,868 - [DEBUG] -  []
+2025-07-28 09:31:14,393 - [DEBUG] -  []
+2025-07-28 09:31:34,869 - [DEBUG] -  []
+2025-07-28 09:31:55,346 - [DEBUG] -  []
+2025-07-28 09:32:15,819 - [DEBUG] -  []
+2025-07-28 09:32:36,291 - [DEBUG] -  []
+2025-07-28 09:32:56,773 - [DEBUG] -  []
+2025-07-28 09:33:17,248 - [DEBUG] -  []
+2025-07-28 09:33:37,722 - [DEBUG] -  []
+2025-07-28 09:33:58,196 - [DEBUG] -  []
+2025-07-28 09:34:18,682 - [DEBUG] -  []
+2025-07-28 09:34:39,461 - [DEBUG] -  []
+2025-07-28 09:34:59,937 - [DEBUG] -  []
+2025-07-28 09:35:20,425 - [DEBUG] -  []
+2025-07-28 09:35:40,907 - [DEBUG] -  []
+2025-07-28 09:36:01,395 - [DEBUG] -  []
+2025-07-28 09:36:21,870 - [DEBUG] -  []
+2025-07-28 09:36:42,350 - [DEBUG] -  []
+2025-07-28 09:37:02,831 - [DEBUG] -  []
+2025-07-28 09:37:23,316 - [DEBUG] -  []
+2025-07-28 09:37:43,796 - [DEBUG] -  []
+2025-07-28 09:38:04,278 - [DEBUG] -  []
+2025-07-28 09:38:24,762 - [DEBUG] -  []
+2025-07-28 09:38:45,237 - [DEBUG] -  []
+2025-07-28 09:39:05,712 - [DEBUG] -  []
+2025-07-28 09:39:26,193 - [DEBUG] -  []
+2025-07-28 09:39:46,659 - [DEBUG] -  []
+2025-07-28 09:40:07,140 - [DEBUG] -  []
+2025-07-28 09:40:27,621 - [DEBUG] -  []
+2025-07-28 09:40:48,096 - [DEBUG] -  []
+2025-07-28 09:41:08,577 - [DEBUG] -  []
+2025-07-28 09:41:29,053 - [DEBUG] -  []
+2025-07-28 09:41:49,538 - [DEBUG] -  []
+2025-07-28 09:42:10,017 - [DEBUG] -  []
+2025-07-28 09:42:32,180 - [DEBUG] -  []
+2025-07-28 09:42:52,655 - [DEBUG] -  []
+2025-07-28 09:43:13,123 - [DEBUG] -  []
+2025-07-28 09:43:33,597 - [DEBUG] -  []
+2025-07-28 09:43:54,069 - [DEBUG] -  []
+2025-07-28 09:44:14,548 - [DEBUG] -  []
+2025-07-28 09:44:35,026 - [DEBUG] -  []
+2025-07-28 09:44:55,499 - [DEBUG] -  []
+2025-07-28 09:45:15,980 - [DEBUG] -  []
+2025-07-28 09:45:36,468 - [DEBUG] -  []
+2025-07-28 09:45:41,228 - [ERROR] -  Interrupción recibida, cerrando conexión...

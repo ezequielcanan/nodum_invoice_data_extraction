@@ -1,0 +1,45 @@
+2025-07-23 08:45:25,687 - [INFO ] -  Monitoring started
+2025-07-23 08:45:33,185 - [INFO ] -  2025-07-23 08:45:33.183906 FileCreatedEvent(src_path='C:/Nodum/Archivos/Prueba\\YPF\\YPF_112501.pdf', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-07-23 08:45:36,188 - [INFO ] -  Archivo Nuevo: "C:\Nodum\Archivos\Prueba\YPF\YPF_112501.pdf"
+2025-07-23 08:45:36,236 - [DEBUG] -  Creando PDF temporal...
+2025-07-23 08:45:36,240 - [DEBUG] -  Convirtiendo el PDF a JPG
+2025-07-23 08:45:38,819 - [DEBUG] -  Leyendo los Datos... 1
+2025-07-23 08:45:39,010 - [DEBUG] -  Leyendo los Datos... 2
+2025-07-23 08:45:39,011 - [DEBUG] -  DB, Log no nulo
+2025-07-23 08:45:39,440 - [DEBUG] -  DB, Conectado a DB
+2025-07-23 08:45:39,442 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'YPF'
+2025-07-23 08:45:39,464 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-23 08:45:39,469 - [DEBUG] -  DB, Cierra Conexion
+2025-07-23 08:45:39,469 - [DEBUG] -  Leyendo los Datos... 3
+2025-07-23 08:45:39,470 - [DEBUG] -  DB, Log no nulo
+2025-07-23 08:45:39,473 - [DEBUG] -  DB, Conectado a DB
+2025-07-23 08:45:39,473 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 7 AND c.field = 'filas'
+2025-07-23 08:45:39,493 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-23 08:45:39,495 - [DEBUG] -  DB, Cierra Conexion
+2025-07-23 08:45:39,495 - [DEBUG] -  Leyendo los Datos... 4
+2025-07-23 08:45:39,529 - [DEBUG] -  DB, Log no nulo
+2025-07-23 08:45:39,530 - [DEBUG] -  DB, Conectado a DB
+2025-07-23 08:45:39,532 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 7 AND isRow = 0
+2025-07-23 08:45:39,532 - [DEBUG] -  SELECT * FROM columns WHERE formato = 7
+2025-07-23 08:45:39,544 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-23 08:45:39,545 - [DEBUG] -  DB, Cierra Conexion
+2025-07-23 08:45:39,548 - [DEBUG] -  Leyendo los Datos... 5
+2025-07-23 08:45:40,077 - [DEBUG] -  Creating converter from 3 to 5
+2025-07-23 08:45:41,618 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-23 08:46:06,953 - [DEBUG] -  Grabando Datos de la Factura...
+2025-07-23 08:46:06,954 - [DEBUG] -  DB, Log no nulo
+2025-07-23 08:46:06,985 - [DEBUG] -  DB, Conectado a DB
+2025-07-23 08:46:06,987 - [INFO ] -  INSERT INTO facturas (hoja, tipo_doc, serie_docum, nro_docum, nro_dgi, nro_dgi_emp, razon_social, fec_doc, fec_vencimiento, cond_IVA, dir_tit, orden_compra, otros_tributos, imp_prov, porc_iva, imp_iva, total, cae, fec_vencimiento_cae, cond_fpago, datetime) OUTPUT INSERTED.id VALUES ('ORIGINAL', 'FACTURA', '1417', '00112501', '30-54668997-9', '30-66604945-0', 'YPFS.A.', '11/04/2025', '09/05/2025', 'I1VA RESPONSABLE INSCRIPTO', 'BV. MACACHA GUEMES 515 CABA - Argentina [ 1106 )', '6896', '11.984,61', '747,03', '21.00%', '9.098,88', '65.158,52', '75159258446991', '21/04/2025', 'dentro de los 28 días sin DPP', '2025-07-23 08:46:06:987')
+2025-07-23 08:46:07,026 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-23 08:46:07,037 - [DEBUG] -  DB, Cierra Conexion
+2025-07-23 08:46:07,053 - [DEBUG] -  DB, Log no nulo
+2025-07-23 08:46:07,054 - [DEBUG] -  DB, Conectado a DB
+2025-07-23 08:46:07,059 - [DEBUG] -  UPDATE facturas SET thumbnail = 'C:/Nodum/Archivos/ModeloExpress/emails\44.pdf' WHERE id = 44
+2025-07-23 08:46:07,073 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-23 08:46:07,083 - [DEBUG] -  DB, Cierra Conexion
+2025-07-23 08:46:07,085 - [DEBUG] -  DB, Log no nulo
+2025-07-23 08:46:07,087 - [DEBUG] -  DB, Conectado a DB
+2025-07-23 08:46:07,094 - [INFO ] -  INSERT INTO detalles (cod_articulo, cantidad, cod_unidad, precio, imp_stot_mo, factura) VALUES ('553600', '27.080,000', 'KG', '1,600', '43.328,00', 44)
+2025-07-23 08:46:07,106 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-23 08:46:07,123 - [DEBUG] -  DB, Cierra Conexion
+2025-07-23 08:46:07,124 - [INFO ] -  Fin Inserts: C:\Nodum\Archivos\Prueba\YPF\YPF_112501.pdf

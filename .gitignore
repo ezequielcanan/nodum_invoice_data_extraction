@@ -1,0 +1,5 @@
+backend/**/*.jpg
+backend/**/*.png
+backend/.env
+backend/.env.bak
+node_modules

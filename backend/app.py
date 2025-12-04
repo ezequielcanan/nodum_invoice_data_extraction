@@ -44,9 +44,9 @@ def upload_format():
     if (request.method == "POST"):
       height = int(form_data.get("height"))
       width = int(form_data.get("width"))
-      id = db.make_db_action(db.insert_format, (name, height, width))
+      id = db.make_db_action(db.insert_format, None, (name, height, width))
     else:
-      id = db.make_db_action(db.get_formatid_by_name, name)
+      id = db.make_db_action(db.get_formatid_by_name, None, name)
     
     if len(coordinates):
       coordinates = np.insert(coordinates, coordinates.shape[1], id, 1)
@@ -55,25 +55,25 @@ def upload_format():
       columns = np.insert(columns, columns.shape[1], id, 1)
 
     newColumnsTuple = [c[8] for c in columns]
-    oldColumns = db.make_db_action(db.get_columns_by_format, id)
+    oldColumns = db.make_db_action(db.get_columns_by_format, None, id)
     deleteColumns = [column for column in oldColumns if column[5] not in newColumnsTuple]
 
     newCoordinatesTuple = [c[8] for c in coordinates]
-    oldCoordinates = db.make_db_action(db.get_coordinates_by_format, id)
+    oldCoordinates = db.make_db_action(db.get_coordinates_by_format, None, id)
     deleteCoordinates = [coordinate for coordinate in oldCoordinates if coordinate[4] not in newCoordinatesTuple]
 
 
     for i, col in enumerate(deleteColumns):
-      db.make_db_action(db.delete_column_by_field, col[5], id)
+      db.make_db_action(db.delete_column_by_field, None, col[5], id)
 
     for i, coord in enumerate(deleteCoordinates):
-      db.make_db_action(db.delete_coordinate_by_field, coord[4], id)
+      db.make_db_action(db.delete_coordinate_by_field, None, coord[4], id)
       
     for i,coord in enumerate(coordinates):
-      db.make_db_action(db.insert_coordinate, coord[1:])
+      db.make_db_action(db.insert_coordinate, None, coord[1:])
       
     for i,coord in enumerate(columns):
-      db.make_db_action(db.insert_column, coord[1:])
+      db.make_db_action(db.insert_column, None, coord[1:])
     
     file_path = os.path.join(UPLOAD_FOLDER, name)
     if not os.path.exists(file_path):
@@ -92,7 +92,7 @@ def upload_format():
 
     return jsonify({"message": "Files and data successfully uploaded", "id": id}), 200
   else:
-    result = db.make_db_action(db.get_formats)
+    result = db.make_db_action(db.get_formats, None)
 
     return jsonify({"status": "success", "payload": result}), 200
 
@@ -132,20 +132,20 @@ def test():
 
   form_data = request.form.to_dict()
   format = list(form_data.get('format').split(","))
-  columns = db.make_db_action(db.get_columns_by_format, format[0])
-  coordinates = db.make_db_action(db.get_coordinates_by_format, format[0])
-  filas_roi = db.make_db_action(db.get_rows_roi_id, format[0])
+  columns = db.make_db_action(db.get_columns_by_format, None, format[0])
+  coordinates = db.make_db_action(db.get_coordinates_by_format, None, format[0])
+  filas_roi = db.make_db_action(db.get_rows_roi_id, None, format[0])
   coordinates = [coordinate for coordinate in coordinates if not coordinate[7]]
   
   modelPath = os.path.join(UPLOAD_FOLDER, format[1], f"{format[1]}_model.h5")
-  results = predict_image(np.array(image), modelPath, columns, coordinates, filas_roi, False, True)
+  results = predict_image(np.array(image), modelPath, columns, coordinates, filas_roi, False, True, format[1])
 
   return jsonify({"status": "success", "payload": results}), 200
   
 
 @app.route('/formats', methods=['GET'])
 def get_formats_info():
-  result = db.make_db_action(db.get_formats, False)
+  result = db.make_db_action(db.get_formats, None, False)
 
   formats = []
   for i,format in enumerate(result):
@@ -159,12 +159,12 @@ def get_formats_info():
 @app.route("/<id>", methods=["PUT", "GET"])
 def change_format_state(id):
   if (request.method == "PUT"):
-    db.make_db_action(db.update_format_state, id)
+    db.make_db_action(db.update_format_state, None, id)
     return jsonify({"status": "success"})
   else:
-    result = db.make_db_action(db.get_format, id)
-    columns = db.make_db_action(db.get_columns_for_editing, id)
-    coordinates = db.make_db_action(db.get_coordinates_by_format, id)
+    result = db.make_db_action(db.get_format, None, id)
+    columns = db.make_db_action(db.get_columns_for_editing, None, id)
+    coordinates = db.make_db_action(db.get_coordinates_by_format, None, id)
 
     format = result[0][1]
     images_dir = os.path.join(UPLOAD_FOLDER, format)
@@ -184,11 +184,11 @@ def change_format_state(id):
 @app.route("/emails", methods=["GET", "POST"])
 def get_emails():
   if (request.method == "GET"):
-    result = db.make_db_action(db.get_emails)
+    result = db.make_db_action(db.get_emails, None)
     return jsonify({"status": "success", "payload": result})
   else:
     data = request.get_json().values()
-    db.make_db_action(db.insert_email, data)
+    db.make_db_action(db.insert_email, None, data)
     return jsonify({"status": "success"})
   
   

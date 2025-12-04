@@ -1,0 +1,54 @@
+2025-09-16 10:50:21,522 - [INFO ] -  Monitoring started
+2025-09-16 10:51:53,668 - [INFO ] -  2025-09-16 10:51:53.668869 FileCreatedEvent(src_path='C:/Nodum/Archivos/ModeloExpress/Captura/Pendientes\\Raizen\\117.pdf', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-09-16 10:51:56,673 - [DEBUG] -  IF .PDF
+2025-09-16 10:51:56,674 - [INFO ] -  Archivo Nuevo: "C:\Nodum\Archivos\ModeloExpress\Captura\Pendientes\Raizen\117.pdf"
+2025-09-16 10:51:56,723 - [DEBUG] -  Creando PDF temporal...
+2025-09-16 10:51:56,728 - [DEBUG] -  Convirtiendo el PDF a JPG
+2025-09-16 10:51:59,328 - [DEBUG] -  Leyendo los Datos... 1
+2025-09-16 10:51:59,493 - [DEBUG] -  Leyendo los Datos... 2
+2025-09-16 10:51:59,848 - [DEBUG] -  DB, Conectado a DB
+2025-09-16 10:51:59,850 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'RAIZEN'
+2025-09-16 10:51:59,867 - [DEBUG] -  DB, Funcion Ejecutada
+2025-09-16 10:51:59,874 - [DEBUG] -  Leyendo los Datos... 3
+2025-09-16 10:51:59,877 - [DEBUG] -  DB, Conectado a DB
+2025-09-16 10:51:59,878 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 11 AND c.field = 'filas'
+2025-09-16 10:51:59,897 - [DEBUG] -  DB, Funcion Ejecutada
+2025-09-16 10:51:59,899 - [DEBUG] -  Leyendo los Datos... 4
+2025-09-16 10:51:59,927 - [DEBUG] -  DB, Conectado a DB
+2025-09-16 10:51:59,928 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 11 AND isRow = 0
+2025-09-16 10:51:59,930 - [DEBUG] -  SELECT * FROM columns WHERE formato = 11
+2025-09-16 10:51:59,965 - [DEBUG] -  DB, Funcion Ejecutada
+2025-09-16 10:51:59,967 - [DEBUG] -  Leyendo los Datos... 5
+2025-09-16 10:52:00,489 - [DEBUG] -  Creating converter from 3 to 5
+2025-09-16 10:52:01,687 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-09-16 10:52:35,681 - [DEBUG] -  {'nro_viaje': '1016853537', 'letra_doc': 'A', 'tc_mov': '1.317,50000', 'total': '46.408,83', 'cae': '35304235213166', 'fec_vencimiento_cae': '15/08/2025', 'porc_iva': '21,00', 'imp_iva': '5.585,65', 'imp_prov': '81,48', 'fletes': '13.327,08', 'otros_tributos': '816,27', 'tipo_doc': 'Factura', 'hoja': 'ORIGINAL', 'serie_docum': '05001', 'nro_docum': '00049609', 'nro_dgi': '30506726804', 'nro_dgi_emp': '30666049450', 'razon_social': 'RAIZEN ARGENTINA S.A.U.', 'fec_doc': '14/08/2025', 'fec_vencimiento': '15/09/2025', 'cond_fpago': '30 días a partir de Fecha Doc', 'cond_IVA': 'IVA Responsable Inscripto', 'dir_tit': '1080337 MITRE S/N ESQUINA SERBIA 1731 VILLARS Buenos Aires Argentina', 'orden_compra': '944216736', 'subtotal': '26.598,35', 'moneda': 'USD', 'formato': 'RAIZEN'}
+2025-09-16 10:52:35,691 - [DEBUG] -  Leyendo los Datos... 1
+2025-09-16 10:52:35,856 - [DEBUG] -  Leyendo los Datos... 2
+2025-09-16 10:52:35,881 - [DEBUG] -  DB, Conectado a DB
+2025-09-16 10:52:35,882 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'RAIZEN'
+2025-09-16 10:52:35,888 - [DEBUG] -  DB, Funcion Ejecutada
+2025-09-16 10:52:35,893 - [DEBUG] -  Leyendo los Datos... 3
+2025-09-16 10:52:35,896 - [DEBUG] -  DB, Conectado a DB
+2025-09-16 10:52:35,899 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 11 AND c.field = 'filas'
+2025-09-16 10:52:35,905 - [DEBUG] -  DB, Funcion Ejecutada
+2025-09-16 10:52:35,909 - [DEBUG] -  Leyendo los Datos... 4
+2025-09-16 10:52:35,930 - [DEBUG] -  DB, Conectado a DB
+2025-09-16 10:52:35,930 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 11 AND isRow = 0
+2025-09-16 10:52:35,932 - [DEBUG] -  SELECT * FROM columns WHERE formato = 11
+2025-09-16 10:52:35,940 - [DEBUG] -  DB, Funcion Ejecutada
+2025-09-16 10:52:35,949 - [DEBUG] -  Leyendo los Datos... 5
+2025-09-16 10:52:36,274 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-09-16 10:53:00,511 - [DEBUG] -  {'nro_viaje': '1016853537', 'letra_doc': 'A', 'tc_mov': '1.317,50000', 'total': '46.408,83', 'cae': '35304235213166', 'fec_vencimiento_cae': '15/08/2025', 'porc_iva': '21,00', 'imp_iva': '5.585,65', 'imp_prov': '81,48', 'fletes': '13.327,08', 'otros_tributos': '816,27', 'tipo_doc': 'Factura', 'hoja': 'ORIGINAL', 'serie_docum': '05001', 'nro_docum': '00049609', 'nro_dgi': '30506726804', 'nro_dgi_emp': '30666049450', 'razon_social': 'RAIZEN ARGENTINA S.A.U.', 'fec_doc': '14/08/2025', 'fec_vencimiento': '15/09/2025', 'cond_fpago': '30 días a partir de Fecha Doc', 'cond_IVA': 'IVA Responsable Inscripto', 'dir_tit': '1080337 MITRE S/N ESQUINA SERBIA 1731 VILLARS Buenos Aires Argentina', 'orden_compra': '944216736', 'subtotal': '26.598,35', 'moneda': 'USD', 'formato': 'RAIZEN'}
+2025-09-16 10:53:00,515 - [DEBUG] -  Grabando Datos de la Factura...
+2025-09-16 10:53:00,525 - [DEBUG] -  DB, Conectado a DB
+2025-09-16 10:53:00,528 - [INFO ] -  INSERT INTO facturas (nro_viaje, letra_doc, tc_mov, total, cae, fec_vencimiento_cae, porc_iva, imp_iva, imp_prov, fletes, otros_tributos, tipo_doc, hoja, serie_docum, nro_docum, nro_dgi, nro_dgi_emp, razon_social, fec_doc, fec_vencimiento, cond_fpago, cond_IVA, dir_tit, orden_compra, subtotal, moneda, formato, datetime) OUTPUT INSERTED.id VALUES ('1016853537', 'A', '1.317,50000', '46.408,83', '35304235213166', '15/08/2025', '21,00', '5.585,65', '81,48', '13.327,08', '816,27', 'Factura', 'ORIGINAL', '05001', '00049609', '30506726804', '30666049450', 'RAIZEN ARGENTINA S.A.U.', '14/08/2025', '15/09/2025', '30 días a partir de Fecha Doc', 'IVA Responsable Inscripto', '1080337 MITRE S/N ESQUINA SERBIA 1731 VILLARS Buenos Aires Argentina', '944216736', '26.598,35', 'USD', 'RAIZEN', '2025-09-16 10:53:00:527')
+2025-09-16 10:53:00,552 - [DEBUG] -  DB, Funcion Ejecutada
+2025-09-16 10:53:00,570 - [DEBUG] -  DB, Conectado a DB
+2025-09-16 10:53:00,570 - [DEBUG] -  UPDATE facturas SET thumbnail = 'C:/Nodum/Archivos/ModeloExpress/emails\134.pdf' WHERE id = 134
+2025-09-16 10:53:00,577 - [DEBUG] -  DB, Funcion Ejecutada
+2025-09-16 10:53:00,588 - [DEBUG] -  DB, Conectado a DB
+2025-09-16 10:53:00,590 - [INFO ] -  INSERT INTO detalles (observaciones, cod_articulo, nom_articulo, cantidad, cod_unidad, precio, factura) VALUES ('101002n Solvente 6 10,89 745,30 19,000 M3 19,00 M3 611,0500 11.609,995 — 2.438,09 6.890,35 20.938,39', 'Q10020', 'Solvente 6', '19,000', 'M3', '611,0500', 134)
+2025-09-16 10:53:00,618 - [INFO ] -  INSERT INTO detalles (observaciones, cod_articulo, nom_articulo, cantidad, cod_unidad, precio, factura) VALUES ('EEO 2A E -17 A TRAAZ Ta PEl 1AF AE CEE ER 1S ARPG FAA ERAN RA S AZO a10090 Solvente 90 1174 81590 20.000 M3 20.00 M3 7494200  14.98840 314756 725300 2538896', 'atonso', 'Frogucio 1u 1 SASEN Solvente 90', 'MA 20.000', 'PO ma', 'MENO EE 7494200', 134)
+2025-09-16 10:53:00,628 - [DEBUG] -  DB, Funcion Ejecutada
+2025-09-16 10:53:00,636 - [INFO ] -  Fin Inserts: C:\Nodum\Archivos\ModeloExpress\Captura\Pendientes\Raizen\117.pdf
+2025-09-16 12:32:43,518 - [INFO ] -  Interrupción recibida, cerrando conexión...

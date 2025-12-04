@@ -105,9 +105,9 @@ def create_model(input_shape, num_boxes):
     return model
 
 def train_model_and_save(images_path, labels_path, name, emit, request, socketio):
-  rows = list(db.make_db_action(db.get_format_rows, name))
+  rows = list(db.make_db_action(db.get_format_rows, None, name))
   rows = [list(row) for row in rows]
-  filas_roi = db.make_db_action(db.get_rows_roi, name)
+  filas_roi = db.make_db_action(db.get_rows_roi, None, name)
 
   image_names = [f for f in os.listdir(images_path) if f.endswith('.png') or f.endswith(".jpg")]
   key_index = {key: index for index, key in enumerate(image_names)}
@@ -181,19 +181,66 @@ def apply_roi_filters(roi):
   gray_roi = cv2.cvtColor(roi, cv2.COLOR_BGR2GRAY)
   _, binary_roi = cv2.threshold(gray_roi, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
   return binary_roi
+  
+def apply_roi_filters_for_quantity(roi,
+                                   scale: int = 3,
+                                   clahe_clip: float = 3.0,
+                                   clahe_grid: tuple = (8, 8),
+                                   blur_ksize: tuple = (1, 1),
+                                   force_invert: bool = True) -> np.ndarray:
 
-def predict_image(filepath, modelPath, columns, coordinates, filas_roi, path=False, buffer=True):
+    if roi is None:
+        raise ValueError("El parámetro roi no puede ser None")
+
+    roi = roi.astype(np.uint8)
+
+    if roi.ndim == 3 and roi.shape[2] == 4:
+        roi = cv2.cvtColor(roi, cv2.COLOR_BGRA2BGR)
+
+    if roi.ndim == 3 and roi.shape[2] == 3:
+        gray = cv2.cvtColor(roi, cv2.COLOR_BGR2GRAY)
+    elif roi.ndim == 2:
+        gray = roi.copy()
+    else:
+        raise ValueError("Formato de roi no soportado (esperado grayscale, BGR o BGRA)")
+
+    if scale != 1 and scale > 0:
+        new_w = int(gray.shape[1] * scale)
+        new_h = int(gray.shape[0] * scale)
+        gray = cv2.resize(gray, (new_w, new_h), interpolation=cv2.INTER_CUBIC)
+
+    # CLAHE
+    clahe = cv2.createCLAHE(clipLimit=clahe_clip, tileGridSize=clahe_grid)
+    gray_clahe = clahe.apply(gray)
+
+    # Suavizado
+    blur = cv2.GaussianBlur(gray_clahe, blur_ksize, 0)
+
+    # Binarización con Otsu
+    _, bw = cv2.threshold(blur, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
+
+    # Asegurar texto en blanco y fondo en negro
+    if force_invert:
+        if np.mean(bw) > 127:
+            bw = 255 - bw
+    else:
+        bw = (bw > 127).astype(np.uint8) * 255
+
+    return bw
+
+distinctColumns2Lines = ["numero_viaje", "op", "icl", "fec_despacho"]
+distinctColumns3LinesFirst = ["icl_precio", "b_porcentaje"]
+distinctColumns3LinesSecond = ["numero_viaje", "op", "fec_despacho"]
+
+def predict_image(filepath, modelPath, columns, coordinates, filas_roi, path=False, buffer=True, formato=None):
   imageBuffer = to_image(filepath, path, buffer)
   image = load_and_preprocess_image(imageBuffer, filas_roi, False, True)
   model = load_model(modelPath)
   predicted_boxes = model.predict(np.array([image]))
   valid_coords = np.array(predicted_boxes[0])
-          
   num_boxes = (len(valid_coords) // 5) * 5
-
   # Recortar el array para que su tamaño sea múltiplo de 5
   valid_coords = valid_coords[:num_boxes]
-
   # Dividir el array recortado en subarrays de 5 elementos
   boxes = valid_coords.reshape(-1, 5)
   # Print the equal parts
@@ -202,15 +249,15 @@ def predict_image(filepath, modelPath, columns, coordinates, filas_roi, path=Fal
       if box[4] > 50:
         features.append(box)
 
-  if not features:
-    return False
-
-  custom_config = r'--oem 3 --psm 6'
+  default_config = r'--oem 3 --psm 6'
+  custom_config = default_config
+  fmt = (formato or "").upper()
   results = {}
   rows = []
   original_image = imageBuffer
   original_img_height, original_img_width, _ = original_image.shape
   lastY = 0
+  
   for i, box in enumerate(features):
     x, y, w, h, _ = box
     x, y, w, h = abs(int(x)), abs(int(y)), abs(int(w)), abs(int(h))
@@ -228,32 +275,62 @@ def predict_image(filepath, modelPath, columns, coordinates, filas_roi, path=Fal
     for z,column in enumerate(columns):
       if (img_width > 10 and img_width > 10):
         try:
-          xcol = column[0]
-          xcol = int(xcol) - filas_roi[2]
-          xnextcol = int(columns[z+1][0] if (z < len(columns) - 1) else img_width)
-          fieldname = column[5]
-          if (xnextcol - xcol > 5):
-            field = roi[0:img_height, xcol:int(column[1])+xcol]
-            if (fieldname == "cantidad" or fieldname == "aduana" or fieldname == "lote"):
+            xcol = column[0]
+            xcol = int(xcol) - filas_roi[2]
+            xnextcol = int(columns[z+1][0] if (z < len(columns) - 1) else img_width)
+            fieldname = column[5]
+          #if (xnextcol - xcol > 5):
+            if fmt == "YPF_2":
+              if fieldname not in distinctColumns2Lines:
+                field = roi[0:int(img_height/2), xcol:int(column[1])+xcol]
+              else:
+                field = roi[int(img_height/2):img_height, xcol:int(column[1])+xcol]
+            elif fmt == "YPF_3":
+              if fieldname in distinctColumns3LinesFirst:
+                field = roi[int(img_height/3):int(img_height/3)*2, xcol:int(column[1])+xcol]
+              elif fieldname in distinctColumns3LinesSecond:
+                field = roi[int(img_height/3)*2:img_height, xcol:int(column[1])+xcol]
+              else:
+                field = roi[0:int(img_height/3), xcol:int(column[1])+xcol]
+            else:
+              field = roi[0:img_height, xcol:int(column[1])+xcol]
+            
+            if (fieldname == "aduana" or fieldname == "lote" or fieldname == "cod_articulo" or fieldname == "observaciones"):
               '''plt.imshow(cv2.cvtColor(field, cv2.COLOR_BGR2RGB))
               plt.title(f"ROI {i}")
               plt.show()'''
               field = apply_roi_filters(field)
-
-            if (fieldname=="aduana"):
+               
+            elif (fieldname == "cantidad"):
+              #print("cantidad")
+              field = apply_roi_filters_for_quantity(field)
+              #cv2.imwrite(f"roi_{i}_{fieldname}.png", field)
+              
+            
+            if fmt == "ALPEK" and fieldname == "cod_articulo":
+                pass
+                #custom_config = r'--oem 0 --psm 8 '
+            elif (fieldname == "aduana"):
               custom_config = r"--psm 10"
+            #elif (fieldname=="precio"):
+             # custom_config = r"--oem 3 --psm 12"
+            elif (fieldname=="cantidad"):
+              if (fmt == "RAIZEN"):
+                custom_config = r"--oem 1 --psm 6" # psm 6 para doble linea
+              else: 
+                custom_config = r"--oem 1 --psm 7" 
             else:
               custom_config = r'--oem 3 --psm 6'
-              text = pytesseract.image_to_string(field, lang="spa", config=custom_config)
-              text = text.replace("\n", " ").strip().strip("~")
-              if fieldname == "aduana" and text == "o":
-                text = "0"
-              #if fieldname == "precio" or fieldname == "cantidad" or fieldname == "porc_bonif" or fieldname == "imp_desc" or fieldname == "imp_stot_mo":
-                #text = text.replace(".", "").replace(",", "")
-                #text = text[:-2] + "." + text[-2:]
-              values[fieldname] = text
-        except:
-          print("ERROR")
+            text = pytesseract.image_to_string(field, lang="spa", config=custom_config)
+            text = text.replace("\n", " ").strip().strip("~")
+            if fieldname == "aduana" and text == "o":
+              text = "0"
+            #if fieldname == "precio" or fieldname == "cantidad" or fieldname == "porc_bonif" or fieldname == "imp_desc" or fieldname == "imp_stot_mo":
+              #text = text.replace(".", "").replace(",", "")
+              #text = text[:-2] + "." + text[-2:]
+            values[fieldname] = text
+        except Exception as e:
+          print("ERROR", e)
           pass
       '''plt.imshow(cv2.cvtColor(field, cv2.COLOR_BGR2RGB))
       plt.savefig(f'f{z}.png')'''
@@ -271,8 +348,9 @@ def predict_image(filepath, modelPath, columns, coordinates, filas_roi, path=Fal
         roi = apply_roi_filters(roi)
 
       try:
-        text = pytesseract.image_to_string(roi, lang="spa", config=custom_config)
+        header_config = default_config  # r'--oem 3 --psm 6'
+        text = pytesseract.image_to_string(roi, lang="spa", config=header_config)
         results[fieldname] = text.replace("\n", " ").strip()
       except:
         pass
-  return (results, rows)
+  return (results, rows) if features else [results,]

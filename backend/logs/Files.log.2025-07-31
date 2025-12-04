@@ -1,0 +1,458 @@
+2025-07-31 15:36:04,783 - [INFO ] -  Monitoring started
+2025-07-31 17:24:12,307 - [INFO ] -  2025-07-31 17:24:12.306795 FileCreatedEvent(src_path='C:/Nodum/Archivos/Prueba\\Alpek\\16-05_ALPEK_FC_41530.pdf', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-07-31 17:24:15,312 - [INFO ] -  Archivo Nuevo: "C:\Nodum\Archivos\Prueba\Alpek\16-05_ALPEK_FC_41530.pdf"
+2025-07-31 17:24:15,360 - [DEBUG] -  Creando PDF temporal...
+2025-07-31 17:24:15,362 - [DEBUG] -  Convirtiendo el PDF a JPG
+2025-07-31 17:24:18,364 - [DEBUG] -  Leyendo los Datos... 1
+2025-07-31 17:24:18,500 - [DEBUG] -  Leyendo los Datos... 2
+2025-07-31 17:24:18,582 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 17:24:18,582 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'ALPEK'
+2025-07-31 17:24:18,602 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 17:24:18,605 - [DEBUG] -  Leyendo los Datos... 3
+2025-07-31 17:24:18,605 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 17:24:18,607 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 9 AND c.field = 'filas'
+2025-07-31 17:24:18,609 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 17:24:18,612 - [DEBUG] -  Leyendo los Datos... 4
+2025-07-31 17:24:18,635 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 17:24:18,636 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 9 AND isRow = 0
+2025-07-31 17:24:18,637 - [DEBUG] -  SELECT * FROM columns WHERE formato = 9
+2025-07-31 17:24:18,643 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 17:24:18,645 - [DEBUG] -  Leyendo los Datos... 5
+2025-07-31 17:24:18,709 - [DEBUG] -  Creating converter from 3 to 5
+2025-07-31 17:24:19,361 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-31 17:24:42,893 - [DEBUG] -  Leyendo los Datos... 1
+2025-07-31 17:24:43,052 - [DEBUG] -  Leyendo los Datos... 2
+2025-07-31 17:24:43,084 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 17:24:43,086 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'ALPEK'
+2025-07-31 17:24:43,088 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 17:24:43,092 - [DEBUG] -  Leyendo los Datos... 3
+2025-07-31 17:24:43,092 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 17:24:43,093 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 9 AND c.field = 'filas'
+2025-07-31 17:24:43,095 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 17:24:43,098 - [DEBUG] -  Leyendo los Datos... 4
+2025-07-31 17:24:43,119 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 17:24:43,120 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 9 AND isRow = 0
+2025-07-31 17:24:43,120 - [DEBUG] -  SELECT * FROM columns WHERE formato = 9
+2025-07-31 17:24:43,125 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 17:24:43,128 - [DEBUG] -  Leyendo los Datos... 5
+2025-07-31 17:24:43,452 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-31 17:25:09,036 - [DEBUG] -  Leyendo los Datos... 1
+2025-07-31 17:25:09,200 - [DEBUG] -  Leyendo los Datos... 2
+2025-07-31 17:25:09,203 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 17:25:09,203 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'ALPEK'
+2025-07-31 17:25:09,205 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 17:25:09,208 - [DEBUG] -  Leyendo los Datos... 3
+2025-07-31 17:25:09,210 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 17:25:09,214 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 9 AND c.field = 'filas'
+2025-07-31 17:25:09,217 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 17:25:09,221 - [DEBUG] -  Leyendo los Datos... 4
+2025-07-31 17:25:09,253 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 17:25:09,254 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 9 AND isRow = 0
+2025-07-31 17:25:09,266 - [DEBUG] -  SELECT * FROM columns WHERE formato = 9
+2025-07-31 17:25:09,272 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 17:25:09,277 - [DEBUG] -  Leyendo los Datos... 5
+2025-07-31 17:25:09,658 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-31 17:25:33,050 - [DEBUG] -  Leyendo los Datos... 1
+2025-07-31 17:25:33,205 - [DEBUG] -  Leyendo los Datos... 2
+2025-07-31 17:25:33,207 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 17:25:33,211 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'ALPEK'
+2025-07-31 17:25:33,216 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 17:25:33,222 - [DEBUG] -  Leyendo los Datos... 3
+2025-07-31 17:25:33,224 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 17:25:33,227 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 9 AND c.field = 'filas'
+2025-07-31 17:25:33,233 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 17:25:33,240 - [DEBUG] -  Leyendo los Datos... 4
+2025-07-31 17:25:33,263 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 17:25:33,263 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 9 AND isRow = 0
+2025-07-31 17:25:33,272 - [DEBUG] -  SELECT * FROM columns WHERE formato = 9
+2025-07-31 17:25:33,282 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 17:25:33,285 - [DEBUG] -  Leyendo los Datos... 5
+2025-07-31 17:25:33,616 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-31 17:25:56,617 - [DEBUG] -  Grabando Datos de la Factura...
+2025-07-31 17:25:56,618 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 17:25:56,625 - [INFO ] -  INSERT INTO facturas (hoja, tipo_doc, nro_docum, serie_docum, nro_dgi, nro_dgi_emp, razon_social, fec_doc, fec_vencimiento, fec_periodo_dd, fec_periodo_ht, cond_fpago, cond_IVA, dir_tit, orden_compra, imp_prov, imp_iva, total, porc_prov, porc_iva, cae, fec_vencimiento_cae, datetime) OUTPUT INSERTED.id VALUES ('Original', 'FACTURA', '00041530', '00024', '30-71026521-2', '30-66604945-0', 'ALPEK POLYESTER ARGENTINA S.A.', '16/05/2025', 'lo Cliente: O', '16/05/2025', '16/05/2025', '', 'I1VA Responsable inscripto.', 'C1035AAQ C.A.B.A. ARGENTINA', '', '43.24', '4,540.54', '26,205.38', '0.20', '21.00', '75202315702969', '26/05/2025', '2025-07-31 17:25:56:625')
+2025-07-31 17:25:56,638 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 17:25:56,655 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 17:25:56,655 - [DEBUG] -  UPDATE facturas SET thumbnail = 'C:/Nodum/Archivos/ModeloExpress/emails\60.pdf' WHERE id = 60
+2025-07-31 17:25:56,665 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 17:25:56,670 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 17:25:56,673 - [INFO ] -  INSERT INTO detalles (cod_articulo, cantidad, cod_unidad, nom_articulo, precio, lote, imp_stot_mo, factura) VALUES ('30000001', '28,080', 'KG', 'EG, ETILENGLICOL, GRADO FIBRA', '0.7700', 'USDIKG', '21,621.60', 60)
+2025-07-31 17:25:56,682 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 17:25:56,692 - [INFO ] -  Fin Inserts: C:\Nodum\Archivos\Prueba\Alpek\16-05_ALPEK_FC_41530.pdf
+2025-07-31 19:44:47,614 - [INFO ] -  2025-07-31 19:44:47.613935 FileCreatedEvent(src_path='C:/Nodum/Archivos/Prueba\\Raizen\\19-05_FC_47166_RAIZEN.pdf', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-07-31 19:44:50,631 - [INFO ] -  Archivo Nuevo: "C:\Nodum\Archivos\Prueba\Raizen\19-05_FC_47166_RAIZEN.pdf"
+2025-07-31 19:44:50,668 - [DEBUG] -  Creando PDF temporal...
+2025-07-31 19:44:50,670 - [DEBUG] -  Convirtiendo el PDF a JPG
+2025-07-31 19:44:51,555 - [DEBUG] -  Leyendo los Datos... 1
+2025-07-31 19:44:51,740 - [DEBUG] -  Leyendo los Datos... 2
+2025-07-31 19:44:51,767 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 19:44:51,767 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'RAIZEN'
+2025-07-31 19:44:51,772 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 19:44:51,778 - [DEBUG] -  Leyendo los Datos... 3
+2025-07-31 19:44:51,779 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 19:44:51,780 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 11 AND c.field = 'filas'
+2025-07-31 19:44:51,783 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 19:44:51,785 - [DEBUG] -  Leyendo los Datos... 4
+2025-07-31 19:44:51,809 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 19:44:51,810 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 11 AND isRow = 0
+2025-07-31 19:44:51,811 - [DEBUG] -  SELECT * FROM columns WHERE formato = 11
+2025-07-31 19:44:51,816 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 19:44:51,817 - [DEBUG] -  Leyendo los Datos... 5
+2025-07-31 19:44:52,174 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-31 19:44:52,583 - [WARNI] -  5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000001B881892660> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-07-31 19:45:17,707 - [DEBUG] -  Leyendo los Datos... 1
+2025-07-31 19:45:17,886 - [DEBUG] -  Leyendo los Datos... 2
+2025-07-31 19:45:17,889 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 19:45:17,890 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'RAIZEN'
+2025-07-31 19:45:17,894 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 19:45:17,896 - [DEBUG] -  Leyendo los Datos... 3
+2025-07-31 19:45:17,897 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 19:45:17,900 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 11 AND c.field = 'filas'
+2025-07-31 19:45:17,904 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 19:45:17,907 - [DEBUG] -  Leyendo los Datos... 4
+2025-07-31 19:45:17,934 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 19:45:17,935 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 11 AND isRow = 0
+2025-07-31 19:45:17,936 - [DEBUG] -  SELECT * FROM columns WHERE formato = 11
+2025-07-31 19:45:17,940 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 19:45:17,943 - [DEBUG] -  Leyendo los Datos... 5
+2025-07-31 19:45:18,237 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-31 19:45:18,561 - [WARNI] -  6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000001B881955580> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-07-31 19:45:39,667 - [DEBUG] -  Grabando Datos de la Factura...
+2025-07-31 19:45:39,669 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 19:45:39,682 - [INFO ] -  INSERT INTO facturas (total, cae, fec_vencimiento_cae, porc_iva, imp_iva, imp_prov, fletes, otros_tributos, tipo_doc, hoja, serie_docum, nro_docum, nro_dgi, nro_dgi_emp, razon_social, fec_doc, fec_vencimiento, cond_fpago, cond_IVA, dir_tit, orden_compra, datetime) OUTPUT INSERTED.id VALUES ('51.779,28', '35194339151990', '31/05/2025', '21,00', '6.295,44', '90,79', '14.525,13', '889,64', 'Factura', 'ORIGINAL', '05001', '00047166', '30506726804', '30666049450', 'RAIZEN ARGENTINA S.A.U.', '19.05.2025', '18.06.2025', '30 días a partir de Fecha Doc', 'IVA Responsable Inscripto', '1080337 MITRE S/N ESQUINA SERBIA 1731 VILLARS Buenos Aires Argentina', '943465718', '2025-07-31 19:45:39:682')
+2025-07-31 19:45:39,719 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 19:45:39,738 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 19:45:39,739 - [DEBUG] -  UPDATE facturas SET thumbnail = 'C:/Nodum/Archivos/ModeloExpress/emails\61.pdf' WHERE id = 61
+2025-07-31 19:45:39,747 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 19:45:39,754 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 19:45:39,754 - [INFO ] -  INSERT INTO detalles (observaciones, cod_articulo, nom_articulo, cantidad, cod_unidad, precio, imp_stot_mo, factura) VALUES ('Q10090 Solvente 90 14,46 815,80 40,002 M3 40,00 M3 7494195  29.978,28  6.295,44 15.414,77 51.688,49 Producto 010090 // BASE IMPONIBLE ICL S/LT 414 677% IDC S/LT 25.401 // PRODUCTO SIN MARCAR-TRAZADOR HOMOLOGADO VERISYM FAAF é RG N2562/09', 'Q10090', 'Solvente 90 Producto 010090 // BASE IN', '40,002 CSMT25 41', 'M3 1', '749,4195 AARCAR-TRAZAI', '51.688,49 g', 61)
+2025-07-31 19:45:39,776 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 19:45:39,781 - [INFO ] -  Fin Inserts: C:\Nodum\Archivos\Prueba\Raizen\19-05_FC_47166_RAIZEN.pdf
+2025-07-31 20:21:07,926 - [INFO ] -  Interrupción recibida, cerrando conexión...
+2025-07-31 20:22:02,877 - [INFO ] -  Monitoring started
+2025-07-31 20:22:16,629 - [INFO ] -  2025-07-31 20:22:16.629169 FileCreatedEvent(src_path='C:/Nodum/Archivos/Prueba\\Raizen\\19-05_FC_47166_RAIZEN.pdf', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-07-31 20:22:19,631 - [INFO ] -  Archivo Nuevo: "C:\Nodum\Archivos\Prueba\Raizen\19-05_FC_47166_RAIZEN.pdf"
+2025-07-31 20:22:19,633 - [DEBUG] -  Creando PDF temporal...
+2025-07-31 20:22:19,635 - [DEBUG] -  Convirtiendo el PDF a JPG
+2025-07-31 20:22:20,563 - [DEBUG] -  Leyendo los Datos... 1
+2025-07-31 20:22:20,747 - [DEBUG] -  Leyendo los Datos... 2
+2025-07-31 20:22:20,998 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 20:22:20,999 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'RAIZEN'
+2025-07-31 20:22:21,017 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 20:22:21,019 - [DEBUG] -  Leyendo los Datos... 3
+2025-07-31 20:22:21,020 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 20:22:21,020 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 11 AND c.field = 'filas'
+2025-07-31 20:22:21,035 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 20:22:21,038 - [DEBUG] -  Leyendo los Datos... 4
+2025-07-31 20:22:21,068 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 20:22:21,068 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 11 AND isRow = 0
+2025-07-31 20:22:21,069 - [DEBUG] -  SELECT * FROM columns WHERE formato = 11
+2025-07-31 20:22:21,134 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 20:22:21,136 - [DEBUG] -  Leyendo los Datos... 5
+2025-07-31 20:22:21,256 - [DEBUG] -  Creating converter from 3 to 5
+2025-07-31 20:22:21,843 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-31 20:22:44,957 - [DEBUG] -  Leyendo los Datos... 1
+2025-07-31 20:22:45,103 - [DEBUG] -  Leyendo los Datos... 2
+2025-07-31 20:22:45,126 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 20:22:45,128 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'RAIZEN'
+2025-07-31 20:22:45,134 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 20:22:45,138 - [DEBUG] -  Leyendo los Datos... 3
+2025-07-31 20:22:45,139 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 20:22:45,139 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 11 AND c.field = 'filas'
+2025-07-31 20:22:45,150 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 20:22:45,153 - [DEBUG] -  Leyendo los Datos... 4
+2025-07-31 20:22:45,173 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 20:22:45,173 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 11 AND isRow = 0
+2025-07-31 20:22:45,175 - [DEBUG] -  SELECT * FROM columns WHERE formato = 11
+2025-07-31 20:22:45,184 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 20:22:45,187 - [DEBUG] -  Leyendo los Datos... 5
+2025-07-31 20:22:45,471 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-31 20:23:06,511 - [DEBUG] -  Grabando Datos de la Factura...
+2025-07-31 20:23:06,512 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 20:23:06,513 - [INFO ] -  INSERT INTO facturas (total, cae, fec_vencimiento_cae, porc_iva, imp_iva, imp_prov, fletes, otros_tributos, tipo_doc, hoja, serie_docum, nro_docum, nro_dgi, nro_dgi_emp, razon_social, fec_doc, fec_vencimiento, cond_fpago, cond_IVA, dir_tit, orden_compra, datetime) OUTPUT INSERTED.id VALUES ('51.779,28', '35194339151990', '31/05/2025', '21,00', '6.295,44', '90,79', '14.525,13', '889,64', 'Factura', 'ORIGINAL', '05001', '00047166', '30506726804', '30666049450', 'RAIZEN ARGENTINA S.A.U.', '19.05.2025', '18.06.2025', '30 días a partir de Fecha Doc', 'IVA Responsable Inscripto', '1080337 MITRE S/N ESQUINA SERBIA 1731 VILLARS Buenos Aires Argentina', '943465718', '2025-07-31 20:23:06:513')
+2025-07-31 20:23:06,532 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 20:23:06,544 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 20:23:06,545 - [DEBUG] -  UPDATE facturas SET thumbnail = 'C:/Nodum/Archivos/ModeloExpress/emails\62.pdf' WHERE id = 62
+2025-07-31 20:23:06,550 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 20:23:06,555 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 20:23:06,556 - [INFO ] -  INSERT INTO detalles (observaciones, cod_articulo, nom_articulo, cantidad, cod_unidad, precio, imp_stot_mo, factura) VALUES ('Q10090 Solvente 90 14,46 815,80 40,002 M3 40,00 M3 7494195  29.978,28  6.295,44 15.414,77 51.688,49 Producto 010090 // BASE IMPONIBLE ICL S/LT 414 677% IDC S/LT 25.401 // PRODUCTO SIN MARCAR-TRAZADOR HOMOLOGADO VERISYM FAAF é RG N2562/09', 'Q10090', 'Solvente 90 Producto 010090 // BASE IN', '40,002 CSMT25 41', 'M3 1', '749,4195 AARCAR-TRAZAI', '51.688,49 g', 62)
+2025-07-31 20:23:06,567 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 20:23:06,582 - [INFO ] -  Fin Inserts: C:\Nodum\Archivos\Prueba\Raizen\19-05_FC_47166_RAIZEN.pdf
+2025-07-31 20:34:23,932 - [INFO ] -  Interrupción recibida, cerrando conexión...
+2025-07-31 20:35:21,417 - [INFO ] -  Monitoring started
+2025-07-31 20:35:23,957 - [INFO ] -  2025-07-31 20:35:23.957255 FileCreatedEvent(src_path='C:/Nodum/Archivos/Prueba\\Raizen\\19-05_FC_47166_RAIZEN.pdf', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-07-31 20:35:26,959 - [INFO ] -  Archivo Nuevo: "C:\Nodum\Archivos\Prueba\Raizen\19-05_FC_47166_RAIZEN.pdf"
+2025-07-31 20:35:27,011 - [DEBUG] -  Creando PDF temporal...
+2025-07-31 20:35:27,013 - [DEBUG] -  Convirtiendo el PDF a JPG
+2025-07-31 20:35:27,900 - [DEBUG] -  Leyendo los Datos... 1
+2025-07-31 20:35:28,014 - [DEBUG] -  Leyendo los Datos... 2
+2025-07-31 20:35:28,221 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 20:35:28,222 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'RAIZEN'
+2025-07-31 20:35:28,235 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 20:35:28,239 - [DEBUG] -  Leyendo los Datos... 3
+2025-07-31 20:35:28,242 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 20:35:28,242 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 11 AND c.field = 'filas'
+2025-07-31 20:35:28,257 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 20:35:28,260 - [DEBUG] -  Leyendo los Datos... 4
+2025-07-31 20:35:28,285 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 20:35:28,285 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 11 AND isRow = 0
+2025-07-31 20:35:28,286 - [DEBUG] -  SELECT * FROM columns WHERE formato = 11
+2025-07-31 20:35:28,315 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 20:35:28,316 - [DEBUG] -  Leyendo los Datos... 5
+2025-07-31 20:35:28,430 - [DEBUG] -  Creating converter from 3 to 5
+2025-07-31 20:35:28,992 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-31 20:35:51,123 - [DEBUG] -  {'total': '51.779,28', 'cae': '35194339151990', 'fec_vencimiento_cae': '31/05/2025', 'porc_iva': '21,00', 'imp_iva': '6.295,44', 'imp_prov': '90,79', 'fletes': '14.525,13', 'otros_tributos': '889,64', 'tipo_doc': 'Factura', 'hoja': 'ORIGINAL', 'serie_docum': '05001', 'nro_docum': '00047166', 'nro_dgi': '30506726804', 'nro_dgi_emp': '30666049450', 'razon_social': 'RAIZEN ARGENTINA S.A.U.', 'fec_doc': '19.05.2025', 'fec_vencimiento': '18.06.2025', 'cond_fpago': '30 días a partir de Fecha Doc', 'cond_IVA': 'IVA Responsable Inscripto', 'dir_tit': '1080337 MITRE S/N ESQUINA SERBIA 1731 VILLARS Buenos Aires Argentina', 'orden_compra': '943465718', 'formato': 'RAIZEN'}
+2025-07-31 20:35:51,127 - [DEBUG] -  Leyendo los Datos... 1
+2025-07-31 20:35:51,259 - [DEBUG] -  Leyendo los Datos... 2
+2025-07-31 20:35:51,285 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 20:35:51,286 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'RAIZEN'
+2025-07-31 20:35:51,298 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 20:35:51,301 - [DEBUG] -  Leyendo los Datos... 3
+2025-07-31 20:35:51,302 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 20:35:51,302 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 11 AND c.field = 'filas'
+2025-07-31 20:35:51,309 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 20:35:51,312 - [DEBUG] -  Leyendo los Datos... 4
+2025-07-31 20:35:51,337 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 20:35:51,339 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 11 AND isRow = 0
+2025-07-31 20:35:51,339 - [DEBUG] -  SELECT * FROM columns WHERE formato = 11
+2025-07-31 20:35:51,349 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 20:35:51,350 - [DEBUG] -  Leyendo los Datos... 5
+2025-07-31 20:35:51,693 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-31 20:36:12,282 - [DEBUG] -  {'total': '51.779,28', 'cae': '35194339151990', 'fec_vencimiento_cae': '31/05/2025', 'porc_iva': '21,00', 'imp_iva': '6.295,44', 'imp_prov': '90,79', 'fletes': '14.525,13', 'otros_tributos': '889,64', 'tipo_doc': 'Factura', 'hoja': 'ORIGINAL', 'serie_docum': '05001', 'nro_docum': '00047166', 'nro_dgi': '30506726804', 'nro_dgi_emp': '30666049450', 'razon_social': 'RAIZEN ARGENTINA S.A.U.', 'fec_doc': '19.05.2025', 'fec_vencimiento': '18.06.2025', 'cond_fpago': '30 días a partir de Fecha Doc', 'cond_IVA': 'IVA Responsable Inscripto', 'dir_tit': '1080337 MITRE S/N ESQUINA SERBIA 1731 VILLARS Buenos Aires Argentina', 'orden_compra': '943465718', 'formato': 'RAIZEN'}
+2025-07-31 20:36:12,284 - [DEBUG] -  Grabando Datos de la Factura...
+2025-07-31 20:36:12,286 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 20:36:12,287 - [INFO ] -  INSERT INTO facturas (total, cae, fec_vencimiento_cae, porc_iva, imp_iva, imp_prov, fletes, otros_tributos, tipo_doc, hoja, serie_docum, nro_docum, nro_dgi, nro_dgi_emp, razon_social, fec_doc, fec_vencimiento, cond_fpago, cond_IVA, dir_tit, orden_compra, formato, datetime) OUTPUT INSERTED.id VALUES ('51.779,28', '35194339151990', '31/05/2025', '21,00', '6.295,44', '90,79', '14.525,13', '889,64', 'Factura', 'ORIGINAL', '05001', '00047166', '30506726804', '30666049450', 'RAIZEN ARGENTINA S.A.U.', '19.05.2025', '18.06.2025', '30 días a partir de Fecha Doc', 'IVA Responsable Inscripto', '1080337 MITRE S/N ESQUINA SERBIA 1731 VILLARS Buenos Aires Argentina', '943465718', 'RAIZEN', '2025-07-31 20:36:12:287')
+2025-07-31 20:36:12,308 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 20:36:12,317 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 20:36:12,319 - [DEBUG] -  UPDATE facturas SET thumbnail = 'C:/Nodum/Archivos/ModeloExpress/emails\63.pdf' WHERE id = 63
+2025-07-31 20:36:12,325 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 20:36:12,330 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 20:36:12,333 - [INFO ] -  INSERT INTO detalles (observaciones, cod_articulo, nom_articulo, cantidad, cod_unidad, precio, imp_stot_mo, factura) VALUES ('Q10090 Solvente 90 14,46 815,80 40,002 M3 40,00 M3 7494195  29.978,28  6.295,44 15.414,77 51.688,49 Producto 010090 // BASE IMPONIBLE ICL S/LT 414 677% IDC S/LT 25.401 // PRODUCTO SIN MARCAR-TRAZADOR HOMOLOGADO VERISYM FAAF é RG N2562/09', 'Q10090', 'Solvente 90 Producto 010090 // BASE IN', '40,002 CSMT25 41', 'M3 1', '749,4195 AARCAR-TRAZAI', '51.688,49 g', 63)
+2025-07-31 20:36:12,353 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 20:36:12,358 - [INFO ] -  Fin Inserts: C:\Nodum\Archivos\Prueba\Raizen\19-05_FC_47166_RAIZEN.pdf
+2025-07-31 21:24:12,814 - [INFO ] -  Interrupción recibida, cerrando conexión...
+2025-07-31 21:25:11,605 - [INFO ] -  Monitoring started
+2025-07-31 21:25:25,890 - [INFO ] -  2025-07-31 21:25:25.889492 FileCreatedEvent(src_path='C:/Nodum/Archivos/Prueba\\Raizen\\25-04_FC_46562_RAIZEN.pdf', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-07-31 21:25:28,897 - [INFO ] -  Archivo Nuevo: "C:\Nodum\Archivos\Prueba\Raizen\25-04_FC_46562_RAIZEN.pdf"
+2025-07-31 21:25:28,933 - [DEBUG] -  Creando PDF temporal...
+2025-07-31 21:25:28,937 - [DEBUG] -  Convirtiendo el PDF a JPG
+2025-07-31 21:25:29,887 - [DEBUG] -  Leyendo los Datos... 1
+2025-07-31 21:25:30,009 - [DEBUG] -  Leyendo los Datos... 2
+2025-07-31 21:25:30,196 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 21:25:30,197 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'RAIZEN'
+2025-07-31 21:25:30,202 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 21:25:30,205 - [DEBUG] -  Leyendo los Datos... 3
+2025-07-31 21:25:30,205 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 21:25:30,206 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 11 AND c.field = 'filas'
+2025-07-31 21:25:30,216 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 21:25:30,218 - [DEBUG] -  Leyendo los Datos... 4
+2025-07-31 21:25:30,241 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 21:25:30,241 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 11 AND isRow = 0
+2025-07-31 21:25:30,243 - [DEBUG] -  SELECT * FROM columns WHERE formato = 11
+2025-07-31 21:25:30,268 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 21:25:30,270 - [DEBUG] -  Leyendo los Datos... 5
+2025-07-31 21:25:30,367 - [DEBUG] -  Creating converter from 3 to 5
+2025-07-31 21:25:30,942 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-31 21:25:58,127 - [ERROR] -  Error procesando el archivo nuevo
+2025-07-31 21:32:00,153 - [INFO ] -  Monitoring started
+2025-07-31 21:32:08,537 - [INFO ] -  2025-07-31 21:32:08.536335 FileCreatedEvent(src_path='C:/Nodum/Archivos/Prueba\\Raizen\\25-04_FC_46562_RAIZEN.pdf', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-07-31 21:32:11,540 - [DEBUG] -  IF .PDF
+2025-07-31 21:32:11,541 - [INFO ] -  Archivo Nuevo: "C:\Nodum\Archivos\Prueba\Raizen\25-04_FC_46562_RAIZEN.pdf"
+2025-07-31 21:32:11,542 - [DEBUG] -  Creando PDF temporal...
+2025-07-31 21:32:11,544 - [DEBUG] -  Convirtiendo el PDF a JPG
+2025-07-31 21:32:12,471 - [DEBUG] -  Leyendo los Datos... 1
+2025-07-31 21:32:12,593 - [DEBUG] -  Leyendo los Datos... 2
+2025-07-31 21:32:12,838 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 21:32:12,838 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'RAIZEN'
+2025-07-31 21:32:12,856 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 21:32:12,859 - [DEBUG] -  Leyendo los Datos... 3
+2025-07-31 21:32:12,860 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 21:32:12,860 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 11 AND c.field = 'filas'
+2025-07-31 21:32:12,871 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 21:32:12,874 - [DEBUG] -  Leyendo los Datos... 4
+2025-07-31 21:32:12,897 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 21:32:12,898 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 11 AND isRow = 0
+2025-07-31 21:32:12,900 - [DEBUG] -  SELECT * FROM columns WHERE formato = 11
+2025-07-31 21:32:12,940 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 21:32:12,945 - [DEBUG] -  Leyendo los Datos... 5
+2025-07-31 21:32:13,060 - [DEBUG] -  Creating converter from 3 to 5
+2025-07-31 21:32:13,778 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-31 21:33:52,142 - [INFO ] -  Interrupción recibida, cerrando conexión...
+2025-07-31 21:34:24,025 - [INFO ] -  Monitoring started
+2025-07-31 21:34:26,353 - [INFO ] -  2025-07-31 21:34:26.353945 FileCreatedEvent(src_path='C:/Nodum/Archivos/Prueba\\Raizen\\25-04_FC_46562_RAIZEN.pdf', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-07-31 21:34:29,356 - [DEBUG] -  IF .PDF
+2025-07-31 21:34:29,357 - [INFO ] -  Archivo Nuevo: "C:\Nodum\Archivos\Prueba\Raizen\25-04_FC_46562_RAIZEN.pdf"
+2025-07-31 21:34:29,359 - [DEBUG] -  Creando PDF temporal...
+2025-07-31 21:34:29,362 - [DEBUG] -  Convirtiendo el PDF a JPG
+2025-07-31 21:34:30,319 - [DEBUG] -  Leyendo los Datos... 1
+2025-07-31 21:34:30,482 - [DEBUG] -  Leyendo los Datos... 2
+2025-07-31 21:34:30,605 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 21:34:30,606 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'RAIZEN'
+2025-07-31 21:34:30,612 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 21:34:30,616 - [DEBUG] -  Leyendo los Datos... 3
+2025-07-31 21:34:30,617 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 21:34:30,617 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 11 AND c.field = 'filas'
+2025-07-31 21:34:30,629 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 21:34:30,632 - [DEBUG] -  Leyendo los Datos... 4
+2025-07-31 21:34:30,655 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 21:34:30,656 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 11 AND isRow = 0
+2025-07-31 21:34:30,656 - [DEBUG] -  SELECT * FROM columns WHERE formato = 11
+2025-07-31 21:34:30,668 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 21:34:30,671 - [DEBUG] -  Leyendo los Datos... 5
+2025-07-31 21:34:30,786 - [DEBUG] -  Creating converter from 3 to 5
+2025-07-31 21:34:31,348 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-31 21:34:58,277 - [DEBUG] -  {'total': '47.960,57', 'cae': '35154572601240', 'fec_vencimiento_cae': '30/04/2025', 'porc_iva': '21,00', 'imp_iva': '5.706,70', 'imp_prov': '84,34', 'fletes': '14.129,15', 'otros_tributos': '865,62', 'tipo_doc': 'Factura', 'hoja': 'ORIGINAL', 'serie_docum': '05001', 'nro_docum': '00046562', 'nro_dgi': '30506726804', 'nro_dgi_emp': '30666049450', 'razon_social': 'RAIZEN ARGENTINA S.A.U.', 'fec_doc': '25/04/2025', 'fec_vencimiento': '26/05/2025', 'cond_fpago': '', 'cond_IVA': 'IVA Responsable Inscripto', 'dir_tit': '1080337 MITRE S/N ESQUINA SERBIA 1731 VILLARS Buenos Aires Argentina', 'orden_compra': '943277523', 'formato': 'RAIZEN'}
+2025-07-31 21:34:58,281 - [DEBUG] -  Leyendo los Datos... 1
+2025-07-31 21:34:58,419 - [DEBUG] -  Leyendo los Datos... 2
+2025-07-31 21:34:58,441 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 21:34:58,441 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'RAIZEN'
+2025-07-31 21:34:58,451 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 21:34:58,454 - [DEBUG] -  Leyendo los Datos... 3
+2025-07-31 21:34:58,455 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 21:34:58,456 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 11 AND c.field = 'filas'
+2025-07-31 21:34:58,467 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 21:34:58,470 - [DEBUG] -  Leyendo los Datos... 4
+2025-07-31 21:34:58,493 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 21:34:58,494 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 11 AND isRow = 0
+2025-07-31 21:34:58,499 - [DEBUG] -  SELECT * FROM columns WHERE formato = 11
+2025-07-31 21:34:58,509 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 21:34:58,511 - [DEBUG] -  Leyendo los Datos... 5
+2025-07-31 21:34:58,796 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-31 21:35:18,906 - [DEBUG] -  {'total': '47.960,57', 'cae': '35154572601240', 'fec_vencimiento_cae': '30/04/2025', 'porc_iva': '21,00', 'imp_iva': '5.706,70', 'imp_prov': '84,34', 'fletes': '14.129,15', 'otros_tributos': '865,62', 'tipo_doc': 'Factura', 'hoja': 'ORIGINAL', 'serie_docum': '05001', 'nro_docum': '00046562', 'nro_dgi': '30506726804', 'nro_dgi_emp': '30666049450', 'razon_social': 'RAIZEN ARGENTINA S.A.U.', 'fec_doc': '25/04/2025', 'fec_vencimiento': '26/05/2025', 'cond_fpago': '', 'cond_IVA': 'IVA Responsable Inscripto', 'dir_tit': '1080337 MITRE S/N ESQUINA SERBIA 1731 VILLARS Buenos Aires Argentina', 'orden_compra': '943277523', 'formato': 'RAIZEN'}
+2025-07-31 21:35:18,909 - [DEBUG] -  Grabando Datos de la Factura...
+2025-07-31 21:35:18,915 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 21:35:18,916 - [INFO ] -  INSERT INTO facturas (total, cae, fec_vencimiento_cae, porc_iva, imp_iva, imp_prov, fletes, otros_tributos, tipo_doc, hoja, serie_docum, nro_docum, nro_dgi, nro_dgi_emp, razon_social, fec_doc, fec_vencimiento, cond_fpago, cond_IVA, dir_tit, orden_compra, formato, datetime) OUTPUT INSERTED.id VALUES ('47.960,57', '35154572601240', '30/04/2025', '21,00', '5.706,70', '84,34', '14.129,15', '865,62', 'Factura', 'ORIGINAL', '05001', '00046562', '30506726804', '30666049450', 'RAIZEN ARGENTINA S.A.U.', '25/04/2025', '26/05/2025', '', 'IVA Responsable Inscripto', '1080337 MITRE S/N ESQUINA SERBIA 1731 VILLARS Buenos Aires Argentina', '943277523', 'RAIZEN', '2025-07-31 21:35:18:916')
+2025-07-31 21:35:18,935 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 21:35:18,947 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 21:35:18,948 - [DEBUG] -  UPDATE facturas SET thumbnail = 'C:/Nodum/Archivos/ModeloExpress/emails\64.pdf' WHERE id = 64
+2025-07-31 21:35:18,954 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 21:35:18,965 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 21:35:18,973 - [INFO ] -  INSERT INTO detalles (observaciones, cod_articulo, nom_articulo, cantidad, cod_unidad, precio, imp_stot_mo, factura) VALUES ('Q10020 Solvente 6 18,29 744,20 15,000 M3 15,00 M3 618,1200 9.271,80 - 1.947,08 5.622,90 16.841,78 ua mábnan ha ic AA hi S A A n Ad N a s A', 'Q10020', 'Solvente 6 Suiiniamisnon »i', '15,000 R ENTOR Al', 'M3 .', '618,1200 d', '16.841,78 5', 64)
+2025-07-31 21:35:19,030 - [INFO ] -  INSERT INTO detalles (observaciones, cod_articulo, nom_articulo, cantidad, cod_unidad, precio, imp_stot_mo, factura) VALUES ('nn — Añ B n 22 59 787 80 25001 M3 25 00 MA 7180808 41790996 175067 937187 21 034 45', 'otonan', 'ñi Bió Miciiera', '26 001', 'Ma', '7168 0808', '21 034 45', 64)
+2025-07-31 21:35:19,037 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 21:35:19,044 - [INFO ] -  Fin Inserts: C:\Nodum\Archivos\Prueba\Raizen\25-04_FC_46562_RAIZEN.pdf
+2025-07-31 22:44:40,213 - [INFO ] -  2025-07-31 22:44:40.213980 FileCreatedEvent(src_path='C:/Nodum/Archivos/Prueba\\YPF\\1417A00119556.pdf', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-07-31 22:44:43,217 - [DEBUG] -  IF .PDF
+2025-07-31 22:44:43,220 - [INFO ] -  Archivo Nuevo: "C:\Nodum\Archivos\Prueba\YPF\1417A00119556.pdf"
+2025-07-31 22:44:43,319 - [DEBUG] -  Creando PDF temporal...
+2025-07-31 22:44:43,334 - [DEBUG] -  Convirtiendo el PDF a JPG
+2025-07-31 22:44:44,198 - [DEBUG] -  Leyendo los Datos... 1
+2025-07-31 22:44:44,378 - [DEBUG] -  Leyendo los Datos... 2
+2025-07-31 22:44:44,411 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 22:44:44,412 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'YPF'
+2025-07-31 22:44:44,434 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 22:44:44,439 - [DEBUG] -  Leyendo los Datos... 3
+2025-07-31 22:44:44,440 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 22:44:44,444 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 7 AND c.field = 'filas'
+2025-07-31 22:44:44,468 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 22:44:44,470 - [DEBUG] -  Leyendo los Datos... 4
+2025-07-31 22:44:44,503 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 22:44:44,504 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 7 AND isRow = 0
+2025-07-31 22:44:44,509 - [DEBUG] -  SELECT * FROM columns WHERE formato = 7
+2025-07-31 22:44:44,540 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 22:44:44,543 - [DEBUG] -  Leyendo los Datos... 5
+2025-07-31 22:44:45,109 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-31 22:45:08,923 - [DEBUG] -  {'hoja': 'ORIGINAL', 'tipo_doc': 'FACTURA', 'serie_docum': '1417', 'nro_docum': '00119556', 'nro_dgi': '30', 'nro_dgi_emp': '30', 'razon_social': 'YPFS.A.', 'fec_doc': '25/04/2025', 'fec_vencimiento': '05/05/2025', 'cond_IVA': 'IVA RESPONSABLE INSCRIPTO', 'dir_tit': 'BV. MACACHA GUEMES 515 CABA - Argentina [ 1106 )', 'orden_compra': '', 'otros_tributos': '', 'imp_prov': '', 'porc_iva': '', 'imp_iva': '', 'total': '', 'cae': '75179830194550', 'fec_vencimiento_cae': '05/05/2025', 'cond_fpago': 'dentro de los 7 días sin DPP', 'formato': 'YPF'}
+2025-07-31 22:45:08,925 - [DEBUG] -  Leyendo los Datos... 1
+2025-07-31 22:45:09,067 - [DEBUG] -  Leyendo los Datos... 2
+2025-07-31 22:45:09,070 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 22:45:09,074 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'YPF'
+2025-07-31 22:45:09,078 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 22:45:09,080 - [DEBUG] -  Leyendo los Datos... 3
+2025-07-31 22:45:09,085 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 22:45:09,088 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 7 AND c.field = 'filas'
+2025-07-31 22:45:09,093 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 22:45:09,095 - [DEBUG] -  Leyendo los Datos... 4
+2025-07-31 22:45:09,125 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 22:45:09,126 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 7 AND isRow = 0
+2025-07-31 22:45:09,132 - [DEBUG] -  SELECT * FROM columns WHERE formato = 7
+2025-07-31 22:45:09,140 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 22:45:09,146 - [DEBUG] -  Leyendo los Datos... 5
+2025-07-31 22:45:09,481 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-31 22:45:28,614 - [DEBUG] -  {'hoja': 'ORIGINAL', 'tipo_doc': 'FACTURA', 'serie_docum': '1417', 'nro_docum': '00119556', 'nro_dgi': '30', 'nro_dgi_emp': '30', 'razon_social': 'YPFS.A.', 'fec_doc': '25/04/2025', 'fec_vencimiento': '05/05/2025', 'cond_IVA': 'IVA RESPONSABLE INSCRIPTO', 'dir_tit': 'BV. MACACHA GUEMES 515 CABA - Argentina [ 1106 )', 'orden_compra': '', 'otros_tributos': '', 'imp_prov': '', 'porc_iva': '', 'imp_iva': '', 'total': '', 'cae': '75179830194550', 'fec_vencimiento_cae': '05/05/2025', 'cond_fpago': 'dentro de los 7 días sin DPP', 'formato': 'YPF'}
+2025-07-31 22:45:28,615 - [DEBUG] -  Grabando Datos de la Factura...
+2025-07-31 22:45:28,621 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 22:45:28,623 - [INFO ] -  INSERT INTO facturas (hoja, tipo_doc, serie_docum, nro_docum, nro_dgi, nro_dgi_emp, razon_social, fec_doc, fec_vencimiento, cond_IVA, dir_tit, orden_compra, otros_tributos, imp_prov, porc_iva, imp_iva, total, cae, fec_vencimiento_cae, cond_fpago, formato, datetime) OUTPUT INSERTED.id VALUES ('ORIGINAL', 'FACTURA', '1417', '00119556', '30', '30', 'YPFS.A.', '25/04/2025', '05/05/2025', 'IVA RESPONSABLE INSCRIPTO', 'BV. MACACHA GUEMES 515 CABA - Argentina [ 1106 )', '', '', '', '', '', '', '75179830194550', '05/05/2025', 'dentro de los 7 días sin DPP', 'YPF', '2025-07-31 22:45:28:623')
+2025-07-31 22:45:28,638 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 22:45:28,651 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 22:45:28,652 - [DEBUG] -  UPDATE facturas SET thumbnail = 'C:/Nodum/Archivos/ModeloExpress/emails\65.pdf' WHERE id = 65
+2025-07-31 22:45:28,660 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 22:45:28,669 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 22:45:28,670 - [INFO ] -  INSERT INTO detalles (cod_articulo, cantidad, cod_unidad, precio, observaciones, factura) VALUES ('401200 Remito 1112R p', '15.905,000 2025 2 onnANN', 'L15 q', '750,925 k %B: 7,50 PE', '401200 DIESEL 500 15.905,000  L15 301202 750,925 11.943.463,87 ICL por litro 144,717175 SIL %B: 7,50  Remito 1112R00085335 — O/P 114046371 — F.Despacho 25/04/2025  v EA CEA DS TE PE » dN i a', 65)
+2025-07-31 22:45:28,679 - [INFO ] -  INSERT INTO detalles (cod_articulo, cantidad, cod_unidad, precio, observaciones, factura) VALUES ('Remito 1112R 401200 Pcl MNO', '2025 12.926,000 o', 'L15', '%B: 9,70 750,925 %B: 7,50', 'ICL por litro 141,275253 $/L %B: 9,70  Remito 1112R00085337  O/P 114046374 F.Despacho 25/04/2025  401200 DIESEL 500 12.926,000 L15 301202 750,925 9.706.457,97 ICL por litro 144,717175 SIL %B:7,50  uc o — CN — N Pc M Oe', 65)
+2025-07-31 22:45:28,684 - [INFO ] -  INSERT INTO detalles (cod_articulo, cantidad, cod_unidad, precio, observaciones, factura) VALUES ('', '', '', '', '', 65)
+2025-07-31 22:45:28,689 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 22:45:28,699 - [INFO ] -  Fin Inserts: C:\Nodum\Archivos\Prueba\YPF\1417A00119556.pdf
+2025-07-31 22:45:43,497 - [INFO ] -  2025-07-31 22:45:43.497563 FileCreatedEvent(src_path='C:/Nodum/Archivos/Prueba\\YPF\\YPF_112501.pdf', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-07-31 22:45:46,500 - [DEBUG] -  IF .PDF
+2025-07-31 22:45:46,502 - [INFO ] -  Archivo Nuevo: "C:\Nodum\Archivos\Prueba\YPF\YPF_112501.pdf"
+2025-07-31 22:45:46,576 - [DEBUG] -  Creando PDF temporal...
+2025-07-31 22:45:46,578 - [DEBUG] -  Convirtiendo el PDF a JPG
+2025-07-31 22:45:47,164 - [DEBUG] -  Leyendo los Datos... 1
+2025-07-31 22:45:47,314 - [DEBUG] -  Leyendo los Datos... 2
+2025-07-31 22:45:47,317 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 22:45:47,321 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'YPF'
+2025-07-31 22:45:47,327 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 22:45:47,332 - [DEBUG] -  Leyendo los Datos... 3
+2025-07-31 22:45:47,333 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 22:45:47,341 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 7 AND c.field = 'filas'
+2025-07-31 22:45:47,347 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 22:45:47,349 - [DEBUG] -  Leyendo los Datos... 4
+2025-07-31 22:45:47,379 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 22:45:47,381 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 7 AND isRow = 0
+2025-07-31 22:45:47,386 - [DEBUG] -  SELECT * FROM columns WHERE formato = 7
+2025-07-31 22:45:47,393 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 22:45:47,398 - [DEBUG] -  Leyendo los Datos... 5
+2025-07-31 22:45:47,800 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-31 22:45:48,127 - [WARNI] -  5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000001C9E96FF6A0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-07-31 22:46:07,141 - [DEBUG] -  {'hoja': 'ORIGINAL', 'tipo_doc': 'FACTURA', 'serie_docum': '1417', 'nro_docum': '00112501', 'nro_dgi': '30', 'nro_dgi_emp': '30', 'razon_social': 'YPFS.A.', 'fec_doc': '11/04/2025', 'fec_vencimiento': '09/05/2025', 'cond_IVA': 'IVA RESPONSABLE INSCRIPTO', 'dir_tit': 'BV. MACACHA GUEMES 515 CABA - Argentina [ 1106 )', 'orden_compra': '6896', 'otros_tributos': '11.984,61', 'imp_prov': '747,03', 'porc_iva': '21.00%', 'imp_iva': '9.098,88', 'total': '65.158,52', 'cae': '75159258446991', 'fec_vencimiento_cae': '21/04/2025', 'cond_fpago': 'dentro de los 28 días sin DPP', 'formato': 'YPF'}
+2025-07-31 22:46:07,143 - [DEBUG] -  Grabando Datos de la Factura...
+2025-07-31 22:46:07,149 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 22:46:07,151 - [INFO ] -  INSERT INTO facturas (hoja, tipo_doc, serie_docum, nro_docum, nro_dgi, nro_dgi_emp, razon_social, fec_doc, fec_vencimiento, cond_IVA, dir_tit, orden_compra, otros_tributos, imp_prov, porc_iva, imp_iva, total, cae, fec_vencimiento_cae, cond_fpago, formato, datetime) OUTPUT INSERTED.id VALUES ('ORIGINAL', 'FACTURA', '1417', '00112501', '30', '30', 'YPFS.A.', '11/04/2025', '09/05/2025', 'IVA RESPONSABLE INSCRIPTO', 'BV. MACACHA GUEMES 515 CABA - Argentina [ 1106 )', '6896', '11.984,61', '747,03', '21.00%', '9.098,88', '65.158,52', '75159258446991', '21/04/2025', 'dentro de los 28 días sin DPP', 'YPF', '2025-07-31 22:46:07:151')
+2025-07-31 22:46:07,171 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 22:46:07,182 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 22:46:07,183 - [DEBUG] -  UPDATE facturas SET thumbnail = 'C:/Nodum/Archivos/ModeloExpress/emails\66.pdf' WHERE id = 66
+2025-07-31 22:46:07,184 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 22:46:07,189 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 22:46:07,192 - [INFO ] -  INSERT INTO detalles (cod_articulo, cantidad, cod_unidad, precio, observaciones, factura) VALUES ('553600 Remito 0941R', '27.080,000 2025', 'KG', '1,600', '553600 AROMATICO PESADO 220 27.080,000 KG 301268 1,600 43.328,00 ICL por litro 414,677243 SIL 31.126,437 L Remito 094 1R00000058  O/P 113815581 F Despacho 09/04/2025', 66)
+2025-07-31 22:46:07,211 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 22:46:07,218 - [INFO ] -  Fin Inserts: C:\Nodum\Archivos\Prueba\YPF\YPF_112501.pdf
+2025-07-31 23:31:45,089 - [INFO ] -  2025-07-31 23:31:45.088039 FileCreatedEvent(src_path='C:/Nodum/Archivos/Prueba\\YPF\\1417A00119556.pdf', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+2025-07-31 23:31:48,099 - [DEBUG] -  IF .PDF
+2025-07-31 23:31:48,101 - [INFO ] -  Archivo Nuevo: "C:\Nodum\Archivos\Prueba\YPF\1417A00119556.pdf"
+2025-07-31 23:31:48,146 - [DEBUG] -  Creando PDF temporal...
+2025-07-31 23:31:48,156 - [DEBUG] -  Convirtiendo el PDF a JPG
+2025-07-31 23:31:49,006 - [DEBUG] -  Leyendo los Datos... 1
+2025-07-31 23:31:49,130 - [DEBUG] -  Leyendo los Datos... 2
+2025-07-31 23:31:49,176 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 23:31:49,177 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'YPF'
+2025-07-31 23:31:49,245 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 23:31:49,247 - [DEBUG] -  Leyendo los Datos... 3
+2025-07-31 23:31:49,251 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 23:31:49,253 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 7 AND c.field = 'filas'
+2025-07-31 23:31:49,275 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 23:31:49,279 - [DEBUG] -  Leyendo los Datos... 4
+2025-07-31 23:31:49,315 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 23:31:49,316 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 7 AND isRow = 0
+2025-07-31 23:31:49,322 - [DEBUG] -  SELECT * FROM columns WHERE formato = 7
+2025-07-31 23:31:49,361 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 23:31:49,364 - [DEBUG] -  Leyendo los Datos... 5
+2025-07-31 23:31:49,806 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-31 23:31:50,178 - [WARNI] -  6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000001C9E9CEC040> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-07-31 23:32:22,720 - [DEBUG] -  {'hoja': 'ORIGINAL', 'tipo_doc': 'FACTURA', 'serie_docum': '1417', 'nro_docum': '00119556', 'nro_dgi': '30', 'nro_dgi_emp': '30', 'razon_social': 'YPFS.A.', 'fec_doc': '25/04/2025', 'fec_vencimiento': '05/05/2025', 'cond_IVA': 'IVA RESPONSABLE INSCRIPTO', 'dir_tit': 'BV. MACACHA GUEMES 515 CABA - Argentina [ 1106 )', 'orden_compra': '', 'otros_tributos': '', 'imp_prov': '', 'porc_iva': '', 'imp_iva': '', 'total': '', 'cae': '75179830194550', 'fec_vencimiento_cae': '05/05/2025', 'cond_fpago': 'dentro de los 7 días sin DPP', 'formato': 'YPF'}
+2025-07-31 23:32:22,723 - [DEBUG] -  Leyendo los Datos... 1
+2025-07-31 23:32:22,885 - [DEBUG] -  Leyendo los Datos... 2
+2025-07-31 23:32:22,887 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 23:32:22,889 - [DEBUG] -  SELECT * FROM formatos WHERE UPPER(TRIM(name)) = 'YPF'
+2025-07-31 23:32:22,899 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 23:32:22,902 - [DEBUG] -  Leyendo los Datos... 3
+2025-07-31 23:32:22,902 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 23:32:22,903 - [DEBUG] -  SELECT c.* FROM coordenadas c JOIN formatos f ON c.formato = f.id WHERE f.id = 7 AND c.field = 'filas'
+2025-07-31 23:32:22,910 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 23:32:22,913 - [DEBUG] -  Leyendo los Datos... 4
+2025-07-31 23:32:22,942 - [DEBUG] -  DB, Conectado a DB
+2025-07-31 23:32:22,942 - [DEBUG] -  SELECT * FROM coordenadas WHERE formato = 7 AND isRow = 0
+2025-07-31 23:32:22,943 - [DEBUG] -  SELECT * FROM columns WHERE formato = 7
+2025-07-31 23:32:22,952 - [DEBUG] -  DB, Funcion Ejecutada
+2025-07-31 23:32:22,955 - [DEBUG] -  Leyendo los Datos... 5
+2025-07-31 23:32:23,246 - [WARNI] -  Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.

@@ -50,21 +50,21 @@ const FormatEditing = ({ rectangles, loading, training, setTraining, setLoading,
     const mimeType = 'application/png'; // Ajusta el tipo MIME según sea necesario
     files.forEach((f,i) => {
       const blob = base64ToBlob(f[1].split(",")[1], mimeType);
-      data.append("files", blob, f[0])
+      data.append("files", blob, f[0].replace(/ /g, "_"))
     })
 
     const filasRoi = rectangles.find(r => r.field == "filas")
-    const arrayOfCoordinates = rectangles.map((r) => (!r.column) && Object.values({ new: r.new || false, x: r.x, y: r.y, width: r.width, height: r.height, file: r.file, imageName: r.imageName, row: r.row ? 1 : 0, field: r.field })).filter(f => f)
+    const arrayOfCoordinates = rectangles.map((r) => (!r.column) && Object.values({ new: r.new || false, x: r.x, y: r.y, width: r.width, height: r.height, file: r.file, imageName: r.imageName?.replace(/ /g, "_"), row: r.row ? 1 : 0, field: r.field })).filter(f => f)
     data.append("fixedCoordinates", arrayOfCoordinates)
 
-    const rows = rectangles.map((r) => r.row && Object.values({ x: (r.x - filasRoi.x), y: (r.y - filasRoi.y), width: r.width, height: r.height, image: r.imageName })).filter(f => f)
+    const rows = rectangles.map((r) => r.row && Object.values({ x: (r.x - filasRoi.x), y: (r.y - filasRoi.y), width: r.width, height: r.height, image: r.imageName?.replace(/ /g, "_") })).filter(f => f)
     const firstRow = rows[0]
     data.append("rows", rows)
     let lastColumn = []
     const columnsRectangles = rectangles.filter((r) => r.column).sort((a, b) => a.x - b.x)
     const columns = columnsRectangles.map((r) => {
       if (r.column) {
-        const column = Object.values({ new: r.new || false, x: passToPercentageX(passToValueX(r.x - firstRow[0]), passToValueX(firstRow[2])), width: Number(r.width), height: Number(r.height), originalx: Number(r.x), originaly: Number(r.y), file: r.file, imageName: r.imageName, field: r.field })
+        const column = Object.values({ new: r.new || false, x: passToPercentageX(passToValueX(r.x - firstRow[0]), passToValueX(firstRow[2])), width: Number(r.width), height: Number(r.height), originalx: Number(r.x), originaly: Number(r.y), file: r.file, imageName: r.imageName?.replace(/ /g, "_"), field: r.field })
         lastColumn = column
         return column
       }
@@ -219,7 +219,7 @@ const FormatEditing = ({ rectangles, loading, training, setTraining, setLoading,
         if (rectangle.row) {
           return undefined
         } else {
-          return { ...rectangle, imageName: files[1][0].name || files[1][0] }
+          return { ...rectangle, imageName: files[1][0]?.name?.replace(/ /g, "_") || files[1][0] }
         }
       } else if (index < rectangle.file) {
         return { ...rectangle, file: rectangle.file - 1 }
@@ -322,7 +322,7 @@ const FormatEditing = ({ rectangles, loading, training, setTraining, setLoading,
               </div>
             </Subsection>
           </div>
-          <Canvas files={files} setImageDimensions={setImageDimensions} imageDimensions={imageDimensions} passToPercentageX={passToPercentageX} passToValueY={passToValueY} passToValueX={passToValueX} passToPercentageY={passToPercentageY} magnet={isMagnetActive} image={files[actualFile][1]} imageName={files[actualFile][0]?.name || files[actualFile][0]} actualFile={actualFile} getNext={getNextField} fields={fields} rectangles={rectangles} setRectangles={setRectangles} setFields={setFields} field={field} setField={setField} setFieldCompleted={setFieldCompleted} />
+          <Canvas files={files} setImageDimensions={setImageDimensions} imageDimensions={imageDimensions} passToPercentageX={passToPercentageX} passToValueY={passToValueY} passToValueX={passToValueX} passToPercentageY={passToPercentageY} magnet={isMagnetActive} image={files[actualFile][1]} imageName={files[actualFile][0]?.name?.replace(/ /g, "_") || files[actualFile][0]?.replace(/ /g, "_")} actualFile={actualFile} getNext={getNextField} fields={fields} rectangles={rectangles} setRectangles={setRectangles} setFields={setFields} field={field} setField={setField} setFieldCompleted={setFieldCompleted} />
           <Subsection className="!items-center">
             {!actualFile ? (
               <>
